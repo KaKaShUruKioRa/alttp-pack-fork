@@ -11,6 +11,7 @@ map{ id = "examples/light_world/sw_entry_to_lost_woods", description = "SW Entry
 map{ id = "first_map", description = "First map" }
 map{ id = "inside_store", description = "Inside Store" }
 map{ id = "outside_store", description = "Outside Store" }
+map{ id = "outside_store_old", description = "Outside Store" }
 
 tileset{ id = "dungeon/blue", description = "Blue dungeon" }
 tileset{ id = "dungeon/brown", description = "Brown dungeon" }
@@ -284,4 +285,10 @@ font{ id = "alttp", description = "alttp" }
 font{ id = "green_digits", description = "Green digits" }
 font{ id = "white_digits", description = "White digits" }
 
+shader{ id = "ntsc2pal", description = "NTSC to PAL colors" }
+shader{ id = "pal2ntsc", description = "PAL to NTSC colors" }
 
+file{ path = "shaders/ntsc2pal.dat", author = "std::gregwar", license = "GPL v3" }
+file{ path = "shaders/ntsc2pal.frag.glsl", author = "std::gregwar", license = "GPL v3" }
+file{ path = "shaders/pal2ntsc.dat", author = "std::gregwar", license = "GPL v3" }
+file{ path = "shaders/pal2ntsc.frag.glsl", author = "std::gregwar", license = "GPL v3" }
