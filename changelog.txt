@@ -5,6 +5,7 @@ Solarus ALTTP pack 1.6.0 (in progress)
 ______________________________________
 
 * Add huge outside and dungeon tilesets from ffomega (#7).
+* Add lots of enemy sprites from ALTTP by mattias-p and Zakarisz (#8).
 * Add example maps reproduced from ALTTP by ffomega.
 * Add a sound with the Solarus logo.
 * Add Spanish special characters to the font.
