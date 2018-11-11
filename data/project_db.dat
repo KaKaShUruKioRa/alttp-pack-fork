@@ -73,6 +73,7 @@ sprite{ id = "enemies/dungeons/wizzrobe_blue", description = "Blue Wizzrobe" }
 sprite{ id = "enemies/dungeons/wizzrobe_white", description = "White Wizzrobe" }
 sprite{ id = "enemies/dungeons/zazak_blue", description = "Blue Zazak" }
 sprite{ id = "enemies/dungeons/zol_green", description = "Green Zol" }
+sprite{ id = "enemies/enemy_killed", description = "Enemy Killed" }
 sprite{ id = "enemies/light_world/armos", description = "Armos" }
 sprite{ id = "enemies/light_world/chicken", description = "Chicken" }
 sprite{ id = "enemies/light_world/crow", description = "Crow" }
@@ -85,7 +86,6 @@ sprite{ id = "enemies/light_world/tektite_blue", description = "Blue Tektite" }
 sprite{ id = "enemies/light_world/vulture", description = "Vulture" }
 sprite{ id = "enemies/light_world/zora_feet", description = "Zora (on feet)" }
 sprite{ id = "enemies/light_world/zora_water", description = "Zora (in water)" }
-sprite{ id = "enemies/others/enemy_killed", description = "Ennemy Killed" }
 sprite{ id = "enemies/soldiers/spear_soldier_red", description = "Red Spear Soldier" }
 sprite{ id = "enemies/soldiers/spear_soldier_red_weapon", description = "Red Spear Soldier" }
 sprite{ id = "enemies/soldiers/sword_soldier_blue", description = "Blue Sword Soldier" }
