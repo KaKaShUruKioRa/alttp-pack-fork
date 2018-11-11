@@ -57,6 +57,7 @@ sprite{ id = "enemies/dungeons/goriya_green", description = "Green Goriya" }
 sprite{ id = "enemies/dungeons/goriya_red", description = "Red Goriya" }
 sprite{ id = "enemies/dungeons/hardhat_beetle_blue", description = "Blue Hardhat Beetle" }
 sprite{ id = "enemies/dungeons/hardhat_beetle_red", description = "Red Hardhat Beetle" }
+sprite{ id = "enemies/dungeons/helmasaur_red", description = "Red Helmasaur" }
 sprite{ id = "enemies/dungeons/keese", description = "Keese" }
 sprite{ id = "enemies/dungeons/pengator", description = "Pengator" }
 sprite{ id = "enemies/dungeons/popo", description = "Popo" }
@@ -68,7 +69,6 @@ sprite{ id = "enemies/dungeons/stalfos_knight", description = "Stalfos Knight" }
 sprite{ id = "enemies/dungeons/stalfos_red", description = "Red Stalfos" }
 sprite{ id = "enemies/dungeons/wallmaster", description = "Wallmaster" }
 sprite{ id = "enemies/dungeons/water_tektite", description = "Water Tektite" }
-sprite{ id = "enemies/dungeons/wizzrobe_beam", description = "Wizzrobe's beam" }
 sprite{ id = "enemies/dungeons/wizzrobe_blue", description = "Blue Wizzrobe" }
 sprite{ id = "enemies/dungeons/wizzrobe_white", description = "White Wizzrobe" }
 sprite{ id = "enemies/dungeons/zazak_blue", description = "Blue Zazak" }
@@ -86,6 +86,15 @@ sprite{ id = "enemies/light_world/tektite_blue", description = "Blue Tektite" }
 sprite{ id = "enemies/light_world/vulture", description = "Vulture" }
 sprite{ id = "enemies/light_world/zora_feet", description = "Zora (on feet)" }
 sprite{ id = "enemies/light_world/zora_water", description = "Zora (in water)" }
+sprite{ id = "enemies/others/chain_and_ball", description = "Chain and Ball" }
+sprite{ id = "enemies/others/fireball_blue_small", description = "Blue smal Fireball" }
+sprite{ id = "enemies/others/fireball_purple_small", description = "Purple small Fireball" }
+sprite{ id = "enemies/others/fireball_red_big", description = "Red big Fireball" }
+sprite{ id = "enemies/others/fireball_red_small", description = "Red Small Fireball" }
+sprite{ id = "enemies/others/laser", description = "Laser" }
+sprite{ id = "enemies/others/lynel_flame", description = "Lynel's flame" }
+sprite{ id = "enemies/others/octorok_stone", description = "Octorok's stone" }
+sprite{ id = "enemies/others/wizzrobe_beam", description = "Wizzrobe's beam" }
 sprite{ id = "enemies/soldiers/spear_soldier_red", description = "Red Spear Soldier" }
 sprite{ id = "enemies/soldiers/spear_soldier_red_weapon", description = "Red Spear Soldier" }
 sprite{ id = "enemies/soldiers/sword_soldier_blue", description = "Blue Sword Soldier" }
@@ -94,13 +103,7 @@ sprite{ id = "enemies/soldiers/sword_soldier_green", description = "Green Sword 
 sprite{ id = "enemies/soldiers/sword_soldier_green_weapon", description = "enemies/soldiers/sword_soldier_green_weapon" }
 sprite{ id = "enemies/traps/boulder", description = "Boulder" }
 sprite{ id = "enemies/traps/cactus", description = "Cactus" }
-sprite{ id = "enemies/traps/chain_and_ball", description = "Chain and ball" }
 sprite{ id = "enemies/traps/fire_fairy", description = "Fire Fairy" }
-sprite{ id = "enemies/traps/fireball_blue_small", description = "Blue small Fireball" }
-sprite{ id = "enemies/traps/fireball_purple_small", description = "Purple small Fireball" }
-sprite{ id = "enemies/traps/fireball_red_big", description = "Red big Fireball" }
-sprite{ id = "enemies/traps/fireball_red_small", description = "Red small Fireball" }
-sprite{ id = "enemies/traps/laser", description = "Laser" }
 sprite{ id = "enemies/traps/medusa", description = "Medusa" }
 sprite{ id = "enemies/traps/medusa_blue", description = "Blue Medusa" }
 sprite{ id = "enemies/traps/medusa_purple", description = "Purple Medusa" }
@@ -340,6 +343,14 @@ sound{ id = "zora", description = "zora" }
 
 
 enemy{ id = "dark_world/ropa", description = "dark_world/ropa" }
+enemy{ id = "dungeons/gibdo", description = "Gidbo" }
+enemy{ id = "dungeons/hardhat_beetle_blue", description = "Hardhat Beetle Blue" }
+enemy{ id = "dungeons/hardhat_beetle_red", description = "Hardhat Beetle Red" }
+enemy{ id = "dungeons/helmasaur_red", description = "Red Helmasaur" }
+enemy{ id = "light_world/chicken", description = "Chicken" }
+enemy{ id = "traps/chain_and_ball", description = "Chain and Ball" }
+enemy{ id = "traps/fire_fairy", description = "Fire Fairy" }
+enemy{ id = "traps/medusa", description = "Medusa" }
 
 
 

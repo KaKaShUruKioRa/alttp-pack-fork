@@ -234,6 +234,14 @@ destination{
   direction = 1,
 }
 
+enemy{
+  layer = 0,
+  x = 80,
+  y = 101,
+  direction = 0,
+  breed = "traps/medusa",
+}
+
 tile{
   layer = 1,
   x = 144,
