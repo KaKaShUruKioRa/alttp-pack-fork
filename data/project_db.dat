@@ -339,6 +339,7 @@ sound{ id = "wrong", description = "wrong" }
 sound{ id = "zora", description = "zora" }
 
 
+enemy{ id = "dark_world/ropa", description = "dark_world/ropa" }
 
 
 
