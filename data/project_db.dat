@@ -35,7 +35,6 @@ sprite{ id = "enemies/bosses/ganon", description = "Ganon" }
 sprite{ id = "enemies/dark_world/hinox", description = "Hinox" }
 sprite{ id = "enemies/dark_world/hyu", description = "Hyu" }
 sprite{ id = "enemies/dark_world/lynel", description = "Lynel" }
-sprite{ id = "enemies/dark_world/lynel_flame", description = "Lynel's Flame" }
 sprite{ id = "enemies/dark_world/moblin", description = "Moblin" }
 sprite{ id = "enemies/dark_world/pikku", description = "Pikku" }
 sprite{ id = "enemies/dark_world/poe", description = "Poe" }
@@ -80,17 +79,20 @@ sprite{ id = "enemies/light_world/crow", description = "Crow" }
 sprite{ id = "enemies/light_world/deadrock", description = "Deadrock" }
 sprite{ id = "enemies/light_world/geldman", description = "Geldman" }
 sprite{ id = "enemies/light_world/octorok", description = "Octorock" }
-sprite{ id = "enemies/light_world/octorok_stone", description = "Octorock Stone" }
 sprite{ id = "enemies/light_world/sand_crab", description = "Sans crab" }
 sprite{ id = "enemies/light_world/tektite_blue", description = "Blue Tektite" }
 sprite{ id = "enemies/light_world/vulture", description = "Vulture" }
 sprite{ id = "enemies/light_world/zora_feet", description = "Zora (on feet)" }
-sprite{ id = "enemies/light_world/zora_water", description = "Zora (in water)" }
+sprite{ id = "enemies/light_world/zora_underwater", description = "Zora (in water)" }
 sprite{ id = "enemies/others/chain_and_ball", description = "Chain and Ball" }
+sprite{ id = "enemies/others/fire_bat", description = "Ganon's Fire Bat" }
+sprite{ id = "enemies/others/fire_circle", description = "Fire Circle" }
 sprite{ id = "enemies/others/fireball_blue_small", description = "Blue smal Fireball" }
 sprite{ id = "enemies/others/fireball_purple_small", description = "Purple small Fireball" }
 sprite{ id = "enemies/others/fireball_red_big", description = "Red big Fireball" }
 sprite{ id = "enemies/others/fireball_red_small", description = "Red Small Fireball" }
+sprite{ id = "enemies/others/flame_blue", description = "Blue Flame" }
+sprite{ id = "enemies/others/flame_red", description = "Red Flame" }
 sprite{ id = "enemies/others/laser", description = "Laser" }
 sprite{ id = "enemies/others/lynel_flame", description = "Lynel's flame" }
 sprite{ id = "enemies/others/octorok_stone", description = "Octorok's stone" }
@@ -108,7 +110,9 @@ sprite{ id = "enemies/traps/medusa", description = "Medusa" }
 sprite{ id = "enemies/traps/medusa_blue", description = "Blue Medusa" }
 sprite{ id = "enemies/traps/medusa_purple", description = "Purple Medusa" }
 sprite{ id = "enemies/traps/rolling_spike_trap", description = "Rolling spike trap" }
-sprite{ id = "enemies/traps/trap", description = "Trap" }
+sprite{ id = "enemies/traps/trap_auto", description = "Trap" }
+sprite{ id = "enemies/traps/trap_detect", description = "Trap" }
+sprite{ id = "enemies/traps/trap_fixed", description = "Fixed trap" }
 sprite{ id = "entities/arrow", description = "Arrow" }
 sprite{ id = "entities/block", description = "Block" }
 sprite{ id = "entities/bomb", description = "Bomb" }
@@ -343,14 +347,26 @@ sound{ id = "zora", description = "zora" }
 
 
 enemy{ id = "dark_world/ropa", description = "dark_world/ropa" }
+enemy{ id = "dark_world/snap_dragon", description = "Snap Dragon" }
 enemy{ id = "dungeons/gibdo", description = "Gidbo" }
 enemy{ id = "dungeons/hardhat_beetle_blue", description = "Hardhat Beetle Blue" }
 enemy{ id = "dungeons/hardhat_beetle_red", description = "Hardhat Beetle Red" }
 enemy{ id = "dungeons/helmasaur_red", description = "Red Helmasaur" }
+enemy{ id = "dungeons/popo", description = "Popo" }
+enemy{ id = "dungeons/rat", description = "Rat" }
+enemy{ id = "dungeons/wallmaster", description = "Wallmaster" }
 enemy{ id = "light_world/chicken", description = "Chicken" }
-enemy{ id = "traps/chain_and_ball", description = "Chain and Ball" }
+enemy{ id = "light_world/zora_underwater", description = "Underwater Zora" }
+enemy{ id = "others/chain_and_ball", description = "Chain and Ball" }
+enemy{ id = "others/fire_bat", description = "Ganon's Fire Bat" }
+enemy{ id = "others/fire_circle", description = "Fire Circle" }
+enemy{ id = "others/fireball_red_small", description = "Red small Fireball" }
+enemy{ id = "others/laser", description = "Laser" }
 enemy{ id = "traps/fire_fairy", description = "Fire Fairy" }
 enemy{ id = "traps/medusa", description = "Medusa" }
+enemy{ id = "traps/trap_auto", description = "Mooving trap" }
+enemy{ id = "traps/trap_detect", description = "Trap detecting the hero proximity" }
+enemy{ id = "traps/trap_fixed", description = "Fixed trap" }
 
 
 

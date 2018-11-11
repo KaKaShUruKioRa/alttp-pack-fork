@@ -66,5 +66,5 @@ function enemy:on_removed()
 end
 
 function enemy:get_projectile_breed_and_sound()
-  return "alttp/fireball_small_triple_red", "zora"
+  return "others/fireball_red_small", "zora"
 end
