@@ -30,82 +30,82 @@ tileset{ id = "dungeon/purple", description = "Purple dungeon" }
 tileset{ id = "dungeon/yellow", description = "Yellow dungeon" }
 tileset{ id = "out/outside", description = "Full Hyrule Outside" }
 
-sprite{ id = "enemies/armos", description = "Armos" }
-sprite{ id = "enemies/armos_knight", description = "Armos knight" }
-sprite{ id = "enemies/bari_blue", description = "Blue bari" }
-sprite{ id = "enemies/boulder", description = "Boulder" }
-sprite{ id = "enemies/cactus", description = "Cactus" }
-sprite{ id = "enemies/chain_and_ball", description = "Chain and ball" }
-sprite{ id = "enemies/chasupa", description = "Chasupa" }
-sprite{ id = "enemies/chicken", description = "Chicken" }
-sprite{ id = "enemies/crow", description = "Crow" }
-sprite{ id = "enemies/deadrock", description = "Deadrock" }
-sprite{ id = "enemies/enemy_killed", description = "Enemy killed" }
-sprite{ id = "enemies/eyegore_green", description = "Green Eyegore" }
-sprite{ id = "enemies/eyegore_red", description = "Red Eyegore" }
-sprite{ id = "enemies/fire_fairy", description = "Fire fairy" }
-sprite{ id = "enemies/fireball_blue_small", description = "Blue small Fireball" }
-sprite{ id = "enemies/fireball_purple_small", description = "Purple small Fireball" }
-sprite{ id = "enemies/fireball_red_big", description = "Red big Fireball" }
-sprite{ id = "enemies/fireball_red_small", description = "Red small Fireball" }
-sprite{ id = "enemies/freezor", description = "Freezor" }
-sprite{ id = "enemies/ganon", description = "Ganon" }
-sprite{ id = "enemies/geldman", description = "Geldman" }
-sprite{ id = "enemies/gibdo", description = "Gibdo" }
-sprite{ id = "enemies/goriya_green", description = "Green Goriya" }
-sprite{ id = "enemies/goriya_red", description = "Red Goriya" }
-sprite{ id = "enemies/hardhat_beetle_blue", description = "Blue Hardhat Beetle" }
-sprite{ id = "enemies/hardhat_beetle_red", description = "Red Hardhat Beetle" }
-sprite{ id = "enemies/hinox", description = "Hinox" }
-sprite{ id = "enemies/hyu", description = "Hyu" }
-sprite{ id = "enemies/keese", description = "Keese" }
-sprite{ id = "enemies/laser", description = "Laser" }
-sprite{ id = "enemies/lynel", description = "Lynel" }
-sprite{ id = "enemies/lynel_flame", description = "Lynel's flame" }
-sprite{ id = "enemies/medusa", description = "Medusa" }
-sprite{ id = "enemies/medusa_blue", description = "Blue Medusa" }
-sprite{ id = "enemies/medusa_purple", description = "Purple Medusa" }
-sprite{ id = "enemies/moblin", description = "Moblin" }
-sprite{ id = "enemies/octorok", description = "Octorok" }
-sprite{ id = "enemies/octorok_stone", description = "Octorok's stone" }
-sprite{ id = "enemies/pengator", description = "Pengator" }
-sprite{ id = "enemies/pikku", description = "Pikku" }
-sprite{ id = "enemies/poe", description = "Poe" }
-sprite{ id = "enemies/popo", description = "Popo" }
-sprite{ id = "enemies/rat", description = "Rat" }
-sprite{ id = "enemies/rolling_spike_trap", description = "Rolling spike trap" }
-sprite{ id = "enemies/ropa", description = "Ropa" }
-sprite{ id = "enemies/rope", description = "Rope" }
-sprite{ id = "enemies/sand_crab", description = "Sand crab" }
-sprite{ id = "enemies/snap_dragon", description = "Snap dragon" }
-sprite{ id = "enemies/spear_soldier_red", description = "Red Spear Soldier" }
-sprite{ id = "enemies/spear_soldier_red_weapon", description = "Red Spear Soldier's Weapon" }
-sprite{ id = "enemies/stal", description = "Stal" }
-sprite{ id = "enemies/stalfos_blue", description = "Blue Stalfos" }
-sprite{ id = "enemies/stalfos_grey", description = "Grey Stalfos" }
-sprite{ id = "enemies/stalfos_knight", description = "Stalfos knight" }
-sprite{ id = "enemies/stalfos_red", description = "Red Stalfos" }
-sprite{ id = "enemies/swamola", description = "Swamola" }
-sprite{ id = "enemies/sword_soldier_blue", description = "Blue Sword Soldier" }
-sprite{ id = "enemies/sword_soldier_blue_weapon", description = "Blue Sword Soldier's Weapon" }
-sprite{ id = "enemies/sword_soldier_green", description = "Green Sword Soldier" }
-sprite{ id = "enemies/sword_soldier_green_weapon", description = "Green Sword Soldier's Weapon" }
-sprite{ id = "enemies/tarosu_blue", description = "Blue Tarosu" }
-sprite{ id = "enemies/tarosu_blue_weapon", description = "Blue Tarosu's Weapon" }
-sprite{ id = "enemies/tarosu_red", description = "Red Tarosu" }
-sprite{ id = "enemies/tarosu_red_weapon", description = "Red Tarosu's Weapon" }
-sprite{ id = "enemies/tektite_blue", description = "Blue Tektite" }
-sprite{ id = "enemies/trap", description = "Trap" }
-sprite{ id = "enemies/vulture", description = "Vulture" }
-sprite{ id = "enemies/wallmaster", description = "Wallmaster" }
-sprite{ id = "enemies/water_tektite", description = "Water tektite" }
-sprite{ id = "enemies/wizzrobe_beam", description = "Wizzrobe beam" }
-sprite{ id = "enemies/wizzrobe_blue", description = "Blue Wizzrobe" }
-sprite{ id = "enemies/wizzrobe_white", description = "White Wizzrobe" }
-sprite{ id = "enemies/zazak_blue", description = "Blue Zazak" }
-sprite{ id = "enemies/zol_green", description = "Green Zol" }
-sprite{ id = "enemies/zora_feet", description = "Zora (on feet)" }
-sprite{ id = "enemies/zora_water", description = "Zora (in water)" }
+sprite{ id = "enemies/bosses/armos_knight", description = "Armos Knight" }
+sprite{ id = "enemies/bosses/ganon", description = "Ganon" }
+sprite{ id = "enemies/dark_world/hinox", description = "Hinox" }
+sprite{ id = "enemies/dark_world/hyu", description = "Hyu" }
+sprite{ id = "enemies/dark_world/lynel", description = "Lynel" }
+sprite{ id = "enemies/dark_world/lynel_flame", description = "Lynel's Flame" }
+sprite{ id = "enemies/dark_world/moblin", description = "Moblin" }
+sprite{ id = "enemies/dark_world/pikku", description = "Pikku" }
+sprite{ id = "enemies/dark_world/poe", description = "Poe" }
+sprite{ id = "enemies/dark_world/ropa", description = "Ropa" }
+sprite{ id = "enemies/dark_world/snap_dragon", description = "Snap Dragon" }
+sprite{ id = "enemies/dark_world/stal", description = "Stal" }
+sprite{ id = "enemies/dark_world/swamola", description = "Swamola" }
+sprite{ id = "enemies/dark_world/tarosu_blue", description = "Blue Tarosu" }
+sprite{ id = "enemies/dark_world/tarosu_blue_weapon", description = "Blue Tarosu's weapon" }
+sprite{ id = "enemies/dark_world/tarosu_red", description = "Red Tarosu" }
+sprite{ id = "enemies/dark_world/tarosu_red_weapon", description = "Red Tarosu's weapon" }
+sprite{ id = "enemies/dungeons/bari_blue", description = "Blue Bari" }
+sprite{ id = "enemies/dungeons/chasupa", description = "Chasupa" }
+sprite{ id = "enemies/dungeons/eyegore_green", description = "Green Eyegore" }
+sprite{ id = "enemies/dungeons/eyegore_red", description = "Red Eyegore" }
+sprite{ id = "enemies/dungeons/freezor", description = "Freezor" }
+sprite{ id = "enemies/dungeons/gibdo", description = "Gibdo" }
+sprite{ id = "enemies/dungeons/goriya_green", description = "Green Goriya" }
+sprite{ id = "enemies/dungeons/goriya_red", description = "Red Goriya" }
+sprite{ id = "enemies/dungeons/hardhat_beetle_blue", description = "Blue Hardhat Beetle" }
+sprite{ id = "enemies/dungeons/hardhat_beetle_red", description = "Red Hardhat Beetle" }
+sprite{ id = "enemies/dungeons/keese", description = "Keese" }
+sprite{ id = "enemies/dungeons/pengator", description = "Pengator" }
+sprite{ id = "enemies/dungeons/popo", description = "Popo" }
+sprite{ id = "enemies/dungeons/rat", description = "Rat" }
+sprite{ id = "enemies/dungeons/rope", description = "Rope" }
+sprite{ id = "enemies/dungeons/stalfos_blue", description = "Blue Stalfos" }
+sprite{ id = "enemies/dungeons/stalfos_grey", description = "Grey Stalfos" }
+sprite{ id = "enemies/dungeons/stalfos_knight", description = "Stalfos Knight" }
+sprite{ id = "enemies/dungeons/stalfos_red", description = "Red Stalfos" }
+sprite{ id = "enemies/dungeons/wallmaster", description = "Wallmaster" }
+sprite{ id = "enemies/dungeons/water_tektite", description = "Water Tektite" }
+sprite{ id = "enemies/dungeons/wizzrobe_beam", description = "Wizzrobe's beam" }
+sprite{ id = "enemies/dungeons/wizzrobe_blue", description = "Blue Wizzrobe" }
+sprite{ id = "enemies/dungeons/wizzrobe_white", description = "White Wizzrobe" }
+sprite{ id = "enemies/dungeons/zazak_blue", description = "Blue Zazak" }
+sprite{ id = "enemies/dungeons/zol_green", description = "Green Zol" }
+sprite{ id = "enemies/enemy_killed", description = "Enemy Killed" }
+sprite{ id = "enemies/light_world/armos", description = "Armos" }
+sprite{ id = "enemies/light_world/chicken", description = "Chicken" }
+sprite{ id = "enemies/light_world/crow", description = "Crow" }
+sprite{ id = "enemies/light_world/deadrock", description = "Deadrock" }
+sprite{ id = "enemies/light_world/geldman", description = "Geldman" }
+sprite{ id = "enemies/light_world/octorok", description = "Octorock" }
+sprite{ id = "enemies/light_world/octorok_stone", description = "Octorock Stone" }
+sprite{ id = "enemies/light_world/sand_crab", description = "Sans crab" }
+sprite{ id = "enemies/light_world/tektite_blue", description = "Blue Tektite" }
+sprite{ id = "enemies/light_world/vulture", description = "Vulture" }
+sprite{ id = "enemies/light_world/zora_feet", description = "Zora (on feet)" }
+sprite{ id = "enemies/light_world/zora_water", description = "Zora (in water)" }
+sprite{ id = "enemies/soldiers/spear_soldier_red", description = "Red Spear Soldier" }
+sprite{ id = "enemies/soldiers/spear_soldier_red_weapon", description = "Red Spear Soldier" }
+sprite{ id = "enemies/soldiers/sword_soldier_blue", description = "Blue Sword Soldier" }
+sprite{ id = "enemies/soldiers/sword_soldier_blue_weapon", description = "enemies/soldiers/sword_soldier_blue_weapon" }
+sprite{ id = "enemies/soldiers/sword_soldier_green", description = "Green Sword Soldier" }
+sprite{ id = "enemies/soldiers/sword_soldier_green_weapon", description = "enemies/soldiers/sword_soldier_green_weapon" }
+sprite{ id = "enemies/traps/boulder", description = "Boulder" }
+sprite{ id = "enemies/traps/cactus", description = "Cactus" }
+sprite{ id = "enemies/traps/chain_and_ball", description = "Chain and ball" }
+sprite{ id = "enemies/traps/fire_fairy", description = "Fire Fairy" }
+sprite{ id = "enemies/traps/fireball_blue_small", description = "Blue small Fireball" }
+sprite{ id = "enemies/traps/fireball_purple_small", description = "Purple small Fireball" }
+sprite{ id = "enemies/traps/fireball_red_big", description = "Red big Fireball" }
+sprite{ id = "enemies/traps/fireball_red_small", description = "Red small Fireball" }
+sprite{ id = "enemies/traps/laser", description = "Laser" }
+sprite{ id = "enemies/traps/medusa", description = "Medusa" }
+sprite{ id = "enemies/traps/medusa_blue", description = "Blue Medusa" }
+sprite{ id = "enemies/traps/medusa_purple", description = "Purple Medusa" }
+sprite{ id = "enemies/traps/rolling_spike_trap", description = "Rolling spike trap" }
+sprite{ id = "enemies/traps/trap", description = "Trap" }
 sprite{ id = "entities/arrow", description = "Arrow" }
 sprite{ id = "entities/block", description = "Block" }
 sprite{ id = "entities/bomb", description = "Bomb" }
@@ -339,6 +339,7 @@ sound{ id = "wrong", description = "wrong" }
 sound{ id = "zora", description = "zora" }
 
 
+enemy{ id = "dark_world/ropa", description = "dark_world/ropa" }
 
 
 
