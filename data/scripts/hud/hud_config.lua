@@ -12,26 +12,33 @@
 
 local hud_config = {
 
-  -- Hearts meter.
+  -- Item assigned to slot 1.
   {
-    menu_script = "scripts/hud/hearts",
-    x = -88,
-    y = 0,
+    menu_script = "scripts/hud/item",
+    x = 27,
+    y = 12,
+    slot = 1,  -- Item slot (1 or 2).
   },
 
   -- Rupee counter.
   {
     menu_script = "scripts/hud/rupees",
-    x = 121,
+    x = 60,
     y = 10,
   },
 
-  -- Item assigned to slot 1.
+ -- Bombs counter
   {
-    menu_script = "scripts/hud/item",
-    x = 27,
-    y = 15,
-    slot = 1,  -- Item slot (1 or 2).
+    menu_script = "scripts/hud/bombs",
+    x = 90,
+    y = 10,
+  },
+
+  -- Hearts meter.
+  {
+    menu_script = "scripts/hud/hearts",
+    x = -88,
+    y = 0,
   },
 
   -- You can add more HUD elements here.

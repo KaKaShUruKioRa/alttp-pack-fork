@@ -217,14 +217,14 @@ animation{
   },
 }
 animation{
-  name = "pickable/apple",
+  name = "pickables/apple",
   src_image = "entities/items.png",
   directions = {
     { x = 160, y = 0, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
   },
 }
 animation{
-  name = "pickable/arrows",
+  name = "pickables/arrow",
   src_image = "entities/items.png",
   directions = {
     { x = 688, y = 0, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
@@ -233,7 +233,7 @@ animation{
   },
 }
 animation{
-  name = "pickable/bombs",
+  name = "pickables/bomb",
   src_image = "entities/items.png",
   directions = {
     { x = 672, y = 0, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
@@ -242,7 +242,7 @@ animation{
   },
 }
 animation{
-  name = "pickable/fairy",
+  name = "pickables/fairy",
   src_image = "entities/items.png",
   frame_delay = 100,
   frame_to_loop_on = 0,
@@ -252,21 +252,21 @@ animation{
   },
 }
 animation{
-  name = "pickable/heart",
+  name = "pickables/heart",
   src_image = "entities/items.png",
   directions = {
     { x = 112, y = 48, frame_width = 8, frame_height = 8, origin_x = 4, origin_y = 8 },
   },
 }
 animation{
-  name = "pickable/heart_container",
+  name = "pickables/heart_container",
   src_image = "entities/items.png",
   directions = {
     { x = 656, y = 0, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
   },
 }
 animation{
-  name = "pickable/heart_falling",
+  name = "pickables/heart_falling",
   src_image = "entities/items.png",
   frame_delay = 100,
   frame_to_loop_on = 24,
@@ -275,7 +275,7 @@ animation{
   },
 }
 animation{
-  name = "pickable/magic_flask",
+  name = "pickables/magic_flask",
   src_image = "entities/items.png",
   directions = {
     { x = 704, y = 0, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
@@ -283,35 +283,35 @@ animation{
   },
 }
 animation{
-  name = "pickable/piece_of_heart",
+  name = "pickables/piece_of_heart",
   src_image = "entities/items.png",
   directions = {
     { x = 640, y = 0, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
   },
 }
 animation{
-  name = "pickable/potion_blue",
+  name = "pickables/potion_blue",
   src_image = "entities/items.png",
   directions = {
     { x = 144, y = 80, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
   },
 }
 animation{
-  name = "pickable/potion_green",
+  name = "pickables/potion_green",
   src_image = "entities/items.png",
   directions = {
     { x = 128, y = 80, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
   },
 }
 animation{
-  name = "pickable/potion_red",
+  name = "pickables/potion_red",
   src_image = "entities/items.png",
   directions = {
     { x = 112, y = 80, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
   },
 }
 animation{
-  name = "pickable/rupee",
+  name = "pickables/rupee",
   src_image = "entities/items.png",
   frame_delay = 100,
   frame_to_loop_on = 0,

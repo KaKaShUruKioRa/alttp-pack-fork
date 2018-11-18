@@ -355,6 +355,11 @@ sound{ id = "world_warp", description = "world_warp" }
 sound{ id = "wrong", description = "wrong" }
 sound{ id = "zora", description = "zora" }
 
+item{ id = "equipment/bomb_bag", description = "Bomb bag" }
+item{ id = "pickables/bomb", description = "Bomb" }
+item{ id = "pickables/heart", description = "Heart" }
+item{ id = "pickables/magic_flask", description = "Magic Flask" }
+item{ id = "pickables/rupee", description = "Rupee" }
 
 enemy{ id = "bosses/agahnim", description = "Agahnim" }
 enemy{ id = "bosses/armos_knight", description = "Armos Knight" }
