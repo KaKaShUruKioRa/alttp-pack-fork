@@ -13712,7 +13712,7 @@ destructible{
   layer = 0,
   x = 648,
   y = 861,
-  sprite = "entities/bush01",
+  sprite = "destructibles/bush_green",
   can_be_cut = true,
   can_regenerate = true,
 }
@@ -13721,7 +13721,7 @@ destructible{
   layer = 0,
   x = 616,
   y = 893,
-  sprite = "entities/bush01",
+  sprite = "destructibles/bush_green",
   can_be_cut = true,
   can_regenerate = true,
 }
@@ -13730,7 +13730,7 @@ destructible{
   layer = 0,
   x = 632,
   y = 893,
-  sprite = "entities/bush01",
+  sprite = "destructibles/bush_green",
   can_be_cut = true,
   can_regenerate = true,
 }
@@ -13739,7 +13739,7 @@ destructible{
   layer = 0,
   x = 360,
   y = 973,
-  sprite = "entities/bush01",
+  sprite = "destructibles/bush_green",
   can_be_cut = true,
   can_regenerate = true,
 }
@@ -13748,7 +13748,7 @@ destructible{
   layer = 0,
   x = 248,
   y = 909,
-  sprite = "entities/bush01",
+  sprite = "destructibles/bush_green",
   can_be_cut = true,
   can_regenerate = true,
 }
@@ -13757,7 +13757,7 @@ destructible{
   layer = 0,
   x = 168,
   y = 813,
-  sprite = "entities/bush01",
+  sprite = "destructibles/bush_green",
   can_be_cut = true,
   can_regenerate = true,
 }
@@ -13766,7 +13766,7 @@ destructible{
   layer = 0,
   x = 104,
   y = 605,
-  sprite = "entities/bush01",
+  sprite = "destructibles/bush_green",
   can_be_cut = true,
   can_regenerate = true,
 }
@@ -13775,7 +13775,7 @@ destructible{
   layer = 0,
   x = 120,
   y = 605,
-  sprite = "entities/bush01",
+  sprite = "destructibles/bush_green",
   can_be_cut = true,
   can_regenerate = true,
 }
@@ -13784,7 +13784,7 @@ destructible{
   layer = 0,
   x = 120,
   y = 589,
-  sprite = "entities/bush01",
+  sprite = "destructibles/bush_green",
   can_be_cut = true,
   can_regenerate = true,
 }
@@ -13793,7 +13793,7 @@ destructible{
   layer = 0,
   x = 104,
   y = 589,
-  sprite = "entities/bush01",
+  sprite = "destructibles/bush_green",
   can_be_cut = true,
   can_regenerate = true,
 }
@@ -13802,7 +13802,7 @@ destructible{
   layer = 0,
   x = 872,
   y = 925,
-  sprite = "entities/bush01",
+  sprite = "destructibles/bush_green",
   can_be_cut = true,
   can_regenerate = true,
 }
@@ -13811,7 +13811,7 @@ destructible{
   layer = 0,
   x = 840,
   y = 109,
-  sprite = "entities/bush01",
+  sprite = "destructibles/bush_green",
   can_be_cut = true,
   can_regenerate = true,
 }
@@ -13820,7 +13820,7 @@ destructible{
   layer = 0,
   x = 856,
   y = 109,
-  sprite = "entities/bush01",
+  sprite = "destructibles/bush_green",
   can_be_cut = true,
   can_regenerate = true,
 }
@@ -13829,7 +13829,7 @@ destructible{
   layer = 0,
   x = 840,
   y = 125,
-  sprite = "entities/bush01",
+  sprite = "destructibles/bush_green",
   can_be_cut = true,
   can_regenerate = true,
 }
@@ -13838,7 +13838,7 @@ destructible{
   layer = 0,
   x = 856,
   y = 125,
-  sprite = "entities/bush01",
+  sprite = "destructibles/bush_green",
   can_be_cut = true,
   can_regenerate = true,
 }
@@ -13847,7 +13847,7 @@ destructible{
   layer = 0,
   x = 904,
   y = 173,
-  sprite = "entities/bush01",
+  sprite = "destructibles/bush_green",
   can_be_cut = true,
   can_regenerate = true,
 }
@@ -13856,7 +13856,7 @@ destructible{
   layer = 0,
   x = 920,
   y = 173,
-  sprite = "entities/bush01",
+  sprite = "destructibles/bush_green",
   can_be_cut = true,
   can_regenerate = true,
 }
@@ -13865,7 +13865,7 @@ destructible{
   layer = 0,
   x = 936,
   y = 173,
-  sprite = "entities/bush01",
+  sprite = "destructibles/bush_green",
   can_be_cut = true,
   can_regenerate = true,
 }
@@ -13874,7 +13874,7 @@ destructible{
   layer = 0,
   x = 952,
   y = 173,
-  sprite = "entities/bush01",
+  sprite = "destructibles/bush_green",
   can_be_cut = true,
   can_regenerate = true,
 }
@@ -13883,7 +13883,7 @@ destructible{
   layer = 0,
   x = 968,
   y = 189,
-  sprite = "entities/bush01",
+  sprite = "destructibles/bush_green",
   can_be_cut = true,
   can_regenerate = true,
 }
@@ -13892,7 +13892,7 @@ destructible{
   layer = 0,
   x = 952,
   y = 189,
-  sprite = "entities/bush01",
+  sprite = "destructibles/bush_green",
   can_be_cut = true,
   can_regenerate = true,
 }
@@ -13901,7 +13901,7 @@ destructible{
   layer = 0,
   x = 936,
   y = 189,
-  sprite = "entities/bush01",
+  sprite = "destructibles/bush_green",
   can_be_cut = true,
   can_regenerate = true,
 }
@@ -13910,7 +13910,7 @@ destructible{
   layer = 0,
   x = 920,
   y = 189,
-  sprite = "entities/bush01",
+  sprite = "destructibles/bush_green",
   can_be_cut = true,
   can_regenerate = true,
 }
@@ -13919,7 +13919,7 @@ destructible{
   layer = 0,
   x = 904,
   y = 189,
-  sprite = "entities/bush01",
+  sprite = "destructibles/bush_green",
   can_be_cut = true,
   can_regenerate = true,
 }
@@ -13928,7 +13928,7 @@ destructible{
   layer = 0,
   x = 760,
   y = 525,
-  sprite = "entities/bush01",
+  sprite = "destructibles/bush_green",
   can_be_cut = true,
   can_regenerate = true,
 }
@@ -13937,7 +13937,7 @@ destructible{
   layer = 0,
   x = 760,
   y = 541,
-  sprite = "entities/bush01",
+  sprite = "destructibles/bush_green",
   can_be_cut = true,
   can_regenerate = true,
 }
@@ -13946,7 +13946,7 @@ destructible{
   layer = 0,
   x = 760,
   y = 557,
-  sprite = "entities/bush01",
+  sprite = "destructibles/bush_green",
   can_be_cut = true,
   can_regenerate = true,
 }
@@ -13955,7 +13955,7 @@ destructible{
   layer = 0,
   x = 776,
   y = 557,
-  sprite = "entities/bush01",
+  sprite = "destructibles/bush_green",
   can_be_cut = true,
   can_regenerate = true,
 }
@@ -13964,7 +13964,7 @@ destructible{
   layer = 0,
   x = 792,
   y = 557,
-  sprite = "entities/bush01",
+  sprite = "destructibles/bush_green",
   can_be_cut = true,
   can_regenerate = true,
 }
@@ -13973,7 +13973,7 @@ destructible{
   layer = 0,
   x = 792,
   y = 541,
-  sprite = "entities/bush01",
+  sprite = "destructibles/bush_green",
   can_be_cut = true,
   can_regenerate = true,
 }
@@ -13982,7 +13982,7 @@ destructible{
   layer = 0,
   x = 792,
   y = 525,
-  sprite = "entities/bush01",
+  sprite = "destructibles/bush_green",
   can_be_cut = true,
   can_regenerate = true,
 }
@@ -13991,7 +13991,7 @@ destructible{
   layer = 0,
   x = 776,
   y = 525,
-  sprite = "entities/bush01",
+  sprite = "destructibles/bush_green",
   can_be_cut = true,
   can_regenerate = true,
 }
@@ -14000,7 +14000,7 @@ destructible{
   layer = 0,
   x = 776,
   y = 541,
-  sprite = "entities/bush01",
+  sprite = "destructibles/bush_green",
   can_be_cut = true,
   can_regenerate = true,
 }
@@ -14009,7 +14009,7 @@ destructible{
   layer = 0,
   x = 568,
   y = 349,
-  sprite = "entities/bush01",
+  sprite = "destructibles/bush_green",
   can_be_cut = true,
   can_regenerate = true,
 }
@@ -14018,7 +14018,7 @@ destructible{
   layer = 0,
   x = 552,
   y = 381,
-  sprite = "entities/bush01",
+  sprite = "destructibles/bush_green",
   can_be_cut = true,
   can_regenerate = true,
 }
@@ -14027,7 +14027,7 @@ destructible{
   layer = 0,
   x = 536,
   y = 381,
-  sprite = "entities/bush01",
+  sprite = "destructibles/bush_green",
   can_be_cut = true,
   can_regenerate = true,
 }
@@ -14036,7 +14036,7 @@ destructible{
   layer = 0,
   x = 456,
   y = 125,
-  sprite = "entities/bush01",
+  sprite = "destructibles/bush_green",
   can_be_cut = true,
   can_regenerate = true,
 }
@@ -14045,7 +14045,7 @@ destructible{
   layer = 0,
   x = 456,
   y = 109,
-  sprite = "entities/bush01",
+  sprite = "destructibles/bush_green",
   can_be_cut = true,
   can_regenerate = true,
 }
@@ -14054,7 +14054,7 @@ destructible{
   layer = 0,
   x = 472,
   y = 109,
-  sprite = "entities/bush01",
+  sprite = "destructibles/bush_green",
   can_be_cut = true,
   can_regenerate = true,
 }
@@ -14063,7 +14063,7 @@ destructible{
   layer = 0,
   x = 472,
   y = 125,
-  sprite = "entities/bush01",
+  sprite = "destructibles/bush_green",
   can_be_cut = true,
   can_regenerate = true,
 }
@@ -14072,7 +14072,7 @@ destructible{
   layer = 0,
   x = 456,
   y = 765,
-  sprite = "entities/bush01",
+  sprite = "destructibles/bush_green",
   can_be_cut = true,
   can_regenerate = true,
 }
