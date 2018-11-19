@@ -312,7 +312,7 @@ chest{
   layer = 0,
   x = 216,
   y = 117,
-  treasure_name = "equipment/glove",
+  treasure_name = "equipment/flippers",
   sprite = "entities/chest",
 }
 

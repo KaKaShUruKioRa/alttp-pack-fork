@@ -358,6 +358,7 @@ sound{ id = "zora", description = "zora" }
 
 item{ id = "equipment/bomb_bag", description = "Bomb bag" }
 item{ id = "equipment/boomerang", description = "Boomerang" }
+item{ id = "equipment/flippers", description = "Flippers" }
 item{ id = "equipment/glove", description = "Glove" }
 item{ id = "pickables/bomb", description = "Bomb" }
 item{ id = "pickables/heart", description = "Heart" }

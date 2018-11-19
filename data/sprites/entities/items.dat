@@ -143,6 +143,7 @@ animation{
   },
 }
 animation{
+<<<<<<< HEAD
   name = "equipment/cane_of_byrna",
   src_image = "entities/items.png",
   directions = {
@@ -168,6 +169,13 @@ animation{
   src_image = "entities/items.png",
   directions = {
     { x = 304, y = 0, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
+  },
+}
+animation{
+  name = "equipment/flippers",
+  src_image = "entities/items.png",
+  directions = {
+    { x = 288, y = 0, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
   },
 }
 animation{
@@ -315,6 +323,14 @@ animation{
     { x = 288, y = 0, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
   },
 }
+animation{
+  name = "pickables/apple",
+  src_image = "entities/items.png",
+  directions = {
+    { x = 160, y = 0, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
+  },
+}
+
 animation{
   name = "pickables/arrow",
   src_image = "entities/items.png",
