@@ -143,7 +143,6 @@ animation{
   },
 }
 animation{
-<<<<<<< HEAD
   name = "equipment/cane_of_byrna",
   src_image = "entities/items.png",
   directions = {
