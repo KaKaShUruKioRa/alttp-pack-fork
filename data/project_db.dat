@@ -34,6 +34,9 @@ sprite{ id = "destructibles/bush", description = "Bush (from tileset)" }
 sprite{ id = "destructibles/bush_green", description = "Bush (green)" }
 sprite{ id = "destructibles/bush_purple", description = "Bush (purple)" }
 sprite{ id = "destructibles/bush_yellow", description = "Bush (yellow)" }
+sprite{ id = "destructibles/grass", description = "Grass (from tileset)" }
+sprite{ id = "destructibles/sign", description = "Sign (from tileset)" }
+sprite{ id = "destructibles/sign_dark", description = "Sign (dark)" }
 sprite{ id = "destructibles/stone_black", description = "Stone (black)" }
 sprite{ id = "destructibles/stone_black_skull", description = "Stone (black skull)" }
 sprite{ id = "destructibles/stone_white", description = "Stone (white)" }
@@ -149,12 +152,10 @@ sprite{ id = "entities/crystal_block", description = "Crystal block" }
 sprite{ id = "entities/destination", description = "Destination" }
 sprite{ id = "entities/explosion", description = "Explosion" }
 sprite{ id = "entities/fire", description = "Fire" }
-sprite{ id = "entities/grass", description = "Grass" }
 sprite{ id = "entities/hookshot", description = "Hookshot" }
 sprite{ id = "entities/items", description = "Items" }
 sprite{ id = "entities/rupee_icon", description = "Rupee icon" }
 sprite{ id = "entities/shadow", description = "Shadow" }
-sprite{ id = "entities/sign", description = "Sign" }
 sprite{ id = "entities/solid_switch", description = "Solid switch" }
 sprite{ id = "entities/star", description = "Star" }
 sprite{ id = "entities/statue", description = "Statue" }

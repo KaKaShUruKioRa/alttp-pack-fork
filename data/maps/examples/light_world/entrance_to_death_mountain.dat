@@ -6240,7 +6240,7 @@ destructible{
   layer = 0,
   x = 264,
   y = 205,
-  sprite = "entities/sign01",
+  sprite = "destructibles/sign_dark",
 }
 
 teletransporter{
