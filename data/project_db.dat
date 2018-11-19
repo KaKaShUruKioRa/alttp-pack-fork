@@ -11,6 +11,7 @@ map{ id = "examples/light_world/sw_entry_to_lost_woods", description = "SW Entry
 map{ id = "first_map", description = "First map" }
 map{ id = "inside_store", description = "Inside Store" }
 map{ id = "outside_store", description = "Outside Store" }
+map{ id = "test_map/test_map", description = "A test map" }
 
 tileset{ id = "dungeon/blue", description = "Blue dungeon" }
 tileset{ id = "dungeon/brown", description = "Brown dungeon" }
@@ -357,6 +358,9 @@ sound{ id = "wrong", description = "wrong" }
 sound{ id = "zora", description = "zora" }
 
 item{ id = "equipment/bomb_bag", description = "Bomb bag" }
+item{ id = "equipment/boomerang", description = "Boomerang" }
+item{ id = "equipment/flippers", description = "Flippers" }
+item{ id = "equipment/glove", description = "Glove" }
 item{ id = "pickables/bomb", description = "Bomb" }
 item{ id = "pickables/heart", description = "Heart" }
 item{ id = "pickables/magic_flask", description = "Magic Flask" }
