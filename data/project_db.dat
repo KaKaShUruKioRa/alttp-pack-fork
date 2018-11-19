@@ -30,6 +30,22 @@ tileset{ id = "dungeon/purple", description = "Purple dungeon" }
 tileset{ id = "dungeon/yellow", description = "Yellow dungeon" }
 tileset{ id = "out/outside", description = "Full Hyrule Outside" }
 
+sprite{ id = "destructibles/bush", description = "Bush (from tileset)" }
+sprite{ id = "destructibles/bush_green", description = "Bush (green)" }
+sprite{ id = "destructibles/bush_purple", description = "Bush (purple)" }
+sprite{ id = "destructibles/bush_yellow", description = "Bush (yellow)" }
+sprite{ id = "destructibles/stone_black", description = "Stone (black)" }
+sprite{ id = "destructibles/stone_black_skull", description = "Stone (black skull)" }
+sprite{ id = "destructibles/stone_white", description = "Stone (white)" }
+sprite{ id = "destructibles/stone_white_skull", description = "Stone (white skull)" }
+sprite{ id = "destructibles/vase", description = "Vase" }
+sprite{ id = "destructibles/vase_skull", description = "Vase (skull)" }
+sprite{ id = "doors/door_big_key", description = "Door (big key)" }
+sprite{ id = "doors/door_normal", description = "Door (normal)" }
+sprite{ id = "doors/door_small_key", description = "Door (small key)" }
+sprite{ id = "doors/door_very_weak_wall", description = "Door (very weak wall)" }
+sprite{ id = "doors/door_weak_block", description = "Door (weak block)" }
+sprite{ id = "doors/door_weak_wall", description = "Door (weak wall)" }
 sprite{ id = "enemies/bosses/agahnim", description = "Agahnim" }
 sprite{ id = "enemies/bosses/armos_knight", description = "Armos Knight" }
 sprite{ id = "enemies/bosses/arrghus", description = "Arrghus" }
@@ -127,20 +143,10 @@ sprite{ id = "entities/block", description = "Block" }
 sprite{ id = "entities/bomb", description = "Bomb" }
 sprite{ id = "entities/boomerang1", description = "Boomerang 1" }
 sprite{ id = "entities/boomerang2", description = "Boomerang 2" }
-sprite{ id = "entities/bush", description = "Bush (from tileset)" }
-sprite{ id = "entities/bush_green", description = "Bush (green)" }
-sprite{ id = "entities/bush_purple", description = "Bush (purple)" }
-sprite{ id = "entities/bush_yellow", description = "Bush (yellow)" }
 sprite{ id = "entities/chest", description = "Chest" }
 sprite{ id = "entities/crystal", description = "Crystal" }
 sprite{ id = "entities/crystal_block", description = "Crystal block" }
 sprite{ id = "entities/destination", description = "Destination" }
-sprite{ id = "entities/door_big_key", description = "Door (big key)" }
-sprite{ id = "entities/door_normal", description = "Door (normal)" }
-sprite{ id = "entities/door_small_key", description = "Door (small key)" }
-sprite{ id = "entities/door_very_weak_wall", description = "Door (very weak wall)" }
-sprite{ id = "entities/door_weak_block", description = "Door (weak block)" }
-sprite{ id = "entities/door_weak_wall", description = "Door (weak wall)" }
 sprite{ id = "entities/explosion", description = "Explosion" }
 sprite{ id = "entities/fire", description = "Fire" }
 sprite{ id = "entities/grass", description = "Grass" }
@@ -152,14 +158,8 @@ sprite{ id = "entities/sign", description = "Sign" }
 sprite{ id = "entities/solid_switch", description = "Solid switch" }
 sprite{ id = "entities/star", description = "Star" }
 sprite{ id = "entities/statue", description = "Statue" }
-sprite{ id = "entities/stone_black", description = "Stone (black)" }
-sprite{ id = "entities/stone_black_skull", description = "Stone (black skull)" }
-sprite{ id = "entities/stone_white", description = "Stone (white)" }
-sprite{ id = "entities/stone_white_skull", description = "Stone (white skull)" }
 sprite{ id = "entities/switch", description = "Switch" }
 sprite{ id = "entities/teletransporter", description = "Teletransporter" }
-sprite{ id = "entities/vase", description = "Vase" }
-sprite{ id = "entities/vase_skull", description = "Vase (skull)" }
 sprite{ id = "hero/ground1", description = "Grass under hero" }
 sprite{ id = "hero/ground2", description = "Shallow water under hero" }
 sprite{ id = "hero/shield1", description = "Hero shield 1" }
@@ -355,6 +355,11 @@ sound{ id = "world_warp", description = "world_warp" }
 sound{ id = "wrong", description = "wrong" }
 sound{ id = "zora", description = "zora" }
 
+item{ id = "equipment/bomb_bag", description = "Bomb bag" }
+item{ id = "pickables/bomb", description = "Bomb" }
+item{ id = "pickables/heart", description = "Heart" }
+item{ id = "pickables/magic_flask", description = "Magic Flask" }
+item{ id = "pickables/rupee", description = "Rupee" }
 
 enemy{ id = "bosses/agahnim", description = "Agahnim" }
 enemy{ id = "bosses/armos_knight", description = "Armos Knight" }
