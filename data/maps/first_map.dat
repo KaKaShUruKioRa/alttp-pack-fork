@@ -234,6 +234,80 @@ destination{
   direction = 1,
 }
 
+npc{
+  name = "brandon",
+  layer = 0,
+  x = 128,
+  y = 85,
+  direction = 3,
+  subtype = 1,
+  sprite = "npc/angry_brother",
+}
+
+chest{
+  layer = 0,
+  x = 184,
+  y = 85,
+  treasure_name = "equipment/bomb_bag",
+  sprite = "entities/chest",
+}
+
+pickable{
+  layer = 0,
+  x = 208,
+  y = 93,
+  treasure_name = "pickables/bomb",
+  treasure_variant = 3,
+}
+
+pickable{
+  layer = 0,
+  x = 224,
+  y = 93,
+  treasure_name = "pickables/bomb",
+  treasure_variant = 3,
+}
+
+pickable{
+  layer = 0,
+  x = 240,
+  y = 93,
+  treasure_name = "pickables/bomb",
+  treasure_variant = 3,
+}
+
+pickable{
+  layer = 0,
+  x = 240,
+  y = 77,
+  treasure_name = "pickables/bomb",
+  treasure_variant = 3,
+}
+
+pickable{
+  layer = 0,
+  x = 224,
+  y = 77,
+  treasure_name = "pickables/bomb",
+  treasure_variant = 3,
+}
+
+pickable{
+  layer = 0,
+  x = 208,
+  y = 77,
+  treasure_name = "pickables/bomb",
+  treasure_variant = 3,
+}
+
+chest{
+  layer = 0,
+  x = 184,
+  y = 117,
+  treasure_name = "equipment/boomerang",
+  sprite = "entities/chest",
+}
+
 tile{
   layer = 1,
   x = 144,
