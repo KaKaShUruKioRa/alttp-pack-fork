@@ -5,25 +5,25 @@ local gui_designer = require("scripts/menus/lib/gui_designer")
 local item_names = {
   -- Names of up to 20 items to show in the inventory.
   "bow",  -- Will be replaced by the silver one if the player has it.
-  "Boomerang",
+  "boomerang",
   "hookshot",
-  "bombs_counter",
+  "bombs",
   "mushroom", -- Will be replaced by the magic powder if player has it.
   "fire_rod",
   "ice_rod",
   "bombos_medallion",
   "ether_medallion",
   "quake_medallion",
-  "lamp",
+  "lantern",
   "hammer",
   "shovel", -- Will be replaced by the ocarina
   "bug_catching_net",
-  "mudora_book",
-  "bottle",
-  "somaria_cane",
-  "byrna_cane",
-  "cape",
-  "mirror",
+  "book_of_mudora",
+  "bottle_1",
+  "cane_of_somaria",
+  "cane_of_byrna",
+  "magic_cape",
+  "magic_mirror",
 }
 local items_num_columns = 5
 local items_num_rows = math.ceil(#item_names / items_num_columns)
@@ -36,28 +36,28 @@ local function create_item_widget(game)
   local widget = gui_designer:create(176, 144)
   widget:set_xy(16, 16 - movement_distance)
   widget:make_green_frame()
-  --local items_surface = widget:get_surface()
+  local items_surface = widget:get_surface()
 
-  -- item_names[1] = game:has_item("bow_silver") and "bow_silver" or "bow"
-  -- item_names[5] = game:has_item("magic_powder") and "magic_powder" or "mushroom"
-  -- item_names[13] = game:has_item("ocarina") and "ocarina" or "shovel"
+  --item_names[1] = game:has_item("bow_silver") and "bow_silver" or "bow"
+  --item_names[5] = game:has_item("magic_powder") and "magic_powder" or "mushroom"
+  --item_names[13] = game:has_item("ocarina") and "ocarina" or "shovel"
 
-  --for i, item_name in ipairs(item_names) do
-  --  local variant = 0 --game:get_item(item_name):get_variant()
-  --  if variant > 0 then
-  --    local column = (i - 1) % items_num_columns + 1
-  --    local row = math.floor((i - 1) / items_num_columns + 1)
+  for i, item_name in ipairs(item_names) do
+    local variant = 1--game:get_item(item_name):get_variant()
+    if variant > 0 then
+      local column = (i - 1) % items_num_columns + 1
+      local row = math.floor((i - 1) / items_num_columns + 1)
       -- Draw the sprite statically. This is okay as long as
       -- item sprites are not animated.
       -- If they become animated one day, they will have to be
       -- drawn at each frame instead (in on_draw()).
-  --    local item_sprite = sol.sprite.create("entities/items")
-  --    item_sprite:set_animation(item_name)
-  --    item_sprite:set_direction(variant - 1)
-  --    item_sprite:set_xy(8 + column * 32 - 16, 13 + row * 32 - 16)
-  --    item_sprite:draw(items_surface)
-  --  end
-  --end
+      local item_sprite = sol.sprite.create("entities/items")
+      item_sprite:set_animation("equipment/"..item_name)
+      item_sprite:set_direction(variant - 1)
+      item_sprite:set_xy(8 + column * 32 - 16, 13 + row * 32 - 16)
+      item_sprite:draw(items_surface)
+    end
+  end
   return widget
 end
 
