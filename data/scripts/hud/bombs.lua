@@ -12,7 +12,7 @@ function builder:new(game, config)
     horizontal_alignment = "left",
     vertical_alignment = "top",
   })
-  local amount_displayed = game:get_item("equipment/bomb_bag"):get_amount()
+  local amount_displayed = game:get_item("equipment/bombs"):get_amount()
 
   local dst_x, dst_y = config.x, config.y
 
@@ -36,8 +36,8 @@ function builder:new(game, config)
   local function check()
 
     local need_rebuild = false
-    local amount = game:get_item("equipment/bomb_bag"):get_amount()
-    local max_amount = game:get_item("equipment/bomb_bag"):get_max_amount()
+    local amount = game:get_item("equipment/bombs"):get_amount()
+    local max_amount = game:get_item("equipment/bombs"):get_max_amount()
 
     -- Current amount.
     if amount ~= amount_displayed then
@@ -64,7 +64,7 @@ function builder:new(game, config)
       digits_text:set_text(string.format("%02d", amount_displayed))
 
       -- Show in green if the maximum is reached.
-      if amount_displayed == max_amount then
+      if amount_displayed == max_amount and max_amount ~= 0 then
         digits_text:set_font("green_digits")
       else
         digits_text:set_font("white_digits")

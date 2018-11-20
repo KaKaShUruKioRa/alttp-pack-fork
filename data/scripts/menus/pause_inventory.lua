@@ -7,7 +7,7 @@ local item_names = {
   "bow",  -- Will be replaced by the silver one if the player has it.
   "boomerang",
   "hookshot",
-  "bomb_bag",
+  "bombs",
   "mushroom", -- Will be replaced by the magic powder if player has it.
   "fire_rod",
   "ice_rod",

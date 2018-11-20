@@ -358,10 +358,11 @@ sound{ id = "wrong", description = "wrong" }
 sound{ id = "zora", description = "zora" }
 
 item{ id = "equipment/bomb_bag", description = "Bomb bag" }
+item{ id = "equipment/bombs", description = "Bombs" }
 item{ id = "equipment/boomerang", description = "Boomerang" }
 item{ id = "equipment/flippers", description = "Flippers" }
 item{ id = "equipment/glove", description = "Glove" }
-item{ id = "pickables/bomb", description = "Bomb" }
+item{ id = "pickables/bombs", description = "Bombs" }
 item{ id = "pickables/heart", description = "Heart" }
 item{ id = "pickables/magic_flask", description = "Magic Flask" }
 item{ id = "pickables/rupee", description = "Rupee" }

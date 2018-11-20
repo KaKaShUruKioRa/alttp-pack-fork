@@ -251,54 +251,6 @@ chest{
   sprite = "entities/chest",
 }
 
-pickable{
-  layer = 0,
-  x = 208,
-  y = 93,
-  treasure_name = "pickables/bomb",
-  treasure_variant = 3,
-}
-
-pickable{
-  layer = 0,
-  x = 224,
-  y = 93,
-  treasure_name = "pickables/bomb",
-  treasure_variant = 3,
-}
-
-pickable{
-  layer = 0,
-  x = 240,
-  y = 93,
-  treasure_name = "pickables/bomb",
-  treasure_variant = 3,
-}
-
-pickable{
-  layer = 0,
-  x = 240,
-  y = 77,
-  treasure_name = "pickables/bomb",
-  treasure_variant = 3,
-}
-
-pickable{
-  layer = 0,
-  x = 224,
-  y = 77,
-  treasure_name = "pickables/bomb",
-  treasure_variant = 3,
-}
-
-pickable{
-  layer = 0,
-  x = 208,
-  y = 77,
-  treasure_name = "pickables/bomb",
-  treasure_variant = 3,
-}
-
 chest{
   layer = 0,
   x = 184,
@@ -338,6 +290,21 @@ destructible{
   treasure_variant = 3,
   sprite = "destructibles/stone_black",
   weight = 2,
+}
+
+pickable{
+  layer = 0,
+  x = 176,
+  y = 157,
+}
+
+chest{
+  layer = 0,
+  x = 248,
+  y = 117,
+  treasure_name = "pickables/bombs",
+  treasure_variant = 3,
+  sprite = "entities/chest",
 }
 
 tile{
