@@ -4,26 +4,26 @@ local gui_designer = require("scripts/menus/lib/gui_designer")
 
 local item_names = {
   -- Names of up to 20 items to show in the inventory.
-  "bow",  -- Will be replaced by the silver one if the player has it.
+  -- "bow",  -- Will be replaced by the silver one if the player has it.
   "boomerang",
-  "hookshot",
+  -- "hookshot",
   "bombs",
-  "mushroom", -- Will be replaced by the magic powder if player has it.
-  "fire_rod",
-  "ice_rod",
-  "bombos_medallion",
-  "ether_medallion",
-  "quake_medallion",
-  "lantern",
-  "hammer",
-  "shovel", -- Will be replaced by the ocarina
-  "bug_catching_net",
-  "book_of_mudora",
-  "bottle_1",
-  "cane_of_somaria",
-  "cane_of_byrna",
-  "magic_cape",
-  "magic_mirror",
+  -- "mushroom", -- Will be replaced by the magic powder if player has it.
+  -- "fire_rod",
+  -- "ice_rod",
+  -- "bombos_medallion",
+  -- "ether_medallion",
+  -- "quake_medallion",
+  -- "lantern",
+  -- "hammer",
+  -- "shovel", -- Will be replaced by the ocarina
+  -- "bug_catching_net",
+  -- "book_of_mudora",
+  -- "bottle_1",
+  -- "cane_of_somaria",
+  -- "cane_of_byrna",
+  -- "magic_cape",
+  -- "magic_mirror",
 }
 local items_num_columns = 5
 local items_num_rows = math.ceil(#item_names / items_num_columns)
@@ -32,18 +32,17 @@ local items_img = sol.surface.create("entities/items.png")
 local movement_speed = 800
 local movement_distance = 160
 
+-- Draw part of inventory containing the equipable items
 local function create_item_widget(game)
   local widget = gui_designer:create(176, 144)
   widget:set_xy(16, 16 - movement_distance)
   widget:make_green_frame()
   local items_surface = widget:get_surface()
 
-  --item_names[1] = game:has_item("bow_silver") and "bow_silver" or "bow"
-  --item_names[5] = game:has_item("magic_powder") and "magic_powder" or "mushroom"
-  --item_names[13] = game:has_item("ocarina") and "ocarina" or "shovel"
+  -- Draw the items, if they are possessed, depending on their variant
+  for i, item_name in ipairs(item_names) do    
+    local variant = game:get_item("equipment/" .. item_name):get_variant() -- 0 = not possesed
 
-  for i, item_name in ipairs(item_names) do
-    local variant = 1--game:get_item(item_name):get_variant()
     if variant > 0 then
       local column = (i - 1) % items_num_columns + 1
       local row = math.floor((i - 1) / items_num_columns + 1)
@@ -73,6 +72,8 @@ local function create_quest_widget(game)
   local widget = gui_designer:create(112, 88)
   widget:set_xy(200, 72 - movement_distance)
   widget:make_yellow_frame()
+  
+  -- TODO : draw quest items
 
   return widget
 
