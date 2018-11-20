@@ -7,7 +7,7 @@ local item_names = {
   "bow",  -- Will be replaced by the silver one if the player has it.
   "boomerang",
   "hookshot",
-  "bombs",
+  "bomb_bag",
   "mushroom", -- Will be replaced by the magic powder if player has it.
   "fire_rod",
   "ice_rod",
@@ -240,7 +240,7 @@ function inventory_manager:new(game)
 
     elseif command == "item_1" or command == "action" then
       -- Assign an item.
-      local item = game:get_item(item_names[cursor_index + 1])
+      local item = game:get_item("equipment/" .. item_names[cursor_index + 1])
       if cursor_index ~= item_assigned_index
           and item:has_variant()
           and item:is_assignable() then
