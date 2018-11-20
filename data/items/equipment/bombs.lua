@@ -7,15 +7,14 @@ local game = item:get_game()
 local sound_timer
 
 function item:on_created()
-  item:set_savegame_variable("possession_bomb_bag")
-  item:set_amount_savegame_variable("bomb_bag_capacity")
+  item:set_savegame_variable("possession_bombs")
   item:set_assignable(true)
-  item:set_max_amount(0)
 end
 
 -- Called when the player uses the bombs of his inventory
 function item:on_using()
-  if item:get_amount() == 0 then
+  local bomb_bag = game:get_item("equipment/bomb_bag")
+  if bomb_bag:get_amount() == 0 then
     if sound_timer == nil then
       sol.audio.play_sound("wrong")
       sound_timer = sol.timer.start(game, 500, function()
@@ -23,7 +22,7 @@ function item:on_using()
       end)
     end
   else
-    item:remove_amount(1)
+    bomb_bag:remove_amount(1)
     local x, y, layer = item:create_bomb()
     sol.audio.play_sound("bomb")
   end

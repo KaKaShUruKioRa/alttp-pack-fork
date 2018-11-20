@@ -4,7 +4,7 @@ local gui_designer = require("scripts/menus/lib/gui_designer")
 
 local item_names = {
   -- Names of up to 20 items to show in the inventory.
-  -- "bow",  -- Will be replaced by the silver one if the player has it.
+  "bow",  -- Will be replaced by the silver one if the player has it.
   "boomerang",
   -- "hookshot",
   "bombs",
