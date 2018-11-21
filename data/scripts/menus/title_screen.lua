@@ -230,8 +230,8 @@ function tilte_screen:step_5()
 
   self.timer = sol.timer.start(500, function()
     self.shine_sprite:set_animation("default", function()
-      self.timer:stop()
-      self.timer = nil
+      self:reset_timer()
+
       self.timer = sol.timer.start(500, function()
         self:step_6()
       end)
