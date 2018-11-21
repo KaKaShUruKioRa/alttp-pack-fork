@@ -10,7 +10,7 @@ local item_names = {
   "bombs",
   -- "mushroom", -- Will be replaced by the magic powder if player has it.
   "fire_rod",
-  -- "ice_rod",
+  "ice_rod",
   -- "bombos_medallion",
   -- "ether_medallion",
   -- "quake_medallion",

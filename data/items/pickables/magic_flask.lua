@@ -23,5 +23,4 @@ function item:on_obtaining(variant, savegame_variable)
     error("Invalid variant '" .. variant .. "' for item 'magic_flask'")
   end
   game:add_magic(amount)
-  print("New amout : " .. game:get_magic() .. ", amount : " .. game:get_max_magic())
 end

@@ -154,6 +154,7 @@ sprite{ id = "entities/destination", description = "Destination" }
 sprite{ id = "entities/explosion", description = "Explosion" }
 sprite{ id = "entities/fire", description = "Fire" }
 sprite{ id = "entities/hookshot", description = "Hookshot" }
+sprite{ id = "entities/ice_beam", description = "Ice Beam" }
 sprite{ id = "entities/items", description = "Items" }
 sprite{ id = "entities/rupee_icon", description = "Rupee icon" }
 sprite{ id = "entities/shadow", description = "Shadow" }
@@ -162,9 +163,11 @@ sprite{ id = "entities/star", description = "Star" }
 sprite{ id = "entities/statue", description = "Statue" }
 sprite{ id = "entities/switch", description = "Switch" }
 sprite{ id = "entities/teletransporter", description = "Teletransporter" }
+sprite{ id = "entities/torch", description = "Torch" }
 sprite{ id = "hero/fire_rod", description = "Fire rod" }
 sprite{ id = "hero/ground1", description = "Grass under hero" }
 sprite{ id = "hero/ground2", description = "Shallow water under hero" }
+sprite{ id = "hero/ice_rod", description = "Ice Rod" }
 sprite{ id = "hero/shield1", description = "Hero shield 1" }
 sprite{ id = "hero/shield2", description = "Hero shield 2" }
 sprite{ id = "hero/shield3", description = "Hero shield 3" }
@@ -372,6 +375,7 @@ item{ id = "equipment/fire_rod", description = "Fire Rod" }
 item{ id = "equipment/flippers", description = "Flippers" }
 item{ id = "equipment/glove", description = "Glove" }
 item{ id = "equipment/hookshot", description = "Hookshot" }
+item{ id = "equipment/ice_rod", description = "Ice Rod" }
 item{ id = "equipment/magic_meter", description = "Magic Meter" }
 item{ id = "pickables/arrows", description = "Arrows" }
 item{ id = "pickables/bombs", description = "Bombs" }
@@ -449,6 +453,7 @@ enemy{ id = "traps/trap_detect", description = "Trap detecting the hero proximit
 enemy{ id = "traps/trap_fixed", description = "Fixed trap" }
 
 entity{ id = "fire", description = "Fire" }
+entity{ id = "ice_beam", description = "Ice Beam" }
 entity{ id = "torch", description = "Torch" }
 
 language{ id = "fr", description = "Français" }
@@ -461,12 +466,11 @@ shader{ id = "ntsc2pal", description = "NTSC to PAL colors" }
 shader{ id = "pal2ntsc", description = "PAL to NTSC colors" }
 
 file{ path = "scripts/menus/solarus_logo.lua", author = "Maxs", license = "GPL v3" }
-file{ path = "scripts/menus/title_screen.lua", author = "Nintendo", license = "Proprietary, Fair use" }
+file{ path = "scripts/menus/title_screen.lua", author = "Olivier Cléro", license = "GPL v3" }
 file{ path = "shaders/ntsc2pal.dat", author = "std::gregwar", license = "GPL v3" }
 file{ path = "shaders/ntsc2pal.frag.glsl", author = "std::gregwar", license = "GPL v3" }
 file{ path = "shaders/pal2ntsc.dat", author = "std::gregwar", license = "GPL v3" }
 file{ path = "shaders/pal2ntsc.frag.glsl", author = "std::gregwar", license = "GPL v3" }
-file{ path = "scripts/menus/title_screen.lua", author = "Olivier Cléro", license = "GPL v3" }
 file{ path = "sounds/solarus_logo/solarus_logo.ogg", author = "Diarandor", license = "CC BY-SA 4.0" }
 file{ path = "sprites/menus/solarus_logo/solarus_logo.dat", author = "Maxs", license = "CC BY-SA 4.0" }
 file{ path = "sprites/menus/solarus_logo/solarus_logo.png", author = "Olivier Cléro", license = "CC BY-SA 4.0" }
