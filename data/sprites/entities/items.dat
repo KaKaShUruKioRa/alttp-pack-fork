@@ -129,6 +129,15 @@ animation{
   },
 }
 animation{
+  name = "equipment/bow_quiver",
+  src_image = "entities/items.png",
+  directions = {
+    { x = 496, y = 0, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
+    { x = 496, y = 16, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
+    { x = 496, y = 32, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
+  },
+}
+animation{
   name = "equipment/bow_silver",
   src_image = "entities/items.png",
   directions = {
@@ -261,15 +270,6 @@ animation{
   src_image = "entities/items.png",
   directions = {
     { x = 144, y = 96, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
-  },
-}
-animation{
-  name = "equipment/quiver",
-  src_image = "entities/items.png",
-  directions = {
-    { x = 496, y = 0, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
-    { x = 496, y = 16, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
-    { x = 496, y = 32, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
   },
 }
 animation{

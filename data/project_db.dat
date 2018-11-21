@@ -185,6 +185,7 @@ sprite{ id = "menus/solarus_logo", description = "Solarus logo" }
 sprite{ id = "menus/title_screen/press_start", description = "Press start" }
 sprite{ id = "menus/title_screen/small_shine", description = "Small shine" }
 sprite{ id = "menus/title_screen/triforce", description = "Triforce" }
+sprite{ id = "menus/solarus_logo/solarus_logo", description = "Solarus logo" }
 sprite{ id = "npc/angry_brother", description = "Angry brother" }
 sprite{ id = "npc/average_middle_aged_man", description = "Average middle-aged man" }
 sprite{ id = "npc/bird_green", description = "Green bird" }
@@ -282,7 +283,6 @@ sound{ id = "chest_appears", description = "chest_appears" }
 sound{ id = "chest_open", description = "chest_open" }
 sound{ id = "cursor", description = "cursor" }
 sound{ id = "danger", description = "danger" }
-sound{ id = "diarandor/solarus_logo", description = "Solarus logo" }
 sound{ id = "door_closed", description = "door_closed" }
 sound{ id = "door_open", description = "door_open" }
 sound{ id = "door_unlocked", description = "door_unlocked" }
@@ -329,6 +329,7 @@ sound{ id = "rupee_counter", description = "rupee_counter" }
 sound{ id = "rupee_counter_end", description = "rupee_counter_end" }
 sound{ id = "secret", description = "secret" }
 sound{ id = "shield", description = "shield" }
+sound{ id = "solarus_logo/solarus_logo", description = "Solarus logo" }
 sound{ id = "splash", description = "splash" }
 sound{ id = "stairs_down_end", description = "stairs_down_end" }
 sound{ id = "stairs_down_start", description = "stairs_down_start" }
@@ -368,6 +369,7 @@ item{ id = "equipment/bow", description = "Bow" }
 item{ id = "equipment/bow_quiver", description = "Quiver" }
 item{ id = "equipment/flippers", description = "Flippers" }
 item{ id = "equipment/glove", description = "Glove" }
+item{ id = "equipment/hookshot", description = "Hookshot" }
 item{ id = "pickables/arrows", description = "Arrows" }
 item{ id = "pickables/bombs", description = "Bombs" }
 item{ id = "pickables/heart", description = "Heart" }
@@ -443,6 +445,7 @@ enemy{ id = "traps/trap_auto", description = "Mooving trap" }
 enemy{ id = "traps/trap_detect", description = "Trap detecting the hero proximity" }
 enemy{ id = "traps/trap_fixed", description = "Fixed trap" }
 
+
 language{ id = "fr", description = "Français" }
 
 font{ id = "alttp", description = "alttp" }
@@ -452,11 +455,13 @@ font{ id = "white_digits", description = "White digits" }
 shader{ id = "ntsc2pal", description = "NTSC to PAL colors" }
 shader{ id = "pal2ntsc", description = "PAL to NTSC colors" }
 
+file{ path = "scripts/menus/solarus_logo.lua", author = "Maxs", license = "GPL v3" }
 file{ path = "shaders/ntsc2pal.dat", author = "std::gregwar", license = "GPL v3" }
 file{ path = "shaders/ntsc2pal.frag.glsl", author = "std::gregwar", license = "GPL v3" }
 file{ path = "shaders/pal2ntsc.dat", author = "std::gregwar", license = "GPL v3" }
 file{ path = "shaders/pal2ntsc.frag.glsl", author = "std::gregwar", license = "GPL v3" }
 file{ path = "scripts/menus/title_screen.lua", author = "Nintendo", license = "Proprietary" }
+file{ path = "sounds/solarus_logo/solarus_logo.ogg", author = "Diarandor", license = "CC BY-SA 4.0" }
 file{ path = "sprites/menus/title_screen", author = "Nintendo", license = "Proprietary" }
 file{ path = "sprites/menus/title_screen/background.png", author = "Nintendo", license = "Proprietary" }
 file{ path = "sprites/menus/title_screen/copyright.png", author = "Nintendo", license = "Proprietary" }
@@ -471,3 +476,5 @@ file{ path = "sprites/menus/title_screen/small_shine.dat", author = "Nintendo", 
 file{ path = "sprites/menus/title_screen/small_shine.png", author = "Nintendo", license = "Proprietary" }
 file{ path = "sprites/menus/title_screen/triforce.dat", author = "Nintendo", license = "Proprietary" }
 file{ path = "sprites/menus/title_screen/triforce.png", author = "Nintendo", license = "Proprietary" }
+file{ path = "sprites/menus/solarus_logo/solarus_logo.dat", author = "Maxs", license = "CC BY-SA 4.0" }
+file{ path = "sprites/menus/solarus_logo/solarus_logo.png", author = "Olivier Cléro", license = "CC BY-SA 4.0" }
