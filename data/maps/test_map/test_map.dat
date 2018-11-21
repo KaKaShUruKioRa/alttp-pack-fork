@@ -320,6 +320,21 @@ chest{
   sprite = "entities/chest",
 }
 
+chest{
+  layer = 0,
+  x = 80,
+  y = 165,
+  treasure_name = "equipment/hookshot",
+  sprite = "entities/chest",
+}
+
+destructible{
+  layer = 0,
+  x = 72,
+  y = 61,
+  sprite = "destructibles/sign_dark",
+}
+
 tile{
   layer = 1,
   x = 144,

@@ -365,6 +365,7 @@ item{ id = "equipment/bow", description = "Bow" }
 item{ id = "equipment/bow_quiver", description = "Quiver" }
 item{ id = "equipment/flippers", description = "Flippers" }
 item{ id = "equipment/glove", description = "Glove" }
+item{ id = "equipment/hookshot", description = "Hookshot" }
 item{ id = "pickables/arrows", description = "Arrows" }
 item{ id = "pickables/bombs", description = "Bombs" }
 item{ id = "pickables/heart", description = "Heart" }
@@ -439,6 +440,7 @@ enemy{ id = "traps/medusa", description = "Medusa" }
 enemy{ id = "traps/trap_auto", description = "Mooving trap" }
 enemy{ id = "traps/trap_detect", description = "Trap detecting the hero proximity" }
 enemy{ id = "traps/trap_fixed", description = "Fixed trap" }
+
 
 language{ id = "fr", description = "Français" }
 
