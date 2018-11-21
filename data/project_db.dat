@@ -162,6 +162,7 @@ sprite{ id = "entities/star", description = "Star" }
 sprite{ id = "entities/statue", description = "Statue" }
 sprite{ id = "entities/switch", description = "Switch" }
 sprite{ id = "entities/teletransporter", description = "Teletransporter" }
+sprite{ id = "hero/fire_rod", description = "Fire rod" }
 sprite{ id = "hero/ground1", description = "Grass under hero" }
 sprite{ id = "hero/ground2", description = "Shallow water under hero" }
 sprite{ id = "hero/shield1", description = "Hero shield 1" }
@@ -367,9 +368,11 @@ item{ id = "equipment/bombs", description = "Bombs" }
 item{ id = "equipment/boomerang", description = "Boomerang" }
 item{ id = "equipment/bow", description = "Bow" }
 item{ id = "equipment/bow_quiver", description = "Quiver" }
+item{ id = "equipment/fire_rod", description = "Fire Rod" }
 item{ id = "equipment/flippers", description = "Flippers" }
 item{ id = "equipment/glove", description = "Glove" }
 item{ id = "equipment/hookshot", description = "Hookshot" }
+item{ id = "equipment/magic_bar", description = "Magic Bar" }
 item{ id = "pickables/arrows", description = "Arrows" }
 item{ id = "pickables/bombs", description = "Bombs" }
 item{ id = "pickables/heart", description = "Heart" }

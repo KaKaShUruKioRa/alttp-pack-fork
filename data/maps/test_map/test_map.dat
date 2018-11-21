@@ -335,6 +335,14 @@ destructible{
   sprite = "destructibles/sign_dark",
 }
 
+chest{
+  layer = 0,
+  x = 112,
+  y = 165,
+  treasure_name = "equipment/fire_rod",
+  sprite = "entities/chest",
+}
+
 tile{
   layer = 1,
   x = 144,
