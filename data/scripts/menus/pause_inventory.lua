@@ -6,7 +6,7 @@ local item_names = {
   -- Names of up to 20 items to show in the inventory.
   "bow",  -- Will be replaced by the silver one if the player has it.
   "boomerang",
-  -- "hookshot",
+  "hookshot",
   "bombs",
   -- "mushroom", -- Will be replaced by the magic powder if player has it.
   -- "fire_rod",

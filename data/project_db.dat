@@ -365,6 +365,7 @@ item{ id = "equipment/bow", description = "Bow" }
 item{ id = "equipment/bow_quiver", description = "Quiver" }
 item{ id = "equipment/flippers", description = "Flippers" }
 item{ id = "equipment/glove", description = "Glove" }
+item{ id = "equipment/hookshot", description = "Hookshot" }
 item{ id = "pickables/arrows", description = "Arrows" }
 item{ id = "pickables/bombs", description = "Bombs" }
 item{ id = "pickables/heart", description = "Heart" }
