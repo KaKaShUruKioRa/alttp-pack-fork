@@ -181,6 +181,10 @@ sprite{ id = "hud/gameover_fade", description = "HUD: Game-over fade" }
 sprite{ id = "hud/piece_of_heart_icon", description = "Piece of Heart icon" }
 sprite{ id = "menus/hero_head", description = "Menu: hero head" }
 sprite{ id = "menus/item_cursor", description = "Item cursor" }
+sprite{ id = "menus/solarus_logo", description = "Solarus logo" }
+sprite{ id = "menus/title_screen/press_start", description = "Press start" }
+sprite{ id = "menus/title_screen/small_shine", description = "Small shine" }
+sprite{ id = "menus/title_screen/triforce", description = "Triforce" }
 sprite{ id = "menus/solarus_logo/solarus_logo", description = "Solarus logo" }
 sprite{ id = "npc/angry_brother", description = "Angry brother" }
 sprite{ id = "npc/average_middle_aged_man", description = "Average middle-aged man" }
@@ -456,6 +460,21 @@ file{ path = "shaders/ntsc2pal.dat", author = "std::gregwar", license = "GPL v3"
 file{ path = "shaders/ntsc2pal.frag.glsl", author = "std::gregwar", license = "GPL v3" }
 file{ path = "shaders/pal2ntsc.dat", author = "std::gregwar", license = "GPL v3" }
 file{ path = "shaders/pal2ntsc.frag.glsl", author = "std::gregwar", license = "GPL v3" }
+file{ path = "scripts/menus/title_screen.lua", author = "Nintendo", license = "Proprietary, Fair use" }
 file{ path = "sounds/solarus_logo/solarus_logo.ogg", author = "Diarandor", license = "CC BY-SA 4.0" }
+file{ path = "sprites/menus/title_screen", author = "Nintendo", license = "Proprietary, Fair use" }
+file{ path = "sprites/menus/title_screen/background.png", author = "Nintendo", license = "Proprietary, Fair use" }
+file{ path = "sprites/menus/title_screen/copyright.png", author = "Nintendo", license = "Proprietary, Fair use" }
+file{ path = "sprites/menus/title_screen/logo_subtitle.png", author = "Nintendo", license = "Proprietary, Fair use" }
+file{ path = "sprites/menus/title_screen/logo_sword.png", author = "Nintendo", license = "Proprietary, Fair use" }
+file{ path = "sprites/menus/title_screen/logo_tlo.png", author = "Nintendo", license = "Proprietary, Fair use" }
+file{ path = "sprites/menus/title_screen/logo_zelda.png", author = "Nintendo", license = "Proprietary, Fair use" }
+file{ path = "sprites/menus/title_screen/logo_zelda_z.png", author = "Nintendo", license = "Proprietary, Fair use" }
+file{ path = "sprites/menus/title_screen/press_start.dat", author = "Nintendo", license = "Proprietary, Fair use" }
+file{ path = "sprites/menus/title_screen/press_start.png", author = "Nintendo", license = "Proprietary, Fair use" }
+file{ path = "sprites/menus/title_screen/small_shine.dat", author = "Nintendo", license = "Proprietary, Fair use" }
+file{ path = "sprites/menus/title_screen/small_shine.png", author = "Nintendo", license = "Proprietary, Fair use" }
+file{ path = "sprites/menus/title_screen/triforce.dat", author = "Nintendo", license = "Proprietary, Fair use" }
+file{ path = "sprites/menus/title_screen/triforce.png", author = "Nintendo", license = "Proprietary, Fair use" }
 file{ path = "sprites/menus/solarus_logo/solarus_logo.dat", author = "Maxs", license = "CC BY-SA 4.0" }
 file{ path = "sprites/menus/solarus_logo/solarus_logo.png", author = "Olivier Cléro", license = "CC BY-SA 4.0" }
