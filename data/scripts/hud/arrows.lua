@@ -2,7 +2,7 @@
 
 local builder = {}
 
-local icon_img = sol.surface.create("hud/bomb_icon.png")
+local icon_img = sol.surface.create("hud/arrow_icon.png")
 
 function builder:new(game, config)
   local hud_bomb = {}
@@ -12,7 +12,7 @@ function builder:new(game, config)
     horizontal_alignment = "left",
     vertical_alignment = "top",
   })
-  local amount_displayed = game:get_item("equipment/bomb_bag"):get_amount()
+  local amount_displayed = game:get_item("equipment/bow_quiver"):get_amount()
 
   local dst_x, dst_y = config.x, config.y
 
@@ -27,7 +27,7 @@ function builder:new(game, config)
       y = height + y
     end
 
-    icon_img:draw(dst_surface, x + 8, y)
+    icon_img:draw(dst_surface, x + 4, y)
     digits_text:draw(dst_surface, x + 5, y + 10)
   end
 
@@ -36,8 +36,8 @@ function builder:new(game, config)
   local function check()
 
     local need_rebuild = false
-    local amount = game:get_item("equipment/bomb_bag"):get_amount()
-    local max_amount = game:get_item("equipment/bomb_bag"):get_max_amount()
+    local amount = game:get_item("equipment/bow_quiver"):get_amount()
+    local max_amount = game:get_item("equipment/bow_quiver"):get_max_amount()
 
     -- Current amount.
     if amount ~= amount_displayed then

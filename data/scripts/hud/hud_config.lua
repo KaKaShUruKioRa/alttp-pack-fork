@@ -34,6 +34,13 @@ local hud_config = {
     y = 10,
   },
 
+ -- Arrow counter
+  {
+    menu_script = "scripts/hud/arrows",
+    x = 120,
+    y = 10,
+  },
+
   -- Hearts meter.
   {
     menu_script = "scripts/hud/hearts",

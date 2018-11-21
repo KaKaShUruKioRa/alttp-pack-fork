@@ -1,51 +1,42 @@
+-- The Bomb Bag is an item fixing the max amount of bombs
+-- We do not merge the bomb bag and the bombs for ergonomy purpose (it's different items in the menu)
+
+
 local item = ...
 local game = item:get_game()
 
-local sound_timer
-
 function item:on_created()
   item:set_savegame_variable("possession_bomb_bag")
-  item:set_amount_savegame_variable("amount_bomb_bag")
-  item:set_assignable(true)
-  -- TODO : Implement the change of bomb bag capacity
-  item:set_max_amount(8)
+  item:set_amount_savegame_variable("amount_bombs")
+  item:set_assignable(false)
+  item:set_max_amount(0)
 end
 
--- Called when the player uses the bombs of his inventory
-function item:on_using()
-  if item:get_amount() == 0 then
-    if sound_timer == nil then
-      sol.audio.play_sound("wrong")
-      sound_timer = sol.timer.start(game, 500, function()
-        sound_timer = nil
-      end)
-    end
+function item:on_started()
+  self:on_variant_changed(self:get_variant())
+end
+
+function item:on_obtaining(variant, savegame_variable)
+  -- The bomb bag is obtained filled
+  item:set_amount(item:get_max_amount())
+  game:get_item("equipment/bombs"):set_variant(1)
+end
+
+-- Increase the capacity of bombs depending on the variant of the bong bag
+-- and unlock bong bag
+function item:on_variant_changed(variant)
+  local bombs = game:get_item("equipment/bombs")
+  local pickable_bombs = game:get_item("pickables/bombs")
+  if variant == 0 then
+    item:set_max_amount(0)
+    pickable_bombs:set_obtainable(false)
   else
-    item:remove_amount(1)
-    local x, y, layer = item:create_bomb()
-    sol.audio.play_sound("bomb")
-  end
-  item:set_finished()
-end
+    -- Determine the max amount of bombs
+    local max_amounts = {10, 20, 30}
+    local max_amount = max_amounts[variant]
 
-function item:create_bomb()
-  local map = item:get_map()
-  local hero = map:get_entity("hero")
-  local x, y, layer = hero:get_position()
-  local direction = hero:get_direction()
-  if direction == 0 then
-    x = x + 16
-  elseif direction == 1 then
-    y = y - 16
-  elseif direction == 2 then
-    x = x - 16
-  elseif direction == 3 then
-    y = y + 16
+    -- Unlock bombs and set max amount
+    item:set_max_amount(max_amount)
+    pickable_bombs:set_obtainable(true)
   end
-
-    local bomb = map:create_bomb{
-    x = x,
-    y = y,
-    layer = layer
-  }
 end

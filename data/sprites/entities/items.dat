@@ -123,8 +123,9 @@ animation{
   name = "equipment/bow",
   src_image = "entities/items.png",
   directions = {
-    { x = 48, y = 0, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
+    { x = 32, y = 16, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
     { x = 48, y = 16, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
+    { x = 48, y = 0, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
   },
 }
 animation{
@@ -329,9 +330,8 @@ animation{
     { x = 160, y = 0, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
   },
 }
-
 animation{
-  name = "pickables/arrow",
+  name = "pickables/arrows",
   src_image = "entities/items.png",
   directions = {
     { x = 688, y = 0, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
@@ -340,7 +340,7 @@ animation{
   },
 }
 animation{
-  name = "pickables/bomb",
+  name = "pickables/bombs",
   src_image = "entities/items.png",
   directions = {
     { x = 672, y = 0, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },

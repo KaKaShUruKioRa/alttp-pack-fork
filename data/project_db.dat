@@ -180,6 +180,7 @@ sprite{ id = "hero/tunic3", description = "Hero tunic 3" }
 sprite{ id = "hud/gameover_fade", description = "HUD: Game-over fade" }
 sprite{ id = "hud/piece_of_heart_icon", description = "Piece of Heart icon" }
 sprite{ id = "menus/hero_head", description = "Menu: hero head" }
+sprite{ id = "menus/item_cursor", description = "Item cursor" }
 sprite{ id = "menus/solarus_logo", description = "Solarus logo" }
 sprite{ id = "npc/angry_brother", description = "Angry brother" }
 sprite{ id = "npc/average_middle_aged_man", description = "Average middle-aged man" }
@@ -358,10 +359,14 @@ sound{ id = "wrong", description = "wrong" }
 sound{ id = "zora", description = "zora" }
 
 item{ id = "equipment/bomb_bag", description = "Bomb bag" }
+item{ id = "equipment/bombs", description = "Bombs" }
 item{ id = "equipment/boomerang", description = "Boomerang" }
+item{ id = "equipment/bow", description = "Bow" }
+item{ id = "equipment/bow_quiver", description = "Quiver" }
 item{ id = "equipment/flippers", description = "Flippers" }
 item{ id = "equipment/glove", description = "Glove" }
-item{ id = "pickables/bomb", description = "Bomb" }
+item{ id = "pickables/arrows", description = "Arrows" }
+item{ id = "pickables/bombs", description = "Bombs" }
 item{ id = "pickables/heart", description = "Heart" }
 item{ id = "pickables/magic_flask", description = "Magic Flask" }
 item{ id = "pickables/rupee", description = "Rupee" }
