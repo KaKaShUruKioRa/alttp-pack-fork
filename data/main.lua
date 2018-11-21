@@ -11,15 +11,22 @@ function sol.main:on_started()
   -- Setting a language is useful to display text and dialogs.
   -- sol.language.set_language("en")
 
+  -- Prepare menus to show before starting a game.
   local solarus_logo = require("scripts/menus/solarus_logo")
-
-  -- Show the Solarus logo initially.
-  sol.menu.start(self, solarus_logo)
-
-  -- Start the game when the Solarus logo menu is finished.
+  local title_screen = require("scripts/menus/title_screen")
+  
   solarus_logo.on_finished = function()
+    -- Show the next menu: title screen.
+    sol.menu.start(self, title_screen)
+  end
+  
+  title_screen.on_finished = function()
+    -- Start the game when the menu is finished.
     game_manager:start_game("save1.dat")
   end
+
+  -- Initally, show the Solarus logo.
+  sol.menu.start(self, solarus_logo)
 
 end
 

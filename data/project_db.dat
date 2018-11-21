@@ -74,6 +74,9 @@ sprite{ id = "hud/gameover_fade", description = "HUD: Game-over fade" }
 sprite{ id = "hud/piece_of_heart_icon", description = "Piece of Heart icon" }
 sprite{ id = "menus/hero_head", description = "Menu: hero head" }
 sprite{ id = "menus/solarus_logo", description = "Solarus logo" }
+sprite{ id = "menus/title_screen/press_start", description = "Press start" }
+sprite{ id = "menus/title_screen/small_shine", description = "Small shine" }
+sprite{ id = "menus/title_screen/triforce", description = "Triforce" }
 sprite{ id = "npc/angry_brother", description = "Angry brother" }
 sprite{ id = "npc/average_middle_aged_man", description = "Average middle-aged man" }
 sprite{ id = "npc/bird_green", description = "Green bird" }
@@ -256,3 +259,19 @@ font{ id = "alttp", description = "alttp" }
 font{ id = "green_digits", description = "Green digits" }
 font{ id = "white_digits", description = "White digits" }
 
+
+file{ path = "scripts/menus/title_screen.lua", author = "Nintendo", license = "Proprietary" }
+file{ path = "sprites/menus/title_screen", author = "Nintendo", license = "Proprietary" }
+file{ path = "sprites/menus/title_screen/background.png", author = "Nintendo", license = "Proprietary" }
+file{ path = "sprites/menus/title_screen/copyright.png", author = "Nintendo", license = "Proprietary" }
+file{ path = "sprites/menus/title_screen/logo_subtitle.png", author = "Nintendo", license = "Proprietary" }
+file{ path = "sprites/menus/title_screen/logo_sword.png", author = "Nintendo", license = "Proprietary" }
+file{ path = "sprites/menus/title_screen/logo_tlo.png", author = "Nintendo", license = "Proprietary" }
+file{ path = "sprites/menus/title_screen/logo_zelda.png", author = "Nintendo", license = "Proprietary" }
+file{ path = "sprites/menus/title_screen/logo_zelda_z.png", author = "Nintendo", license = "Proprietary" }
+file{ path = "sprites/menus/title_screen/press_start.dat", author = "Nintendo", license = "Proprietary" }
+file{ path = "sprites/menus/title_screen/press_start.png", author = "Nintendo", license = "Proprietary" }
+file{ path = "sprites/menus/title_screen/small_shine.dat", author = "Nintendo", license = "Proprietary" }
+file{ path = "sprites/menus/title_screen/small_shine.png", author = "Nintendo", license = "Proprietary" }
+file{ path = "sprites/menus/title_screen/triforce.dat", author = "Nintendo", license = "Proprietary" }
+file{ path = "sprites/menus/title_screen/triforce.png", author = "Nintendo", license = "Proprietary" }
