@@ -7,10 +7,10 @@
 --   -- Do whatever you want next (start a game...)
 -- end
 
-local tilte_screen = {}
+local title_screen = {}
 
 -- Called when the menu is started.
-function tilte_screen:on_started()
+function title_screen:on_started()
   -- Keep trace of the current step.
   self.step = 0
   self.finished = false
@@ -68,7 +68,7 @@ function tilte_screen:on_started()
 end
 
 -- Draws this menu.
-function tilte_screen:on_draw(dst_surface)
+function title_screen:on_draw(dst_surface)
 
   local dst_w, dst_h = dst_surface:get_size()
   
@@ -151,7 +151,7 @@ function tilte_screen:on_draw(dst_surface)
 end
 
 -- Resets the timer.
-function tilte_screen:reset_timer()
+function title_screen:reset_timer()
   self.elapsed_time = 0
   if self.timer ~= nil then
     self.timer:stop()
@@ -160,7 +160,7 @@ function tilte_screen:reset_timer()
 end
 
 -- Triforce
-function tilte_screen:step_1()
+function title_screen:step_1()
   self.step = 1
   
   self:reset_timer()
@@ -175,7 +175,7 @@ function tilte_screen:step_1()
 end
 
 -- Logo fade-in
-function tilte_screen:step_2()
+function title_screen:step_2()
   self.step = 2
 
   self:reset_timer()
@@ -190,7 +190,7 @@ function tilte_screen:step_2()
 end
 
 -- Sword
-function tilte_screen:step_3()
+function title_screen:step_3()
   self.step = 3
 
   self:reset_timer()
@@ -209,7 +209,7 @@ function tilte_screen:step_3()
 end
 
 -- White flash
-function tilte_screen:step_4()
+function title_screen:step_4()
   self.step = 4
 
   self:reset_timer()
@@ -223,7 +223,7 @@ function tilte_screen:step_4()
 end
 
 -- Little shine
-function tilte_screen:step_5()
+function title_screen:step_5()
   self.step = 5
 
   self:reset_timer()
@@ -240,7 +240,7 @@ function tilte_screen:step_5()
 end
 
 -- Press Start
-function tilte_screen:step_6()
+function title_screen:step_6()
   self.step = 6
 
   self:reset_timer()
@@ -253,7 +253,7 @@ function tilte_screen:step_6()
 end
 
 -- Final fade-out
-function tilte_screen:step_7()
+function title_screen:step_7()
   self.step = 7
 
   self:reset_timer()
@@ -268,7 +268,7 @@ function tilte_screen:step_7()
 end
 
 -- Called when a keyboard key is pressed.
-function tilte_screen:on_key_pressed(key)
+function title_screen:on_key_pressed(key)
 
   if key == "escape" then
     -- Escape: quit Solarus.
@@ -283,14 +283,14 @@ function tilte_screen:on_key_pressed(key)
 end
 
 -- Called when a mouse button is pressed.
-function tilte_screen:on_mouse_pressed(button, x, y)
+function title_screen:on_mouse_pressed(button, x, y)
   if not self.finished and (button == "left" or button == "right") then
     self:skip_menu()
   end
 end
 
 -- Skips the menu.
-function tilte_screen:skip_menu()
+function title_screen:skip_menu()
   if not sol.menu.is_started(self) or self.finished then
     return
   end
@@ -309,4 +309,4 @@ function tilte_screen:skip_menu()
 end
 
 -- Return the menu to the caller.
-return tilte_screen
+return title_screen
