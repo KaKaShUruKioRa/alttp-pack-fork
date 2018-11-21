@@ -450,10 +450,11 @@ font{ id = "white_digits", description = "White digits" }
 shader{ id = "ntsc2pal", description = "NTSC to PAL colors" }
 shader{ id = "pal2ntsc", description = "PAL to NTSC colors" }
 
+file{ path = "scripts/menus/solarus_logo.lua", author = "Maxs", license = "GPL v3" }
 file{ path = "shaders/ntsc2pal.dat", author = "std::gregwar", license = "GPL v3" }
 file{ path = "shaders/ntsc2pal.frag.glsl", author = "std::gregwar", license = "GPL v3" }
 file{ path = "shaders/pal2ntsc.dat", author = "std::gregwar", license = "GPL v3" }
 file{ path = "shaders/pal2ntsc.frag.glsl", author = "std::gregwar", license = "GPL v3" }
 file{ path = "sounds/solarus_logo/solarus_logo.ogg", author = "Diarandor", license = "CC BY-SA 4.0" }
-file{ path = "sprites/menus/solarus_logo/solarus_logo.dat", author = "Maxs", license = "GPL v3" }
+file{ path = "sprites/menus/solarus_logo/solarus_logo.dat", author = "Maxs", license = "CC BY-SA 4.0" }
 file{ path = "sprites/menus/solarus_logo/solarus_logo.png", author = "Olivier Cléro", license = "CC BY-SA 4.0" }
