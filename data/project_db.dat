@@ -460,7 +460,7 @@ file{ path = "shaders/ntsc2pal.dat", author = "std::gregwar", license = "GPL v3"
 file{ path = "shaders/ntsc2pal.frag.glsl", author = "std::gregwar", license = "GPL v3" }
 file{ path = "shaders/pal2ntsc.dat", author = "std::gregwar", license = "GPL v3" }
 file{ path = "shaders/pal2ntsc.frag.glsl", author = "std::gregwar", license = "GPL v3" }
-file{ path = "scripts/menus/title_screen.lua", author = "Nintendo", license = "Proprietary, Fair use" }
+file{ path = "scripts/menus/title_screen.lua", author = "Olivier Cléro", license = "GPL v3" }
 file{ path = "sounds/solarus_logo/solarus_logo.ogg", author = "Diarandor", license = "CC BY-SA 4.0" }
 file{ path = "sprites/menus/title_screen", author = "Nintendo", license = "Proprietary, Fair use" }
 file{ path = "sprites/menus/title_screen/background.png", author = "Nintendo", license = "Proprietary, Fair use" }
