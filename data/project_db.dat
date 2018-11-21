@@ -311,7 +311,7 @@ sound{ id = "internal_stairs_up", description = "internal_stairs_up" }
 sound{ id = "intro", description = "intro" }
 sound{ id = "item_in_water", description = "item_in_water" }
 sound{ id = "jump", description = "jump" }
-sound{ id = "lamp", description = "lamp" }
+sound{ id = "lantern", description = "lantern" }
 sound{ id = "lift", description = "lift" }
 sound{ id = "lightning", description = "lightning" }
 sound{ id = "magic_meter", description = "magic_meter" }
@@ -376,6 +376,7 @@ item{ id = "equipment/flippers", description = "Flippers" }
 item{ id = "equipment/glove", description = "Glove" }
 item{ id = "equipment/hookshot", description = "Hookshot" }
 item{ id = "equipment/ice_rod", description = "Ice Rod" }
+item{ id = "equipment/lantern", description = "Lantern" }
 item{ id = "equipment/magic_meter", description = "Magic Meter" }
 item{ id = "pickables/arrows", description = "Arrows" }
 item{ id = "pickables/bombs", description = "Bombs" }

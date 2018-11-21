@@ -14,7 +14,7 @@ local item_names = {
   -- "bombos_medallion",
   -- "ether_medallion",
   -- "quake_medallion",
-  -- "lantern",
+  "lantern",
   -- "hammer",
   -- "shovel", -- Will be replaced by the ocarina
   -- "bug_catching_net",

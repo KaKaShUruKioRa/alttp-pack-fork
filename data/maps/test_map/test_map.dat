@@ -324,7 +324,7 @@ chest{
   layer = 0,
   x = 80,
   y = 165,
-  treasure_name = "equipment/hookshot",
+  treasure_name = "equipment/lantern",
   sprite = "entities/chest",
 }
 
