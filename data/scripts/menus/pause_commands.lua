@@ -116,26 +116,6 @@ function commands_manager:new(game)
       command = "right",
     },
     {
-      name = "run",
-      unlocked = false, --game:has_item("pegasus_shoes"),
-      customizable = true,
-    },
-    {
-      name = "map",
-      unlocked = true,
-      customizable = true,
-    },
-    {
-      name = "commands",
-      unlocked = true,
-      customizable = true,
-    },
-    {
-      name = "look",
-      unlocked = true,
-      customizable = true,
-    },
-    {
       name = "fullscreen",
       unlocked = true,
       customizable = false,

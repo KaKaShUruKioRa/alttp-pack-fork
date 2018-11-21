@@ -440,7 +440,7 @@ enemy{ id = "traps/trap_auto", description = "Mooving trap" }
 enemy{ id = "traps/trap_detect", description = "Trap detecting the hero proximity" }
 enemy{ id = "traps/trap_fixed", description = "Fixed trap" }
 
-
+language{ id = "fr", description = "Français" }
 
 font{ id = "alttp", description = "alttp" }
 font{ id = "green_digits", description = "Green digits" }
