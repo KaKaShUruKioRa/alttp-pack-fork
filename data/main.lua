@@ -34,9 +34,6 @@ function sol.main:on_started()
     end
   end
 
-  -- Initally, show the Solarus logo.
-  sol.menu.start(self, solarus_logo)
-
 end
 
 -- Event called when the program stops.
