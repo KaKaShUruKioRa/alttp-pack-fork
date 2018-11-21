@@ -10,14 +10,14 @@ end
 
 -- Called when the player obtains the fire rod
 function item:on_obtained(variant, savegame_variable)
-  -- Give the magic bar if necessary.
-  local magic_bar = game:get_item("equipment/magic_bar")
-  if not magic_bar:has_variant() then
-    magic_bar:set_variant(1)
+  -- Give the magic meter if necessary.
+  local magic_meter = game:get_item("equipment/magic_meter")
+  if not magic_meter:has_variant() then
+    magic_meter:set_variant(1)
   end
 end
 
--- Shoots some fire on the map.
+-- Shoots some fire on the map. 
 function item:shoot()
 
   local map = item:get_map()
@@ -67,6 +67,7 @@ function item:on_using()
   })
 
   -- Shoot fire if there is enough magic.
+  -- TODO : Play a sound if no magic
   if game:get_magic() >= magic_needed then
     sol.audio.play_sound("lamp")
     game:remove_magic(magic_needed)

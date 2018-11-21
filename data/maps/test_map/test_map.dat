@@ -343,6 +343,24 @@ chest{
   sprite = "entities/chest",
 }
 
+chest{
+  layer = 0,
+  x = 144,
+  y = 165,
+  treasure_name = "pickables/magic_flask",
+  treasure_variant = 2,
+  sprite = "entities/chest",
+}
+
+chest{
+  layer = 0,
+  x = 176,
+  y = 165,
+  treasure_name = "pickables/magic_flask",
+  treasure_variant = 2,
+  sprite = "entities/chest",
+}
+
 tile{
   layer = 1,
   x = 144,

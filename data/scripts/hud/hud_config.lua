@@ -14,8 +14,16 @@ local hud_config = {
 
   -- Item assigned to slot 1.
   {
+    menu_script = "scripts/hud/magic_meter",
+    x = 6,
+    y = 6,
+    slot = 1,  -- Item slot (1 or 2).
+  },
+
+  -- Item assigned to slot 1.
+  {
     menu_script = "scripts/hud/item",
-    x = 27,
+    x = 28,
     y = 12,
     slot = 1,  -- Item slot (1 or 2).
   },
