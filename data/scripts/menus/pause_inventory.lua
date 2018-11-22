@@ -9,12 +9,12 @@ local item_names = {
   "hookshot",
   "bombs",
   -- "mushroom", -- Will be replaced by the magic powder if player has it.
-  -- "fire_rod",
-  -- "ice_rod",
+  "fire_rod",
+  "ice_rod",
   -- "bombos_medallion",
   -- "ether_medallion",
   -- "quake_medallion",
-  -- "lantern",
+  "lantern",
   -- "hammer",
   -- "shovel", -- Will be replaced by the ocarina
   -- "bug_catching_net",

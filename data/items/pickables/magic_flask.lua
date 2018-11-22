@@ -9,16 +9,13 @@ function item:on_created()
 end
 
 function item:on_started()
-
-  -- Disable pickable magic jars if the player has no magic bar.
-  -- We cannot do this from on_created() because we don't know if the magic bar
+  -- Disable pickable magic jars if the player has no magic meter.
+  -- We cannot do this from on_created() because we don't know if the magic meter
   -- is already created there.
-  -- TODO : Implement magic system
---  item:set_obtainable(game:has_item("magic_bar"))
+  item:set_obtainable(game:has_item("equipment/magic_meter"))
 end
 
 function item:on_obtaining(variant, savegame_variable)
-
   local max_magic = game:get_max_magic()
   local amounts = { max_magic / 8, max_magic / 4 }
   local amount = amounts[variant]
@@ -27,4 +24,3 @@ function item:on_obtaining(variant, savegame_variable)
   end
   game:add_magic(amount)
 end
-

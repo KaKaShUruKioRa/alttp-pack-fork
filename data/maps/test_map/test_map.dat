@@ -324,7 +324,7 @@ chest{
   layer = 0,
   x = 80,
   y = 165,
-  treasure_name = "equipment/hookshot",
+  treasure_name = "equipment/lantern",
   sprite = "entities/chest",
 }
 
@@ -333,6 +333,51 @@ destructible{
   x = 72,
   y = 61,
   sprite = "destructibles/sign_dark",
+}
+
+chest{
+  layer = 0,
+  x = 112,
+  y = 165,
+  treasure_name = "equipment/fire_rod",
+  sprite = "entities/chest",
+}
+
+chest{
+  layer = 0,
+  x = 144,
+  y = 165,
+  treasure_name = "pickables/magic_flask",
+  treasure_variant = 2,
+  sprite = "entities/chest",
+}
+
+chest{
+  layer = 0,
+  x = 176,
+  y = 165,
+  treasure_name = "pickables/magic_flask",
+  treasure_variant = 2,
+  sprite = "entities/chest",
+}
+
+custom_entity{
+  layer = 0,
+  x = 48,
+  y = 197,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/torch",
+  model = "torch",
+}
+
+chest{
+  layer = 0,
+  x = 200,
+  y = 165,
+  treasure_name = "equipment/ice_rod",
+  sprite = "entities/chest",
 }
 
 tile{
