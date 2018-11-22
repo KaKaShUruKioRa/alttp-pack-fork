@@ -18,14 +18,14 @@ end
 
 function item:on_obtaining(variant, savegame_variable)
   -- The quiver is obtained filled
-  item:set_amount(get_max_amount())
+  item:set_amount(item:get_max_amount())
 end
 
 -- Increase the capacity of arrow depending on the variant of the quiver
 -- and unlock arrows
 function item:on_variant_changed(variant)
-  local bow = game:get_item("equipment/bow")
-  local arrows = game:get_item("pickables/arrows")
+  local bow = game:get_item("inventory/bow")
+  local arrows = game:get_item("consumables/arrow_refill")
   if variant == 0 then
     item:set_max_amount(0)
     arrows:set_obtainable(false)

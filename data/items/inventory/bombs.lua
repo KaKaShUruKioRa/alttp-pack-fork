@@ -6,6 +6,7 @@ local game = item:get_game()
 
 local sound_timer
 
+-- TODO : Give a basic bomb_bag if the hero doesn't have bomb_bag
 function item:on_created()
   item:set_savegame_variable("possession_bombs")
   item:set_assignable(true)

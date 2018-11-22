@@ -19,20 +19,20 @@ end
 function item:on_obtaining(variant, savegame_variable)
   -- The bomb bag is obtained filled
   item:set_amount(item:get_max_amount())
-  game:get_item("equipment/bombs"):set_variant(1)
+  game:get_item("inventory/bombs"):set_variant(1)
 end
 
 -- Increase the capacity of bombs depending on the variant of the bong bag
 -- and unlock bong bag
 function item:on_variant_changed(variant)
-  local bombs = game:get_item("equipment/bombs")
-  local pickable_bombs = game:get_item("pickables/bombs")
+  local bombs = game:get_item("inventory/bombs")
+  local pickable_bombs = game:get_item("consumables/bomb_refill")
   if variant == 0 then
     item:set_max_amount(0)
     pickable_bombs:set_obtainable(false)
   else
     -- Determine the max amount of bombs
-    local max_amounts = {10, 20, 30}
+    local max_amounts = {10, 30, 50}
     local max_amount = max_amounts[variant]
 
     -- Unlock bombs and set max amount

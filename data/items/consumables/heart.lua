@@ -13,7 +13,6 @@ function item:on_obtaining(variant, savegame_variable)
 end
 
 function item:on_pickable_created(pickable)
-
   if pickable:get_falling_height() ~= 0 then
     -- Replace the default falling movement by a special one.
     local trajectory = {
