@@ -24,8 +24,9 @@ local function is_bush(destructible)
     return false
   end
 
+  -- TODO : Use a systeme with animation_set
   local sprite_id = sprite:get_animation_set()
-  return sprite_id == "entities/bush" or sprite_id:match("^entities/bush_")
+  return sprite_id == "entities/bush" or sprite_id:match("^destructibles/bush_")
 end
 
 local function bush_collision_test(fire, other)
@@ -81,7 +82,7 @@ fire:add_collision_test(bush_collision_test, function(fire, entity)
 
     fire:stop_movement()
     sprite:set_animation("stopped")
-    sol.audio.play_sound("lamp")
+    sol.audio.play_sound("lantern")
 
     -- TODO remove this when the engine provides a function destructible:destroy()
     local bush_sprite_id = bush_sprite:get_animation_set()
@@ -98,7 +99,8 @@ fire:add_collision_test(bush_collision_test, function(fire, entity)
       })
     end
 
-    sol.audio.play_sound(bush:get_destruction_sound())
+    -- sol.audio.play_sound(bush:get_destruction_sound())
+    sol.audio.play_sound("bush")
     bush:remove()
 
     local bush_destroyed_sprite = fire:create_sprite(bush_sprite_id)
