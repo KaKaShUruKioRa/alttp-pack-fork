@@ -19,7 +19,10 @@ local item_names = {
   -- "shovel", -- Will be replaced by the ocarina
   -- "bug_catching_net",
   -- "book_of_mudora",
-  -- "bottle_1",
+  "bottle_1",
+  "bottle_2",
+  "bottle_3",
+  "bottle_4",
   -- "cane_of_somaria",
   -- "cane_of_byrna",
   -- "magic_cape",
