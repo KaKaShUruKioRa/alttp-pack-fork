@@ -47,7 +47,7 @@
 
 local item = ...
 
-local config = require("items/equipment/hookshot_config.lua")
+local config = require("items/inventory/hookshot_config.lua")
 
 function item:on_created()
 

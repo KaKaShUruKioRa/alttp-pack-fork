@@ -245,25 +245,9 @@ npc{
 
 chest{
   layer = 0,
-  x = 184,
-  y = 85,
+  x = 160,
+  y = 53,
   treasure_name = "equipment/bomb_bag",
-  sprite = "entities/chest",
-}
-
-chest{
-  layer = 0,
-  x = 184,
-  y = 117,
-  treasure_name = "equipment/boomerang",
-  sprite = "entities/chest",
-}
-
-chest{
-  layer = 0,
-  x = 216,
-  y = 117,
-  treasure_name = "equipment/flippers",
   sprite = "entities/chest",
 }
 
@@ -294,71 +278,11 @@ destructible{
   weight = 2,
 }
 
-chest{
-  layer = 0,
-  x = 248,
-  y = 117,
-  treasure_name = "pickables/bombs",
-  treasure_variant = 3,
-  sprite = "entities/chest",
-}
-
-chest{
-  layer = 0,
-  x = 216,
-  y = 149,
-  treasure_name = "equipment/bow",
-  sprite = "entities/chest",
-}
-
-chest{
-  layer = 0,
-  x = 248,
-  y = 149,
-  treasure_name = "pickables/arrows",
-  treasure_variant = 3,
-  sprite = "entities/chest",
-}
-
-chest{
-  layer = 0,
-  x = 80,
-  y = 165,
-  treasure_name = "equipment/lantern",
-  sprite = "entities/chest",
-}
-
 destructible{
   layer = 0,
   x = 72,
   y = 61,
   sprite = "destructibles/sign_dark",
-}
-
-chest{
-  layer = 0,
-  x = 112,
-  y = 165,
-  treasure_name = "equipment/fire_rod",
-  sprite = "entities/chest",
-}
-
-chest{
-  layer = 0,
-  x = 144,
-  y = 165,
-  treasure_name = "pickables/magic_flask",
-  treasure_variant = 2,
-  sprite = "entities/chest",
-}
-
-chest{
-  layer = 0,
-  x = 176,
-  y = 165,
-  treasure_name = "pickables/magic_flask",
-  treasure_variant = 2,
-  sprite = "entities/chest",
 }
 
 custom_entity{
@@ -374,9 +298,73 @@ custom_entity{
 
 chest{
   layer = 0,
-  x = 200,
-  y = 165,
-  treasure_name = "equipment/ice_rod",
+  x = 192,
+  y = 53,
+  treasure_name = "equipment/bow_quiver",
+  sprite = "entities/chest",
+}
+
+chest{
+  layer = 0,
+  x = 224,
+  y = 53,
+  treasure_name = "equipment/flippers",
+  sprite = "entities/chest",
+}
+
+chest{
+  layer = 0,
+  x = 256,
+  y = 53,
+  treasure_name = "equipment/flippers",
+  sprite = "entities/chest",
+}
+
+chest{
+  layer = 0,
+  x = 160,
+  y = 85,
+  treasure_name = "inventory/boomerang",
+  sprite = "entities/chest",
+}
+
+chest{
+  layer = 0,
+  x = 192,
+  y = 85,
+  treasure_name = "inventory/bow",
+  sprite = "entities/chest",
+}
+
+chest{
+  layer = 0,
+  x = 224,
+  y = 85,
+  treasure_name = "inventory/fire_rod",
+  sprite = "entities/chest",
+}
+
+chest{
+  layer = 0,
+  x = 256,
+  y = 85,
+  treasure_name = "inventory/hookshot",
+  sprite = "entities/chest",
+}
+
+chest{
+  layer = 0,
+  x = 160,
+  y = 117,
+  treasure_name = "inventory/ice_rod",
+  sprite = "entities/chest",
+}
+
+chest{
+  layer = 0,
+  x = 192,
+  y = 117,
+  treasure_name = "inventory/lantern",
   sprite = "entities/chest",
 }
 

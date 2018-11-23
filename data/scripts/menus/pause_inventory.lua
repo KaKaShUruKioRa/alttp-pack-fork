@@ -41,7 +41,7 @@ local function create_item_widget(game)
 
   -- Draw the items, if they are possessed, depending on their variant
   for i, item_name in ipairs(item_names) do    
-    local variant = game:get_item("equipment/" .. item_name):get_variant() -- 0 = not possesed
+    local variant = game:get_item("inventory/" .. item_name):get_variant() -- 0 = not possesed
 
     if variant > 0 then
       local column = (i - 1) % items_num_columns + 1
@@ -51,7 +51,7 @@ local function create_item_widget(game)
       -- If they become animated one day, they will have to be
       -- drawn at each frame instead (in on_draw()).
       local item_sprite = sol.sprite.create("entities/items")
-      item_sprite:set_animation("equipment/"..item_name)
+      item_sprite:set_animation("inventory/"..item_name)
       item_sprite:set_direction(variant - 1)
       item_sprite:set_xy(8 + column * 32 - 16, 13 + row * 32 - 16)
       item_sprite:draw(items_surface)
@@ -241,7 +241,7 @@ function inventory_manager:new(game)
 
     elseif command == "item_1" or command == "action" then
       -- Assign an item.
-      local item = game:get_item("equipment/" .. item_names[cursor_index + 1])
+      local item = game:get_item("inventory/" .. item_names[cursor_index + 1])
       if cursor_index ~= item_assigned_index
           and item:has_variant()
           and item:is_assignable() then

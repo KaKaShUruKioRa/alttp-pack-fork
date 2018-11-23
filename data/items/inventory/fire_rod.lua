@@ -69,7 +69,7 @@ function item:on_using()
   -- Shoot fire if there is enough magic.
   -- TODO : Play a sound if no magic
   if game:get_magic() >= magic_needed then
-    sol.audio.play_sound("lamp")
+    sol.audio.play_sound("lantern")
     game:remove_magic(magic_needed)
     item:shoot()
   end
