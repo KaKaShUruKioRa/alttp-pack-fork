@@ -153,6 +153,9 @@ sprite{ id = "entities/crystal_block", description = "Crystal block" }
 sprite{ id = "entities/destination", description = "Destination" }
 sprite{ id = "entities/explosion", description = "Explosion" }
 sprite{ id = "entities/fire", description = "Fire" }
+sprite{ id = "entities/hammer_stake_brown", description = "Hammer Stake Brown" }
+sprite{ id = "entities/hammer_stake_green", description = "Hammer Stake Green" }
+sprite{ id = "entities/hammer_stake_yellow", description = "Hammer Stake Yellow" }
 sprite{ id = "entities/hookshot", description = "Hookshot" }
 sprite{ id = "entities/ice_beam", description = "Ice Beam" }
 sprite{ id = "entities/items", description = "Items" }
@@ -296,6 +299,8 @@ sound{ id = "enemy_killed", description = "enemy_killed" }
 sound{ id = "explosion", description = "explosion" }
 sound{ id = "external_stairs_down", description = "external_stairs_down" }
 sound{ id = "external_stairs_up", description = "external_stairs_up" }
+sound{ id = "hammer", description = "hammer" }
+sound{ id = "hammer_stake", description = "hammer_stake" }
 sound{ id = "heart", description = "heart" }
 sound{ id = "heart_container", description = "heart_container" }
 sound{ id = "hero_dying", description = "hero_dying" }
@@ -380,6 +385,7 @@ item{ id = "inventory/bombs", description = "Bombs" }
 item{ id = "inventory/boomerang", description = "Boomerang (level 1 / level 2)" }
 item{ id = "inventory/bow", description = "Bow (level 1 / level 2)" }
 item{ id = "inventory/fire_rod", description = "Fire Rod" }
+item{ id = "inventory/hammer", description = "Hammer" }
 item{ id = "inventory/hookshot", description = "Hookshot" }
 item{ id = "inventory/ice_rod", description = "Ice Rod" }
 item{ id = "inventory/lantern", description = "Lantern" }
@@ -454,6 +460,7 @@ enemy{ id = "traps/trap_detect", description = "Trap detecting the hero proximit
 enemy{ id = "traps/trap_fixed", description = "Fixed trap" }
 
 entity{ id = "fire", description = "Fire" }
+entity{ id = "hammer_stake", description = "Hammer Stake" }
 entity{ id = "ice_beam", description = "Ice Beam" }
 entity{ id = "torch", description = "Torch" }
 
