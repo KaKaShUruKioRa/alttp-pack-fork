@@ -368,6 +368,25 @@ chest{
   sprite = "entities/chest",
 }
 
+chest{
+  layer = 0,
+  x = 224,
+  y = 117,
+  treasure_name = "inventory/hammer",
+  sprite = "entities/chest",
+}
+
+custom_entity{
+  layer = 0,
+  x = 96,
+  y = 173,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/hammer_stake_yellow",
+  model = "hammer_stake",
+}
+
 tile{
   layer = 1,
   x = 144,
