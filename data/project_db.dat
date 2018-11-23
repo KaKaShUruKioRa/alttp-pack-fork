@@ -373,22 +373,30 @@ sound{ id = "zora", description = "zora" }
 
 item{ id = "consumables/arrow_refill", description = "Arrows Refill (x1 / x5 / x10)" }
 item{ id = "consumables/bomb_refill", description = "Bombs Refill (x1 / x3 / x8)" }
+item{ id = "consumables/fairy", description = "Fairy" }
 item{ id = "consumables/heart", description = "Heart (x1)" }
 item{ id = "consumables/magic_jar", description = "Magic Jar (small / big)" }
 item{ id = "consumables/rupee", description = "Rupees (x1 / x5 / x20 / x50 / x100 / x300)" }
 item{ id = "equipment/bomb_bag", description = "Bomb Bag (x10 / x 30 / x50)" }
+item{ id = "equipment/book_of_mudora", description = "Book of Mudora" }
 item{ id = "equipment/bow_quiver", description = "Quiver (x30 / x50 / x70)" }
 item{ id = "equipment/flippers", description = "Flippers" }
 item{ id = "equipment/glove", description = "Glove (level 1 / level 2)" }
 item{ id = "equipment/magic_meter", description = "Magic Meter" }
 item{ id = "inventory/bombs", description = "Bombs" }
 item{ id = "inventory/boomerang", description = "Boomerang (level 1 / level 2)" }
+item{ id = "inventory/bottle_1", description = "Bottle 1" }
+item{ id = "inventory/bottle_2", description = "Bottle 2" }
+item{ id = "inventory/bottle_3", description = "Bottle 3" }
+item{ id = "inventory/bottle_4", description = "Bottle 4" }
 item{ id = "inventory/bow", description = "Bow (level 1 / level 2)" }
 item{ id = "inventory/fire_rod", description = "Fire Rod" }
 item{ id = "inventory/hammer", description = "Hammer" }
 item{ id = "inventory/hookshot", description = "Hookshot" }
 item{ id = "inventory/ice_rod", description = "Ice Rod" }
 item{ id = "inventory/lantern", description = "Lantern" }
+item{ id = "inventory/ocarina", description = "Ocarina" }
+item{ id = "quest/mushroom", description = "Mushroom" }
 
 enemy{ id = "bosses/agahnim", description = "Agahnim" }
 enemy{ id = "bosses/armos_knight", description = "Armos Knight" }

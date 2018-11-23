@@ -387,6 +387,56 @@ custom_entity{
   model = "hammer_stake",
 }
 
+chest{
+  layer = 0,
+  x = 192,
+  y = 149,
+  treasure_name = "inventory/bottle_1",
+  treasure_variant = 4,
+  sprite = "entities/chest",
+}
+
+pickable{
+  layer = 0,
+  x = 128,
+  y = 157,
+  treasure_name = "consumables/fairy",
+}
+
+chest{
+  layer = 0,
+  x = 208,
+  y = 149,
+  treasure_name = "inventory/bottle_2",
+  treasure_variant = 4,
+  sprite = "entities/chest",
+}
+
+chest{
+  layer = 0,
+  x = 224,
+  y = 149,
+  treasure_name = "inventory/bottle_3",
+  treasure_variant = 5,
+  sprite = "entities/chest",
+}
+
+chest{
+  layer = 0,
+  x = 240,
+  y = 149,
+  treasure_name = "inventory/bottle_4",
+  treasure_variant = 4,
+  sprite = "entities/chest",
+}
+
+pickable{
+  layer = 0,
+  x = 160,
+  y = 157,
+  treasure_name = "inventory/ocarina",
+}
+
 tile{
   layer = 1,
   x = 144,
