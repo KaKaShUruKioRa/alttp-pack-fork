@@ -8,26 +8,36 @@ local item_names = {
   "boomerang",
   "hookshot",
   "bombs",
-  -- "mushroom", -- Will be replaced by the magic powder if player has it.
+  -- TODO "mushroom", -- Will be replaced by the magic powder if player has it.
+  -- TODO "magic powder",
   "fire_rod",
   "ice_rod",
-  -- "bombos_medallion",
-  -- "ether_medallion",
-  -- "quake_medallion",
+  -- TODO "bombos_medallion",
+  -- TODO "ether_medallion",
+  -- TODO "quake_medallion",
   "lantern",
   "hammer",
-  -- "shovel", -- Will be replaced by the ocarina
-  -- "bug_catching_net",
-  -- "book_of_mudora",
+  -- TODO "shovel", -- Will be replaced by the ocarina
+  "ocarina",
+  -- TODO "bug_catching_net",
   "bottle_1",
   "bottle_2",
   "bottle_3",
   "bottle_4",
-  -- "cane_of_somaria",
-  -- "cane_of_byrna",
-  -- "magic_cape",
-  -- "magic_mirror",
+  -- TODO "cane_of_somaria",
+  -- TODO "cane_of_byrna",
+  -- TODO "magic_cape",
+  -- TODO "magic_mirror",
 }
+
+local equipment_names = {
+  "glove", "bomb_bag", "bow_quiver", "flippers", "book_of_mudora",
+}
+
+local quest_items_name = {
+  "mushroom"
+}
+
 local items_num_columns = 5
 local items_num_rows = math.ceil(#item_names / items_num_columns)
 

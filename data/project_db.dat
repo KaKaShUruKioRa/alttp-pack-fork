@@ -378,6 +378,7 @@ item{ id = "consumables/heart", description = "Heart (x1)" }
 item{ id = "consumables/magic_jar", description = "Magic Jar (small / big)" }
 item{ id = "consumables/rupee", description = "Rupees (x1 / x5 / x20 / x50 / x100 / x300)" }
 item{ id = "equipment/bomb_bag", description = "Bomb Bag (x10 / x 30 / x50)" }
+item{ id = "equipment/book_of_mudora", description = "Book of Mudora" }
 item{ id = "equipment/bow_quiver", description = "Quiver (x30 / x50 / x70)" }
 item{ id = "equipment/flippers", description = "Flippers" }
 item{ id = "equipment/glove", description = "Glove (level 1 / level 2)" }
@@ -394,6 +395,8 @@ item{ id = "inventory/hammer", description = "Hammer" }
 item{ id = "inventory/hookshot", description = "Hookshot" }
 item{ id = "inventory/ice_rod", description = "Ice Rod" }
 item{ id = "inventory/lantern", description = "Lantern" }
+item{ id = "inventory/ocarina", description = "Ocarina" }
+item{ id = "quest/mushroom", description = "Mushroom" }
 
 enemy{ id = "bosses/agahnim", description = "Agahnim" }
 enemy{ id = "bosses/armos_knight", description = "Armos Knight" }

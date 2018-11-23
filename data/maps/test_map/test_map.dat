@@ -430,6 +430,13 @@ chest{
   sprite = "entities/chest",
 }
 
+pickable{
+  layer = 0,
+  x = 160,
+  y = 157,
+  treasure_name = "inventory/ocarina",
+}
+
 tile{
   layer = 1,
   x = 144,
