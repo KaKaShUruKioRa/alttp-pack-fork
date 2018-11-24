@@ -1460,7 +1460,7 @@ destructible{
   layer = 0,
   x = 40,
   y = 589,
-  sprite = "entities/vase",
+  sprite = "destructibles/vase",
   destruction_sound = "stone",
   damage_on_enemies = 2,
 }
@@ -1470,7 +1470,7 @@ destructible{
   layer = 0,
   x = 56,
   y = 589,
-  sprite = "entities/vase_skull",
+  sprite = "destructibles/vase_skull",
   destruction_sound = "stone",
   damage_on_enemies = 2,
 }
@@ -1520,7 +1520,7 @@ door{
   x = 176,
   y = 280,
   direction = 3,
-  sprite = "entities/doors/door_d1_normal",
+  sprite = "doors/door_small_key",
 }
 
 door{
@@ -1528,7 +1528,7 @@ door{
   x = 176,
   y = 312,
   direction = 1,
-  sprite = "entities/doors/door_d1_normal",
+  sprite = "doors/door_small_key",
 }
 
 door{
@@ -1736,7 +1736,6 @@ dynamic_tile{
   pattern = "wall.3-2",
   width = 24,
   height = 32,
-  enabled_at_start = true,
 }
 
 dynamic_tile{
@@ -1747,7 +1746,6 @@ dynamic_tile{
   pattern = "wall.4-2",
   width = 24,
   height = 32,
-  enabled_at_start = true,
 }
 
 wall{
@@ -1798,7 +1796,6 @@ dynamic_tile{
   pattern = "wall.2-2",
   width = 32,
   height = 24,
-  enabled_at_start = true,
 }
 
 dynamic_tile{
@@ -1809,7 +1806,6 @@ dynamic_tile{
   pattern = "wall.1-2",
   width = 32,
   height = 24,
-  enabled_at_start = true,
 }
 
 tile{
@@ -2180,7 +2176,6 @@ dynamic_tile{
   pattern = "door_top.blast.4-2",
   width = 8,
   height = 32,
-  enabled_at_start = true,
 }
 
 dynamic_tile{
@@ -2191,7 +2186,6 @@ dynamic_tile{
   pattern = "door_top.blast.3-2",
   width = 8,
   height = 32,
-  enabled_at_start = true,
 }
 
 dynamic_tile{
@@ -2202,7 +2196,6 @@ dynamic_tile{
   pattern = "door_top.blast.2-2",
   width = 32,
   height = 8,
-  enabled_at_start = true,
 }
 
 dynamic_tile{
@@ -2213,6 +2206,5 @@ dynamic_tile{
   pattern = "door_top.blast.1-2",
   width = 32,
   height = 8,
-  enabled_at_start = true,
 }
 
