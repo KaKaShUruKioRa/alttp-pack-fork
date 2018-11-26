@@ -43,7 +43,7 @@ animation{
 }
 animation{
   name = "brandish",
-  src_image = "hero/miscellaneous.png",
+  src_image = "hero/brandish.png",
   directions = {
     { x = 16, y = 0, frame_width = 16, frame_height = 24, origin_x = 8, origin_y = 21 },
     { x = 16, y = 0, frame_width = 16, frame_height = 24, origin_x = 8, origin_y = 21 },
@@ -126,12 +126,12 @@ animation{
 }
 animation{
   name = "hurt",
-  src_image = "hero/miscellaneous.png",
+  src_image = "hero/hurt.png",
   directions = {
-    { x = 0, y = 48, frame_width = 24, frame_height = 24, origin_x = 12, origin_y = 21 },
-    { x = 24, y = 48, frame_width = 24, frame_height = 24, origin_x = 12, origin_y = 21 },
-    { x = 48, y = 48, frame_width = 24, frame_height = 24, origin_x = 12, origin_y = 21 },
-    { x = 72, y = 48, frame_width = 24, frame_height = 24, origin_x = 12, origin_y = 21 },
+    { x = 0, y = 24, frame_width = 24, frame_height = 24, origin_x = 12, origin_y = 21 },
+    { x = 24, y = 24, frame_width = 24, frame_height = 24, origin_x = 12, origin_y = 21 },
+    { x = 48, y = 24, frame_width = 24, frame_height = 24, origin_x = 12, origin_y = 21 },
+    { x = 72, y = 24, frame_width = 24, frame_height = 24, origin_x = 12, origin_y = 21 },
   },
 }
 animation{
