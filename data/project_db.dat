@@ -35,10 +35,10 @@ sprite{ id = "destructibles/bush_green", description = "Bush (green)" }
 sprite{ id = "destructibles/bush_purple", description = "Bush (purple)" }
 sprite{ id = "destructibles/bush_yellow", description = "Bush (yellow)" }
 sprite{ id = "destructibles/grass_green", description = "Grass (green)" }
-sprite{ id = "destructibles/stone_black", description = "Stone (black)" }
-sprite{ id = "destructibles/stone_black_skull", description = "Stone (black skull)" }
-sprite{ id = "destructibles/stone_white", description = "Stone (white)" }
-sprite{ id = "destructibles/stone_white_skull", description = "Stone (white skull)" }
+sprite{ id = "destructibles/stone_small_dw_1", description = "Stone (level 1, dark world style)" }
+sprite{ id = "destructibles/stone_small_dw_2", description = "Stone (level 2, dark world style)" }
+sprite{ id = "destructibles/stone_small_lw_1", description = "Stone (level 1, light world style)" }
+sprite{ id = "destructibles/stone_small_lw_2", description = "Stone (level 2, light world style)" }
 sprite{ id = "destructibles/vase", description = "Vase" }
 sprite{ id = "destructibles/vase_skull", description = "Vase (skull)" }
 sprite{ id = "doors/door_d1_big_key", description = "Dungeon door (big key)" }
