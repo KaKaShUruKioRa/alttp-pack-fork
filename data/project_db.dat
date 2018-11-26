@@ -31,13 +31,10 @@ tileset{ id = "dungeon/purple", description = "Purple dungeon" }
 tileset{ id = "dungeon/yellow", description = "Yellow dungeon" }
 tileset{ id = "out/outside", description = "Full Hyrule Outside" }
 
-sprite{ id = "destructibles/bush", description = "Bush (from tileset)" }
 sprite{ id = "destructibles/bush_green", description = "Bush (green)" }
 sprite{ id = "destructibles/bush_purple", description = "Bush (purple)" }
 sprite{ id = "destructibles/bush_yellow", description = "Bush (yellow)" }
-sprite{ id = "destructibles/grass", description = "Grass (from tileset)" }
-sprite{ id = "destructibles/sign", description = "Sign (from tileset)" }
-sprite{ id = "destructibles/sign_dark", description = "Sign (dark)" }
+sprite{ id = "destructibles/grass_green", description = "Grass (green)" }
 sprite{ id = "destructibles/stone_black", description = "Stone (black)" }
 sprite{ id = "destructibles/stone_black_skull", description = "Stone (black skull)" }
 sprite{ id = "destructibles/stone_white", description = "Stone (white)" }
@@ -161,6 +158,8 @@ sprite{ id = "entities/ice_beam", description = "Ice Beam" }
 sprite{ id = "entities/items", description = "Items" }
 sprite{ id = "entities/rupee_icon", description = "Rupee icon" }
 sprite{ id = "entities/shadow", description = "Shadow" }
+sprite{ id = "entities/sign_brown", description = "Sign (brown)" }
+sprite{ id = "entities/sign_yellow", description = "Sign (yellow)" }
 sprite{ id = "entities/solid_switch", description = "Solid switch" }
 sprite{ id = "entities/star", description = "Star" }
 sprite{ id = "entities/statue", description = "Statue" }
