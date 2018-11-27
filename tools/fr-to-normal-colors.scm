@@ -1,4 +1,4 @@
-(define (pal-to-ntsc pattern)
+(define (fr-to-normal-colors pattern)
   (let* ((filelist (cadr (file-glob pattern 1))))
     (while (not (null? filelist))
            (let* ((filename (car filelist))
