@@ -6236,13 +6236,6 @@ tile{
   pattern = "1455",
 }
 
-destructible{
-  layer = 0,
-  x = 264,
-  y = 205,
-  sprite = "destructibles/sign_dark",
-}
-
 teletransporter{
   layer = 0,
   x = 80,
@@ -6252,6 +6245,15 @@ teletransporter{
   transition = "scrolling",
   destination_map = "1. Light World/A1-8/A3",
   destination = "_side",
+}
+
+npc{
+  layer = 0,
+  x = 264,
+  y = 205,
+  direction = 3,
+  subtype = 0,
+  sprite = "entities/sign_brown",
 }
 
 tile{

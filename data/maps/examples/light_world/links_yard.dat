@@ -5253,8 +5253,8 @@ destructible{
   x = 120,
   y = 397,
   sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
   can_be_cut = true,
-  can_regenerate = true,
 }
 
 destructible{
@@ -5262,8 +5262,8 @@ destructible{
   x = 136,
   y = 397,
   sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
   can_be_cut = true,
-  can_regenerate = true,
 }
 
 destructible{
@@ -5271,8 +5271,8 @@ destructible{
   x = 152,
   y = 397,
   sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
   can_be_cut = true,
-  can_regenerate = true,
 }
 
 destructible{
@@ -5280,8 +5280,8 @@ destructible{
   x = 120,
   y = 413,
   sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
   can_be_cut = true,
-  can_regenerate = true,
 }
 
 destructible{
@@ -5289,8 +5289,8 @@ destructible{
   x = 136,
   y = 413,
   sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
   can_be_cut = true,
-  can_regenerate = true,
 }
 
 destructible{
@@ -5298,8 +5298,8 @@ destructible{
   x = 152,
   y = 413,
   sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
   can_be_cut = true,
-  can_regenerate = true,
 }
 
 destructible{
@@ -5307,8 +5307,8 @@ destructible{
   x = 184,
   y = 397,
   sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
   can_be_cut = true,
-  can_regenerate = true,
 }
 
 destructible{
@@ -5316,8 +5316,8 @@ destructible{
   x = 200,
   y = 397,
   sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
   can_be_cut = true,
-  can_regenerate = true,
 }
 
 destructible{
@@ -5325,8 +5325,8 @@ destructible{
   x = 216,
   y = 397,
   sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
   can_be_cut = true,
-  can_regenerate = true,
 }
 
 destructible{
@@ -5334,8 +5334,8 @@ destructible{
   x = 184,
   y = 413,
   sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
   can_be_cut = true,
-  can_regenerate = true,
 }
 
 destructible{
@@ -5343,8 +5343,8 @@ destructible{
   x = 200,
   y = 413,
   sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
   can_be_cut = true,
-  can_regenerate = true,
 }
 
 destructible{
@@ -5352,8 +5352,8 @@ destructible{
   x = 216,
   y = 413,
   sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
   can_be_cut = true,
-  can_regenerate = true,
 }
 
 destructible{
@@ -5361,8 +5361,8 @@ destructible{
   x = 280,
   y = 109,
   sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
   can_be_cut = true,
-  can_regenerate = true,
 }
 
 destructible{
@@ -5370,8 +5370,8 @@ destructible{
   x = 296,
   y = 109,
   sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
   can_be_cut = true,
-  can_regenerate = true,
 }
 
 destructible{
@@ -5379,8 +5379,8 @@ destructible{
   x = 232,
   y = 109,
   sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
   can_be_cut = true,
-  can_regenerate = true,
 }
 
 destructible{
@@ -5388,8 +5388,8 @@ destructible{
   x = 248,
   y = 109,
   sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
   can_be_cut = true,
-  can_regenerate = true,
 }
 
 destructible{
@@ -5397,8 +5397,8 @@ destructible{
   x = 264,
   y = 109,
   sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
   can_be_cut = true,
-  can_regenerate = true,
 }
 
 dynamic_tile{
@@ -5408,14 +5408,6 @@ dynamic_tile{
   pattern = "12711",
   width = 32,
   height = 32,
-  enabled_at_start = true,
-}
-
-destructible{
-  layer = 0,
-  x = 400,
-  y = 117,
-  sprite = "entities/rockstack_light01",
 }
 
 teletransporter{

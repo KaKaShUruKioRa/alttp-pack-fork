@@ -3545,6 +3545,371 @@ teletransporter{
   destination_map = "1. Light World/C1-8/C2",
 }
 
+destructible{
+  layer = 0,
+  x = 312,
+  y = 205,
+  sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  layer = 0,
+  x = 328,
+  y = 221,
+  sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  layer = 0,
+  x = 344,
+  y = 237,
+  sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  layer = 0,
+  x = 360,
+  y = 253,
+  sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  layer = 0,
+  x = 360,
+  y = 269,
+  sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  layer = 0,
+  x = 360,
+  y = 285,
+  sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  layer = 0,
+  x = 376,
+  y = 285,
+  sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  layer = 0,
+  x = 344,
+  y = 301,
+  sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  layer = 0,
+  x = 328,
+  y = 317,
+  sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  layer = 0,
+  x = 296,
+  y = 317,
+  sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  layer = 0,
+  x = 280,
+  y = 333,
+  sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  layer = 0,
+  x = 280,
+  y = 349,
+  sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  layer = 0,
+  x = 296,
+  y = 333,
+  sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  layer = 0,
+  x = 296,
+  y = 349,
+  sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  layer = 0,
+  x = 312,
+  y = 333,
+  sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  layer = 0,
+  x = 312,
+  y = 349,
+  sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  layer = 0,
+  x = 328,
+  y = 333,
+  sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  layer = 0,
+  x = 328,
+  y = 349,
+  sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  layer = 0,
+  x = 344,
+  y = 333,
+  sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  layer = 0,
+  x = 344,
+  y = 349,
+  sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  layer = 0,
+  x = 264,
+  y = 349,
+  sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  layer = 0,
+  x = 168,
+  y = 253,
+  sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  layer = 0,
+  x = 184,
+  y = 253,
+  sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  layer = 0,
+  x = 184,
+  y = 237,
+  sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  layer = 0,
+  x = 200,
+  y = 381,
+  sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  layer = 0,
+  x = 216,
+  y = 381,
+  sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  layer = 0,
+  x = 200,
+  y = 397,
+  sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  layer = 0,
+  x = 216,
+  y = 397,
+  sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  layer = 0,
+  x = 200,
+  y = 413,
+  sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  layer = 0,
+  x = 216,
+  y = 413,
+  sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  layer = 0,
+  x = 200,
+  y = 429,
+  sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  layer = 0,
+  x = 216,
+  y = 429,
+  sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  layer = 0,
+  x = 232,
+  y = 429,
+  sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  layer = 0,
+  x = 232,
+  y = 445,
+  sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  layer = 0,
+  x = 216,
+  y = 445,
+  sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  layer = 0,
+  x = 120,
+  y = 445,
+  sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+npc{
+  layer = 0,
+  x = 344,
+  y = 397,
+  direction = 3,
+  subtype = 0,
+  sprite = "entities/sign_brown",
+}
+
+destructible{
+  layer = 0,
+  x = 424,
+  y = 333,
+  sprite = "destructibles/stone_small_lw_1",
+  weight = 2,
+}
+
+destructible{
+  layer = 0,
+  x = 424,
+  y = 349,
+  sprite = "destructibles/stone_small_lw_1",
+  weight = 2,
+}
+
+destructible{
+  layer = 0,
+  x = 440,
+  y = 349,
+  sprite = "destructibles/stone_small_lw_1",
+  weight = 2,
+}
+
+destructible{
+  layer = 0,
+  x = 472,
+  y = 349,
+  sprite = "destructibles/stone_small_lw_1",
+  weight = 2,
+}
+
 tile{
   layer = 1,
   x = 208,

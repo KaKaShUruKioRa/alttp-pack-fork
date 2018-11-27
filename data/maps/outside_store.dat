@@ -1682,6 +1682,44 @@ tile{
   pattern = "928",
 }
 
+destructible{
+  layer = 0,
+  x = 136,
+  y = 125,
+  sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  layer = 0,
+  x = 168,
+  y = 125,
+  sprite = "destructibles/stone_small_lw_1",
+  destruction_sound = "stone",
+  weight = 1,
+  damage_on_enemies = 2,
+}
+
+npc{
+  layer = 0,
+  x = 232,
+  y = 125,
+  direction = 3,
+  subtype = 0,
+  sprite = "entities/sign_brown",
+}
+
+destructible{
+  layer = 0,
+  x = 200,
+  y = 125,
+  sprite = "destructibles/stone_small_lw_2",
+  destruction_sound = "stone",
+  weight = 2,
+  damage_on_enemies = 4,
+}
+
 tile{
   layer = 1,
   x = 296,

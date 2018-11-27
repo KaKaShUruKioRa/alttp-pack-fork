@@ -15933,7 +15933,10 @@ destructible{
   layer = 0,
   x = 904,
   y = 957,
-  sprite = "entities/stone_sm_light01",
+  sprite = "destructibles/stone_small_lw_1",
+  destruction_sound = "stone",
+  weight = 1,
+  damage_on_enemies = 2,
 }
 
 tile{
