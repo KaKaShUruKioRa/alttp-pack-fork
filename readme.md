@@ -1,5 +1,7 @@
 # Zelda ALTTP resource pack for Solarus
 
+![A Link To The Past logo](data/logos/logo.png)
+
 This repository provides musics, sounds, tilesets, sprites and scripts
 from Legend of Zelda: A Link to the Past
 for the
