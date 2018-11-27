@@ -1,23 +1,27 @@
-# Zelda ALTTP resource pack for Solarus
+# Zelda ALTTP Resource Pack for Solarus
+
+![A Link To The Past logo](data/logos/logo.png)
 
 This repository provides musics, sounds, tilesets, sprites and scripts
-from Legend of Zelda: A Link to the Past
-for the
+from the 1992 Super Nintendo game *The Legend of Zelda: A Link to the Past*,
+adapted for the
 [Solarus engine](https://github.com/solarus-games/solarus).
 
 You can use these resources if you want to develop a game with the
-Solarus engine using Zelda ALTTP graphics.
+Solarus engine using ALTTP graphics.
+
+## Goal
 
 One goal of this resource pack is also to provide at least all
 [data files required by Solarus](https://github.com/solarus-games/solarus/blob/master/work/data_files.txt).
 
-Since Zelda: A Link to the Past is huge,
+Since *A Link to the Past* is huge,
 there will always be missing or incomplete elements.
 Feel free to contribute!
 
 Also, there may be unwanted elements,
-typically, resources that don't come from Zelda ALTTP
-but that were created for Zelda Mystery of Solarus DX
+typically, resources that don't come from ALTTP
+but that were created for *Mystery of Solarus DX*
 and ended up here.
 If you find such inconsistencies, please report them by
 opening an issue.
@@ -28,7 +32,6 @@ Branch master always points to the latest release of this resource pack.
 
 The latest resource pack release is always compatible
 with the latest Solarus version.
-
 
 Resources compatible with older versions or development versions of Solarus
 live in their own branches.
