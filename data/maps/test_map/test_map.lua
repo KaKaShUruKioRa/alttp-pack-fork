@@ -22,8 +22,3 @@ end
 function map:on_opening_transition_finished()
 
 end
-
-function brandon:on_interaction()
-  print("Coucou !")
-  game:set_item_assigned(1, game:get_item("equipment/boomerang"))
-end

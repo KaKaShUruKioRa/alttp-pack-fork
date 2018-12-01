@@ -63,8 +63,7 @@ local function create_item_widget(game)
       -- item sprites are not animated.
       -- If they become animated one day, they will have to be
       -- drawn at each frame instead (in on_draw()).
-      local item_sprite = sol.sprite.create("entities/items")
-      item_sprite:set_animation("inventory/"..item_name)
+      local item_sprite = sol.sprite.create("menus/inventory/"..item_name)
       item_sprite:set_direction(variant - 1)
       item_sprite:set_xy(8 + column * 32 - 16, 13 + row * 32 - 16)
       item_sprite:draw(items_surface)

@@ -5,7 +5,7 @@ properties{
   height = 240,
   min_layer = 0,
   max_layer = 2,
-  tileset = "dungeon/blue",
+  tileset = "dungeon/light_brown",
 }
 
 tile{
@@ -233,28 +233,10 @@ destination{
   direction = 1,
 }
 
-npc{
-  name = "brandon",
-  layer = 0,
-  x = 128,
-  y = 85,
-  direction = 3,
-  subtype = 1,
-  sprite = "npc/angry_brother",
-}
-
-chest{
-  layer = 0,
-  x = 160,
-  y = 53,
-  treasure_name = "equipment/bomb_bag",
-  sprite = "entities/chest",
-}
-
 destructible{
   layer = 0,
-  x = 104,
-  y = 133,
+  x = 88,
+  y = 61,
   treasure_variant = 2,
   sprite = "destructibles/stone_small_lw_1",
   weight = 1,
@@ -263,7 +245,7 @@ destructible{
 destructible{
   layer = 0,
   x = 72,
-  y = 133,
+  y = 61,
   sprite = "destructibles/bush_green",
   can_be_cut = true,
   can_explode = true,
@@ -271,8 +253,8 @@ destructible{
 
 destructible{
   layer = 0,
-  x = 136,
-  y = 133,
+  x = 104,
+  y = 61,
   treasure_variant = 3,
   sprite = "destructibles/stone_small_lw_2",
   weight = 2,
@@ -289,104 +271,15 @@ custom_entity{
   model = "torch",
 }
 
-chest{
-  layer = 0,
-  x = 192,
-  y = 53,
-  treasure_name = "equipment/bow_quiver",
-  sprite = "entities/chest",
-}
-
-chest{
-  layer = 0,
-  x = 224,
-  y = 53,
-  treasure_name = "equipment/flippers",
-  sprite = "entities/chest",
-}
-
-chest{
-  layer = 0,
-  x = 256,
-  y = 53,
-  treasure_name = "equipment/flippers",
-  sprite = "entities/chest",
-}
-
-chest{
-  layer = 0,
-  x = 160,
-  y = 85,
-  treasure_name = "inventory/boomerang",
-  sprite = "entities/chest",
-}
-
-chest{
-  layer = 0,
-  x = 192,
-  y = 85,
-  treasure_name = "inventory/bow",
-  sprite = "entities/chest",
-}
-
-chest{
-  layer = 0,
-  x = 224,
-  y = 85,
-  treasure_name = "inventory/fire_rod",
-  sprite = "entities/chest",
-}
-
-chest{
-  layer = 0,
-  x = 256,
-  y = 85,
-  treasure_name = "inventory/hookshot",
-  sprite = "entities/chest",
-}
-
-chest{
-  layer = 0,
-  x = 160,
-  y = 117,
-  treasure_name = "inventory/ice_rod",
-  sprite = "entities/chest",
-}
-
-chest{
-  layer = 0,
-  x = 192,
-  y = 117,
-  treasure_name = "inventory/lantern",
-  sprite = "entities/chest",
-}
-
-chest{
-  layer = 0,
-  x = 224,
-  y = 117,
-  treasure_name = "inventory/hammer",
-  sprite = "entities/chest",
-}
-
 custom_entity{
   layer = 0,
-  x = 96,
-  y = 173,
+  x = 56,
+  y = 61,
   width = 16,
   height = 16,
   direction = 0,
   sprite = "entities/hammer_stake_yellow",
   model = "hammer_stake",
-}
-
-chest{
-  layer = 0,
-  x = 192,
-  y = 149,
-  treasure_name = "inventory/bottle_1",
-  treasure_variant = 4,
-  sprite = "entities/chest",
 }
 
 pickable{
@@ -396,38 +289,48 @@ pickable{
   treasure_name = "consumables/fairy",
 }
 
-chest{
-  layer = 0,
-  x = 208,
-  y = 149,
-  treasure_name = "inventory/bottle_2",
-  treasure_variant = 4,
-  sprite = "entities/chest",
-}
-
-chest{
-  layer = 0,
-  x = 224,
-  y = 149,
-  treasure_name = "inventory/bottle_3",
-  treasure_variant = 5,
-  sprite = "entities/chest",
-}
-
-chest{
-  layer = 0,
-  x = 240,
-  y = 149,
-  treasure_name = "inventory/bottle_4",
-  treasure_variant = 4,
-  sprite = "entities/chest",
-}
-
 pickable{
   layer = 0,
   x = 160,
   y = 157,
   treasure_name = "inventory/ocarina",
+}
+
+pickable{
+  layer = 0,
+  x = 168,
+  y = 109,
+  treasure_name = "inventory/bombs",
+}
+
+pickable{
+  layer = 0,
+  x = 200,
+  y = 109,
+  treasure_name = "inventory/boomerang",
+}
+
+pickable{
+  layer = 0,
+  x = 232,
+  y = 109,
+  treasure_name = "inventory/bottle_1",
+}
+
+pickable{
+  layer = 0,
+  x = 248,
+  y = 109,
+  treasure_name = "inventory/bottle_2",
+  treasure_variant = 2,
+}
+
+pickable{
+  layer = 0,
+  x = 264,
+  y = 109,
+  treasure_name = "inventory/bottle_3",
+  treasure_variant = 3,
 }
 
 tile{
