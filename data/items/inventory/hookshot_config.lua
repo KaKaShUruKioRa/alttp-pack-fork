@@ -26,12 +26,15 @@ local config = {
       {
         "destructibles/sign_dark", 
         "destructibles/sign",
-        "destructibles/stone_black",
-        "destructibles/stone_black_skull",
-        "destructibles/stone_white",
-        "destructibles/stone_white_skull",
+        "destructibles/stone_small_dw_1",
+        "destructibles/stone_small_dw_2",
+        "destructibles/stone_small_lw_1",
+        "destructibles/stone_small_lw_2",
         "destructibles/vase",
-        "destructibles/vase_skull"
+        "destructibles/vase_skull",
+        "entities/hammer_stake_brown",
+        "entities/hammer_stake_green",
+        "entities/hammer_stake_yellow"
       }
   },
   
