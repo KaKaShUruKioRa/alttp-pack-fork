@@ -9,18 +9,18 @@ animation{
   name = "consumables/arrow_refill",
   src_image = "items/consumables/arrow_refill.png",
   directions = {
-    { x = 0, y = 0, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
     { x = 0, y = 16, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
     { x = 0, y = 32, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
+    { x = 0, y = 48, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
   },
 }
 animation{
   name = "consumables/bomb_refill",
   src_image = "items/consumables/bomb_refill.png",
   directions = {
-    { x = 0, y = 0, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
     { x = 0, y = 16, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
     { x = 0, y = 32, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
+    { x = 0, y = 80, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
   },
 }
 animation{
@@ -67,27 +67,6 @@ animation{
 animation{
   name = "consumables/piece_of_heart",
   src_image = "items/consumables/piece_of_heart.png",
-  directions = {
-    { x = 0, y = 0, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
-  },
-}
-animation{
-  name = "consumables/potion_blue",
-  src_image = "items/consumables/potions.png",
-  directions = {
-    { x = 32, y = 0, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
-  },
-}
-animation{
-  name = "consumables/potion_green",
-  src_image = "items/consumables/potions.png",
-  directions = {
-    { x = 16, y = 0, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
-  },
-}
-animation{
-  name = "consumables/potion_red",
-  src_image = "items/consumables/potions.png",
   directions = {
     { x = 0, y = 0, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
   },
@@ -251,6 +230,7 @@ animation{
     { x = 0, y = 64, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
     { x = 0, y = 80, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
     { x = 0, y = 96, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
+    { x = 0, y = 112, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
   },
 }
 animation{
@@ -264,6 +244,7 @@ animation{
     { x = 0, y = 64, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
     { x = 0, y = 80, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
     { x = 0, y = 96, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
+    { x = 0, y = 112, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
   },
 }
 animation{
@@ -277,6 +258,7 @@ animation{
     { x = 0, y = 64, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
     { x = 0, y = 80, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
     { x = 0, y = 96, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
+    { x = 0, y = 112, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
   },
 }
 animation{
@@ -290,14 +272,15 @@ animation{
     { x = 0, y = 64, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
     { x = 0, y = 80, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
     { x = 0, y = 96, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
+    { x = 0, y = 112, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
   },
 }
 animation{
   name = "inventory/bow",
   src_image = "items/inventory/bow.png",
   directions = {
-    { x = 16, y = 0, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
-    { x = 16, y = 16, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
+    { x = 0, y = 16, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
+    { x = 0, y = 32, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
     { x = 0, y = 0, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
   },
 }
@@ -431,13 +414,49 @@ animation{
   name = "quest/pendant_of_power",
   src_image = "items/quest/pendants.png",
   directions = {
-    { x = 16, y = 0, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
+    { x = 0, y = 16, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
   },
 }
 animation{
   name = "quest/pendant_of_wisdom",
   src_image = "items/quest/pendants.png",
   directions = {
-    { x = 32, y = 0, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
+    { x = 0, y = 32, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
+  },
+}
+animation{
+  name = "shops",
+  src_image = "items/consumables/bomb_refill.png",
+  directions = {
+    { x = 0, y = 112, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
+  },
+}
+animation{
+  name = "shops/arrow_refill",
+  src_image = "items/consumables/arrow_refill.png",
+  directions = {
+    { x = 0, y = 64, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
+    { x = 16, y = 64, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
+  },
+}
+animation{
+  name = "shops/potion_blue",
+  src_image = "items/inventory/bottle.png",
+  directions = {
+    { x = 32, y = 64, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
+  },
+}
+animation{
+  name = "shops/potion_green",
+  src_image = "items/inventory/bottle.png",
+  directions = {
+    { x = 32, y = 48, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
+  },
+}
+animation{
+  name = "shops/potion_red",
+  src_image = "items/inventory/bottle.png",
+  directions = {
+    { x = 32, y = 32, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
   },
 }
