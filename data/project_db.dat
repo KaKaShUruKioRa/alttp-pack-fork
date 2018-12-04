@@ -193,6 +193,29 @@ sprite{ id = "hero/tunic3", description = "Hero tunic 3" }
 sprite{ id = "hud/gameover_fade", description = "Game-over fade" }
 sprite{ id = "hud/piece_of_heart_icon", description = "Piece of Heart icon" }
 sprite{ id = "menus/hero_head", description = "Menu: hero head" }
+sprite{ id = "menus/inventory/bombos_medallion", description = "Bombos Medallion" }
+sprite{ id = "menus/inventory/bombs", description = "Bombs" }
+sprite{ id = "menus/inventory/boomerang", description = "Boomerang" }
+sprite{ id = "menus/inventory/bottle_1", description = "Bottle 1" }
+sprite{ id = "menus/inventory/bottle_2", description = "Bottle 2" }
+sprite{ id = "menus/inventory/bottle_3", description = "Bottle 3" }
+sprite{ id = "menus/inventory/bottle_4", description = "Bottle 4" }
+sprite{ id = "menus/inventory/bow", description = "Bow" }
+sprite{ id = "menus/inventory/bug_catching_net", description = "Bug Catching Net" }
+sprite{ id = "menus/inventory/cane_of_byrna", description = "Cane Of Byrna" }
+sprite{ id = "menus/inventory/cane_of_somaria", description = "Cane of Somaria" }
+sprite{ id = "menus/inventory/ether_medallion", description = "Ether Medallion" }
+sprite{ id = "menus/inventory/fire_rod", description = "Fire Rod" }
+sprite{ id = "menus/inventory/hammer", description = "Hammer" }
+sprite{ id = "menus/inventory/hookshot", description = "Hookshot" }
+sprite{ id = "menus/inventory/ice_rod", description = "Ice Rod" }
+sprite{ id = "menus/inventory/lantern", description = "Lantern" }
+sprite{ id = "menus/inventory/magic_cape", description = "Magic Cape" }
+sprite{ id = "menus/inventory/magic_mirror", description = "Magic Mirror" }
+sprite{ id = "menus/inventory/magic_powder", description = "Magic Powder" }
+sprite{ id = "menus/inventory/ocarina", description = "Ocarina" }
+sprite{ id = "menus/inventory/quake_medallion", description = "Quake Medallion" }
+sprite{ id = "menus/inventory/shovel", description = "Shovel" }
 sprite{ id = "menus/item_cursor", description = "Item cursor" }
 sprite{ id = "menus/solarus_logo/solarus_logo", description = "Solarus logo" }
 sprite{ id = "menus/title_screen/press_start", description = "Press start" }
@@ -1214,7 +1237,6 @@ file{ path = "sprites/items/consumables/heart.png", author = "Nintendo", license
 file{ path = "sprites/items/consumables/heart_container.png", author = "Nintendo", license = "Proprietary, Fair use" }
 file{ path = "sprites/items/consumables/magic_jar.png", author = "Nintendo", license = "Proprietary, Fair use" }
 file{ path = "sprites/items/consumables/piece_of_heart.png", author = "Nintendo", license = "Proprietary, Fair use" }
-file{ path = "sprites/items/consumables/potions.png", author = "Nintendo", license = "Proprietary, Fair use" }
 file{ path = "sprites/items/consumables/rupee.png", author = "Nintendo", license = "Proprietary, Fair use" }
 file{ path = "sprites/items/dungeons", author = "Nintendo", license = "Proprietary, Fair use" }
 file{ path = "sprites/items/dungeons/big_key.png", author = "Nintendo", license = "Proprietary, Fair use" }
