@@ -539,8 +539,8 @@ font{ id = "alttp", description = "alttp" }
 font{ id = "green_digits", description = "Green digits" }
 font{ id = "white_digits", description = "White digits" }
 
-shader{ id = "ntsc2pal", description = "NTSC to PAL colors" }
-shader{ id = "pal2ntsc", description = "PAL to NTSC colors" }
+shader{ id = "fr_to_normal_colors", description = "French to normal colors" }
+shader{ id = "normal_to_fr_colors", description = "Normal to French colors" }
 
 file{ path = "enemies", license = "GPL v3" }
 file{ path = "enemies/bosses", author = "Christopho", license = "GPL v3" }
@@ -766,10 +766,10 @@ file{ path = "scripts/menus/solarus_logo.lua", author = "Maxs", license = "GPL v
 file{ path = "scripts/menus/title_screen.lua", author = "Olivier Cléro", license = "GPL v3" }
 file{ path = "scripts/multi_events.lua", author = "Christopho, std::gregwar", license = "GPL v3" }
 file{ path = "shaders", license = "GPL v3" }
-file{ path = "shaders/ntsc2pal.dat", author = "std::gregwar", license = "GPL v3" }
-file{ path = "shaders/ntsc2pal.frag.glsl", author = "std::gregwar", license = "GPL v3" }
-file{ path = "shaders/pal2ntsc.dat", author = "std::gregwar", license = "GPL v3" }
-file{ path = "shaders/pal2ntsc.frag.glsl", author = "std::gregwar", license = "GPL v3" }
+file{ path = "shaders/fr_to_normal_colors.dat", author = "std::gregwar", license = "GPL v3" }
+file{ path = "shaders/fr_to_normal_colors.frag.glsl", author = "std::gregwar", license = "GPL v3" }
+file{ path = "shaders/normal_to_fr_colors.dat", author = "std::gregwar", license = "GPL v3" }
+file{ path = "shaders/normal_to_fr_colors.frag.glsl", author = "std::gregwar", license = "GPL v3" }
 file{ path = "sounds", license = "Mixed" }
 file{ path = "sounds/arrow_hit.ogg", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "sounds/bomb.ogg", author = "Nintendo", license = "Proprietary (Fair use)" }
