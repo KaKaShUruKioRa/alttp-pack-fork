@@ -10,7 +10,7 @@ function item_icon_builder:new(game, config)
 
   item_icon.slot = config.slot or 1
   item_icon.surface = sol.surface.create(22, 22)
-  item_icon.item_sprite = sol.sprite.create("entities/items")
+  item_icon.item_sprite = nil
   item_icon.item_displayed = nil
   item_icon.item_variant_displayed = 0
 
@@ -55,7 +55,7 @@ function item_icon_builder:new(game, config)
       item_icon.item_displayed = item
       item_icon.item_variant_displayed = nil
       if item ~= nil then
-        item_icon.item_sprite:set_animation(item:get_name())
+        item_icon.item_sprite = sol.sprite.create("menus/".. item:get_name())
       end
     end
 
