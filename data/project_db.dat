@@ -649,6 +649,9 @@ file{ path = "items/equipment/bow_quiver.lua", author = "Christopho", license = 
 file{ path = "items/equipment/flippers.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "items/equipment/glove.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "items/equipment/magic_meter.lua", author = "Christopho", license = "GPL v3" }
+file{ path = "items/equipment/shield.lua", author = "Mehdi Khelifi", license = "GPL v3" }
+file{ path = "items/equipment/sword.lua", author = "Mehdi Khelifi", license = "GPL v3" }
+file{ path = "items/equipment/tunic.lua", author = "Mehdi Khelifi", license = "GPL v3" }
 file{ path = "items/inventory", author = "Christopho", license = "GPL v3" }
 file{ path = "items/inventory/bombs.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "items/inventory/boomerang.lua", author = "Christopho", license = "GPL v3" }
