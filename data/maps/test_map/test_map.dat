@@ -284,8 +284,8 @@ custom_entity{
 
 pickable{
   layer = 0,
-  x = 128,
-  y = 157,
+  x = 80,
+  y = 197,
   treasure_name = "consumables/fairy",
 }
 
@@ -298,8 +298,8 @@ pickable{
 
 pickable{
   layer = 0,
-  x = 168,
-  y = 109,
+  x = 200,
+  y = 85,
   treasure_name = "inventory/bombs",
 }
 
@@ -330,6 +330,30 @@ pickable{
   x = 264,
   y = 109,
   treasure_name = "inventory/bottle_3",
+  treasure_variant = 3,
+}
+
+pickable{
+  layer = 0,
+  x = 112,
+  y = 117,
+  treasure_name = "equipment/sword",
+}
+
+pickable{
+  name = "tunic",
+  layer = 0,
+  x = 136,
+  y = 117,
+  treasure_name = "equipment/tunic",
+  treasure_variant = 2,
+}
+
+pickable{
+  layer = 0,
+  x = 160,
+  y = 117,
+  treasure_name = "equipment/shield",
   treasure_variant = 3,
 }
 
