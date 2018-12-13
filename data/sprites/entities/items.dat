@@ -139,6 +139,13 @@ animation{
   },
 }
 animation{
+  name = "equipment/flippers",
+  src_image = "items/equipment/flippers.png",
+  directions = {
+    { x = 0, y = 0, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
+  },
+}
+animation{
   name = "equipment/glove",
   src_image = "items/equipment/glove.png",
   directions = {
@@ -425,18 +432,18 @@ animation{
   },
 }
 animation{
-  name = "shops",
-  src_image = "items/consumables/bomb_refill.png",
-  directions = {
-    { x = 0, y = 112, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
-  },
-}
-animation{
   name = "shops/arrow_refill",
   src_image = "items/consumables/arrow_refill.png",
   directions = {
     { x = 0, y = 64, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
     { x = 16, y = 64, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
+  },
+}
+animation{
+  name = "shops/bomb_refill",
+  src_image = "items/consumables/bomb_refill.png",
+  directions = {
+    { x = 0, y = 112, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
   },
 }
 animation{

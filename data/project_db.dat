@@ -444,6 +444,9 @@ item{ id = "equipment/bow_quiver", description = "Quiver (x30 / x50 / x70)" }
 item{ id = "equipment/flippers", description = "Flippers" }
 item{ id = "equipment/glove", description = "Glove (level 1 / level 2)" }
 item{ id = "equipment/magic_meter", description = "Magic Meter" }
+item{ id = "equipment/shield", description = "Shield" }
+item{ id = "equipment/sword", description = "Sword" }
+item{ id = "equipment/tunic", description = "Tunic" }
 item{ id = "inventory/bombs", description = "Bombs" }
 item{ id = "inventory/boomerang", description = "Boomerang (level 1 / level 2)" }
 item{ id = "inventory/bottle_1", description = "Bottle 1" }
