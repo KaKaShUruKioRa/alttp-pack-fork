@@ -4,9 +4,9 @@
 -- but this is not mandatory.
 
 -- Example of use:
--- local logo = require("menus/solarus_logo")
--- sol.menu.start(logo)
--- logo.on_finished = function()
+-- local solarus_logo = require("menus/solarus_logo")
+-- sol.menu.start(solarus_logo)
+-- function solarus_logo:on_finished()
 --   -- Do whatever you want next (show a title screen, start a game...)
 -- end
 local solarus_logo_menu = {}
@@ -15,19 +15,19 @@ local solarus_logo_menu = {}
 local surface = sol.surface.create(201, 48)
 
 -- Solarus title sprite.
-local title = sol.sprite.create("menus/solarus_logo")
+local title = sol.sprite.create("menus/solarus_logo/solarus_logo")
 title:set_animation("title")
 
 -- Solarus subtitle sprite.
-local subtitle = sol.sprite.create("menus/solarus_logo")
+local subtitle = sol.sprite.create("menus/solarus_logo/solarus_logo")
 subtitle:set_animation("subtitle")
 
 -- Sun sprite.
-local sun = sol.sprite.create("menus/solarus_logo")
+local sun = sol.sprite.create("menus/solarus_logo/solarus_logo")
 sun:set_animation("sun")
 
 -- Sword sprite.
-local sword = sol.sprite.create("menus/solarus_logo")
+local sword = sol.sprite.create("menus/solarus_logo/solarus_logo")
 sword:set_animation("sword")
 
 -- Black square below the sun.
@@ -96,6 +96,8 @@ function solarus_logo_menu:step1()
   sun:set_xy(0, -33)
   sword:stop_movement()
   sword:set_xy(-48, 48)
+  -- Play a sound.
+  sol.audio.play_sound("solarus_logo/solarus_logo")
   -- Update the surface.
   rebuild_surface()
 end
@@ -209,4 +211,3 @@ end
 
 -- Return the menu to the caller.
 return solarus_logo_menu
-

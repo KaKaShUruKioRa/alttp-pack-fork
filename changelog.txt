@@ -1,5 +1,27 @@
 _____________________________________
 
+Solarus ALTTP pack 1.6.0 (2018-12-22)
+_____________________________________
+
+* Add huge outside and dungeon tilesets by ffomega (#7).
+* Add enemies from other projects by mattias-p, Franck, Mehdi (#8).
+* Add equipment items from other projects by Medhi.
+* Add a title screen by Olivier.
+* Add a savegame menu inspired from ROTH by Franck.
+* Add a pause menu inspired from ROTH by Franck.
+* Add a head-up display inspired from ROTH by Franck.
+* Add example maps reproduced from ALTTP by ffomega.
+* Add a sound with the Solarus logo.
+* Add Spanish special characters to the font.
+* Add GIMP scripts to convert from/to French version colors.
+* Fix camper NPC sprite.
+* Fix asking questions in successive dialogs (#6).
+* Fix very slight errors in spin attack sprites of swords.
+* Fix color in preparing boomerang animation of tunic sprites.
+* Fix slight errors in shield sprites.
+
+_____________________________________
+
 Solarus ALTTP pack 1.5.6 (2016-11-26)
 _____________________________________
 

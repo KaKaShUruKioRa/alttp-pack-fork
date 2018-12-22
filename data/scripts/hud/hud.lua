@@ -9,6 +9,12 @@ local hud_config = require("scripts/hud/hud_config")
 -- Creates and runs a HUD for the specified game.
 local function initialize_hud_features(game)
 
+  if game.set_hud_enabled ~= nil then
+    -- Already done.
+    game:set_hud_enabled(true)
+    return
+  end
+
   -- Set up the HUD.
   local hud = {
     enabled = false,
@@ -20,7 +26,7 @@ local function initialize_hud_features(game)
     local element = element_builder:new(game, element_config)
     if element.set_dst_position ~= nil then
       -- Compatibility with old HUD element scripts
-      -- whose new() method don't take a config parameter.
+      -- whose new() method does not take a config parameter.
       element:set_dst_position(element_config.x, element_config.y)
     end
     hud.elements[#hud.elements + 1] = element
