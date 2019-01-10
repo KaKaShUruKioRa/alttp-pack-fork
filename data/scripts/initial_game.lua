@@ -22,6 +22,7 @@ function initial_game:initialize_new_savegame(game)
   game:set_max_money(100)
   game:set_ability("lift", 0)
   game:set_ability("sword", 1)
+  game:get_item("equipment/tunic"):set_variant(1)
   
   -- default command binding
   game:set_value("keyboard_save", "escape")
