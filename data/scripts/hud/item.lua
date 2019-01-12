@@ -55,7 +55,7 @@ function item_icon_builder:new(game, config)
       item_icon.item_displayed = item
       item_icon.item_variant_displayed = nil
       if item ~= nil then
-        item_icon.item_sprite = sol.sprite.create("menus/".. item:get_name())
+        item_icon.item_sprite = sol.sprite.create("menus/items/".. item:get_name())
       end
     end
 

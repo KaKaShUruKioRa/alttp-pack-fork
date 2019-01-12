@@ -397,7 +397,49 @@ animation{
   },
 }
 animation{
-  name = "quest/crystal",
+  name = "quest/crystal_1",
+  src_image = "items/quest/crystal.png",
+  directions = {
+    { x = 0, y = 0, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
+  },
+}
+animation{
+  name = "quest/crystal_2",
+  src_image = "items/quest/crystal.png",
+  directions = {
+    { x = 0, y = 0, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
+  },
+}
+animation{
+  name = "quest/crystal_3",
+  src_image = "items/quest/crystal.png",
+  directions = {
+    { x = 0, y = 0, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
+  },
+}
+animation{
+  name = "quest/crystal_4",
+  src_image = "items/quest/crystal.png",
+  directions = {
+    { x = 0, y = 0, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
+  },
+}
+animation{
+  name = "quest/crystal_5",
+  src_image = "items/quest/crystal.png",
+  directions = {
+    { x = 0, y = 0, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
+  },
+}
+animation{
+  name = "quest/crystal_6",
+  src_image = "items/quest/crystal.png",
+  directions = {
+    { x = 0, y = 0, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
+  },
+}
+animation{
+  name = "quest/crystal_7",
   src_image = "items/quest/crystal.png",
   directions = {
     { x = 0, y = 0, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },

@@ -3,7 +3,7 @@ local game = item:get_game()
 
 -- Event called when the game is initialized.
 function item:on_started()
-  self:set_savegame_variable("possession_book_of_mudora")
+  self:set_savegame_variable("possession_ocarina")
   self:set_assignable(true)
 end
 
