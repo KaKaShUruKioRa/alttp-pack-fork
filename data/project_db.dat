@@ -455,6 +455,7 @@ item{ id = "consumables/arrow_refill", description = "Arrows Refill (x1 / x5 / x
 item{ id = "consumables/bomb_refill", description = "Bombs Refill (x1 / x3 / x8)" }
 item{ id = "consumables/fairy", description = "Fairy" }
 item{ id = "consumables/heart", description = "Heart (x1)" }
+item{ id = "consumables/heart_container", description = "Heart Container" }
 item{ id = "consumables/magic_jar", description = "Magic Jar (small / big)" }
 item{ id = "consumables/rupee", description = "Rupees (x1 / x5 / x20 / x50 / x100 / x300)" }
 item{ id = "equipment/bomb_bag", description = "Bomb Bag (x10 / x 30 / x50)" }
@@ -669,6 +670,7 @@ file{ path = "items/consumables/arrow_refill.lua", author = "Christopho, Mehdi K
 file{ path = "items/consumables/bomb_refill.lua", author = "Christopho, Mehdi Khelifi", license = "GPL v3" }
 file{ path = "items/consumables/fairy.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "items/consumables/heart.lua", author = "Christopho", license = "GPL v3" }
+file{ path = "items/consumables/heart_container.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "items/consumables/magic_jar.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "items/consumables/rupee.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "items/equipment", author = "Christopho", license = "GPL v3" }
