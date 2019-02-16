@@ -31,7 +31,7 @@ local inventory_items_names = {
 }
 
 local main_equipment_names = {
-    "sword", "shield", "tunic"
+    "sword", "shield", "tunic", "piece_of_heart_counter"
 }
 
 local secondary_equipment_names = {

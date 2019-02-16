@@ -14,8 +14,8 @@ function initial_game:initialize_new_savegame(game)
 
   -- You can modify this function to set the initial life and equipment
   -- and the starting location.
-  game:set_starting_location("first_map", "starting_destination")
-  -- game:set_starting_location("test_map/test_map", "starting_destination")
+  -- game:set_starting_location("first_map", "starting_destination")
+  game:set_starting_location("test_map/test_map", "starting_destination")
 
   game:set_max_life(6)
   game:set_life(game:get_max_life())
@@ -23,6 +23,7 @@ function initial_game:initialize_new_savegame(game)
   game:set_ability("lift", 0)
   game:set_ability("sword", 1)
   game:get_item("equipment/tunic"):set_variant(1)
+  game:get_item("equipment/piece_of_heart_counter"):set_variant(1)
   
   -- default command binding
   game:set_value("keyboard_save", "escape")
