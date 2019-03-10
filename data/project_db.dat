@@ -812,7 +812,7 @@ file{ path = "scripts/menus/lib/gui_designer.lua", author = "Christopho", licens
 file{ path = "scripts/menus/options.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "scripts/menus/pause.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "scripts/menus/pause_commands.lua", author = "Christopho", license = "GPL v3" }
-file{ path = "scripts/menus/pause_inventory.lua", author = "Christopho", license = "GPL v3" }
+file{ path = "scripts/menus/pause_inventory.lua", author = "Christopho, Mehdi Khelifi", license = "GPL v3" }
 file{ path = "scripts/menus/savegames.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "scripts/menus/solarus_logo.lua", author = "Maxs", license = "GPL v3" }
 file{ path = "scripts/menus/title_screen.lua", author = "Olivier Cléro", license = "GPL v3" }
