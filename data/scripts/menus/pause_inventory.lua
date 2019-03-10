@@ -31,7 +31,7 @@ local inventory_items_names = {
 }
 
 local main_equipment_names = {
-    "sword", "shield", "tunic"
+    "sword", "shield", "tunic", "piece_of_heart_counter"
 }
 
 local secondary_equipment_names = {
@@ -51,21 +51,21 @@ local inventory_num_rows = math.ceil(#inventory_items_names / inventory_num_colu
 local movement_speed = 800
 local movement_distance = 160
 
-local function display_items_grid(game, widget, item_names, item_script_folder, sprite_folder, num_columns)
+local function display_items_grid(game, widget, item_names, item_script_folder, sprite_folder, num_columns, x_margin, x_padding, y_margin, y_padding)
   -- Draw the items, if they are possessed, depending on their variant
   for i, item_name in ipairs(item_names) do    
     local variant = game:get_item(item_script_folder .. "/" .. item_name):get_variant() -- 0 = not possesed
 
     if variant > 0 then
       local column = (i - 1) % num_columns + 1
-      local row = math.floor((i - 1) / num_columns + 1)
+      local row = math.floor((i - 1) / num_columns + 1) - 1
       -- Draw the sprite statically. This is okay as long as
       -- item sprites are not animated.
       -- If they become animated one day, they will have to be
       -- drawn at each frame instead (in on_draw()).
       local item_sprite = sol.sprite.create(sprite_folder .. "/" .. item_name)
       item_sprite:set_direction(variant - 1)
-      item_sprite:set_xy(8 + column * 32 - 16, 13 + row * 32 - 16)
+      item_sprite:set_xy(x_margin + (column * (16 + x_padding)) - 16, y_margin + (row * (16 + y_padding)))
       item_sprite:draw(widget:get_surface())
     end
   end
@@ -77,7 +77,7 @@ local function create_inventory_widget(game)
   widget:set_xy(16, 16 - movement_distance)
   widget:make_green_frame()
 
-  display_items_grid(game, widget, inventory_items_names, "inventory", "menus/items/inventory", inventory_num_columns)
+  display_items_grid(game, widget, inventory_items_names, "inventory", "menus/items/inventory", inventory_num_columns, 8, 16, 29, 16)
 
   return widget
 end
@@ -89,7 +89,7 @@ local function create_quest_widget(game)
   widget:make_yellow_frame()
   local num_columns = 3
   
-  display_items_grid(game, widget, quest_items_name, "quest", "menus/items/quest", num_columns)
+  display_items_grid(game, widget, quest_items_name, "quest", "menus/items/quest", num_columns, 8, 16, 24, 8)
 
   return widget
 
@@ -103,7 +103,7 @@ local function create_equipment_widget(game)
   local items_surface = widget:get_surface()
   local num_columns = 3
   
-  display_items_grid(game, widget, main_equipment_names, "equipment", "menus/items/equipment", num_columns)
+  display_items_grid(game, widget, main_equipment_names, "equipment", "menus/items/equipment", num_columns, 8, 16, 24, 8)
   
   return widget
   
@@ -116,7 +116,7 @@ local function create_do_widget(game)
   widget:make_red_frame()
   local num_columns = 5
   
-  display_items_grid(game, widget, secondary_equipment_names, "equipment", "menus/items/equipment", num_columns)
+  display_items_grid(game, widget, secondary_equipment_names, "equipment", "menus/items/equipment", num_columns, 8, 16, 24, 8)
   
   return widget
 

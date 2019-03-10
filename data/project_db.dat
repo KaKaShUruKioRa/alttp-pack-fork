@@ -199,6 +199,7 @@ sprite{ id = "menus/items/equipment/book_of_mudora", description = "Book of Mudo
 sprite{ id = "menus/items/equipment/bow_quiver", description = "Bow Quiver" }
 sprite{ id = "menus/items/equipment/flippers", description = "Flippers" }
 sprite{ id = "menus/items/equipment/glove", description = "Glove" }
+sprite{ id = "menus/items/equipment/piece_of_heart_counter", description = "Counter Piece of Heart" }
 sprite{ id = "menus/items/equipment/shield", description = "Shield" }
 sprite{ id = "menus/items/equipment/sword", description = "Sword" }
 sprite{ id = "menus/items/equipment/tunic", description = "Tunic" }
@@ -455,7 +456,9 @@ item{ id = "consumables/arrow_refill", description = "Arrows Refill (x1 / x5 / x
 item{ id = "consumables/bomb_refill", description = "Bombs Refill (x1 / x3 / x8)" }
 item{ id = "consumables/fairy", description = "Fairy" }
 item{ id = "consumables/heart", description = "Heart (x1)" }
+item{ id = "consumables/heart_container", description = "Heart Container" }
 item{ id = "consumables/magic_jar", description = "Magic Jar (small / big)" }
+item{ id = "consumables/piece_of_heart", description = "Piece of Heart" }
 item{ id = "consumables/rupee", description = "Rupees (x1 / x5 / x20 / x50 / x100 / x300)" }
 item{ id = "equipment/bomb_bag", description = "Bomb Bag (x10 / x 30 / x50)" }
 item{ id = "equipment/book_of_mudora", description = "Book of Mudora" }
@@ -463,6 +466,7 @@ item{ id = "equipment/bow_quiver", description = "Quiver (x30 / x50 / x70)" }
 item{ id = "equipment/flippers", description = "Flippers" }
 item{ id = "equipment/glove", description = "Glove (level 1 / level 2)" }
 item{ id = "equipment/magic_meter", description = "Magic Meter" }
+item{ id = "equipment/piece_of_heart_counter", description = "Counter Piece of Heart" }
 item{ id = "equipment/shield", description = "Shield" }
 item{ id = "equipment/sword", description = "Sword" }
 item{ id = "equipment/tunic", description = "Tunic" }
@@ -669,7 +673,9 @@ file{ path = "items/consumables/arrow_refill.lua", author = "Christopho, Mehdi K
 file{ path = "items/consumables/bomb_refill.lua", author = "Christopho, Mehdi Khelifi", license = "GPL v3" }
 file{ path = "items/consumables/fairy.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "items/consumables/heart.lua", author = "Christopho", license = "GPL v3" }
+file{ path = "items/consumables/heart_container.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "items/consumables/magic_jar.lua", author = "Christopho", license = "GPL v3" }
+file{ path = "items/consumables/piece_of_heart.lua", author = "Mehdi Khelifi", license = "GPL v3" }
 file{ path = "items/consumables/rupee.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "items/equipment", author = "Christopho", license = "GPL v3" }
 file{ path = "items/equipment/bomb_bag.lua", author = "Christopho, Mehdi Khelifi", license = "GPL v3" }
@@ -678,6 +684,7 @@ file{ path = "items/equipment/bow_quiver.lua", author = "Christopho, Mehdi Kheli
 file{ path = "items/equipment/flippers.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "items/equipment/glove.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "items/equipment/magic_meter.lua", author = "Christopho", license = "GPL v3" }
+file{ path = "items/equipment/piece_of_heart_counter.lua", author = "Mehdi Khelifi", license = "GPL v3" }
 file{ path = "items/equipment/shield.lua", author = "Mehdi Khelifi", license = "GPL v3" }
 file{ path = "items/equipment/sword.lua", author = "Mehdi Khelifi", license = "GPL v3" }
 file{ path = "items/equipment/tunic.lua", author = "Mehdi Khelifi", license = "GPL v3" }
@@ -805,7 +812,7 @@ file{ path = "scripts/menus/lib/gui_designer.lua", author = "Christopho", licens
 file{ path = "scripts/menus/options.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "scripts/menus/pause.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "scripts/menus/pause_commands.lua", author = "Christopho", license = "GPL v3" }
-file{ path = "scripts/menus/pause_inventory.lua", author = "Christopho", license = "GPL v3" }
+file{ path = "scripts/menus/pause_inventory.lua", author = "Christopho, Mehdi Khelifi", license = "GPL v3" }
 file{ path = "scripts/menus/savegames.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "scripts/menus/solarus_logo.lua", author = "Maxs", license = "GPL v3" }
 file{ path = "scripts/menus/title_screen.lua", author = "Olivier Cléro", license = "GPL v3" }
@@ -1324,7 +1331,6 @@ file{ path = "sprites/items/inventory/quake_medallion.png", author = "Nintendo",
 file{ path = "sprites/items/inventory/shovel.png", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "sprites/items/quest", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "sprites/items/quest/crystal.png", author = "Nintendo", license = "Proprietary (Fair use)" }
-file{ path = "sprites/items/quest/heart_menu.png", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "sprites/items/quest/mushroom.png", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "sprites/items/quest/pendants.png", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "sprites/menus", license = "Mixed" }
