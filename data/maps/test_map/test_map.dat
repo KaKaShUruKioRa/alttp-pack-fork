@@ -421,6 +421,15 @@ pickable{
   treasure_name = "consumables/piece_of_heart",
 }
 
+pickable{
+  name = "tunic_2",
+  layer = 0,
+  x = 120,
+  y = 149,
+  treasure_name = "inventory/bow",
+  treasure_variant = 2,
+}
+
 tile{
   layer = 1,
   x = 144,
