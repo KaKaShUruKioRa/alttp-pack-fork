@@ -11,6 +11,7 @@ map{ id = "examples/light_world/sw_entry_to_lost_woods", description = "SW Entry
 map{ id = "first_map", description = "First map" }
 map{ id = "inside_store", description = "Inside Store" }
 map{ id = "outside_store", description = "Outside Store" }
+map{ id = "test_map/dungeon_entrance" }
 map{ id = "test_map/test_map", description = "A test map" }
 
 tileset{ id = "dungeon/blue", description = "Blue dungeon" }
@@ -460,6 +461,7 @@ item{ id = "consumables/heart_container", description = "Heart Container" }
 item{ id = "consumables/magic_jar", description = "Magic Jar (small / big)" }
 item{ id = "consumables/piece_of_heart", description = "Piece of Heart" }
 item{ id = "consumables/rupee", description = "Rupees (x1 / x5 / x20 / x50 / x100 / x300)" }
+item{ id = "dungeons/big_key", description = "Big Key" }
 item{ id = "equipment/bomb_bag", description = "Bomb Bag (x10 / x 30 / x50)" }
 item{ id = "equipment/book_of_mudora", description = "Book of Mudora" }
 item{ id = "equipment/bow_quiver", description = "Quiver (x30 / x50 / x70)" }
@@ -677,6 +679,7 @@ file{ path = "items/consumables/heart_container.lua", author = "Christopho", lic
 file{ path = "items/consumables/magic_jar.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "items/consumables/piece_of_heart.lua", author = "Mehdi Khelifi", license = "GPL v3" }
 file{ path = "items/consumables/rupee.lua", author = "Christopho", license = "GPL v3" }
+file{ path = "items/dungeons/big_key.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "items/equipment", author = "Christopho", license = "GPL v3" }
 file{ path = "items/equipment/bomb_bag.lua", author = "Christopho, Mehdi Khelifi", license = "GPL v3" }
 file{ path = "items/equipment/book_of_mudora.lua", author = "Christopho", license = "GPL v3" }
@@ -790,6 +793,7 @@ file{ path = "musics/victory.it", author = "Nintendo", license = "Proprietary (F
 file{ path = "musics/village.it", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "musics/zelda.it", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "scripts", license = "GPL v3" }
+file{ path = "scripts/dungeons.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "scripts/features.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "scripts/game_manager.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "scripts/hud", author = "Christopho", license = "GPL v3" }
