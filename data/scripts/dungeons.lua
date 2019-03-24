@@ -118,6 +118,80 @@ local function initialize_dungeon_features(game)
     )
   end
 
+  -- Small key's features
+  
+  -- Returns whether a small key counter exists on the current map.
+  function game:are_small_keys_enabled()
+    return self:get_small_keys_savegame_variable() ~= nil
+  end
+
+  -- Returns the name of the integer variable that stores the number
+  -- of small keys for the current map, or nil.
+  function game:get_small_keys_savegame_variable()
+
+    local map = self:get_map()
+
+    if map ~= nil then
+      -- Does the map explicitly define a small key counter?
+      if map.small_keys_savegame_variable ~= nil then
+        return map.small_keys_savegame_variable
+      end
+
+      -- Are we in a dungeon?
+      local dungeon_name = self:get_dungeon_name()
+      if dungeon_name ~= nil then
+        return dungeon_name .. "_small_keys"
+      end
+    end
+
+    -- No small keys on this map.
+    return nil
+  end
+
+  -- Returns whether the player has at least one small key.
+  -- Raises an error is small keys are not enabled in the current map.
+  function game:has_small_key()
+
+    return self:get_num_small_keys() > 0
+  end
+
+  -- Returns the number of small keys of the player.
+  -- Raises an error is small keys are not enabled in the current map.
+  function game:get_num_small_keys()
+
+    if not self:are_small_keys_enabled() then
+      error("Small keys are not enabled in the current map", 2)
+    end
+
+    local savegame_variable = self:get_small_keys_savegame_variable()
+    return self:get_value(savegame_variable) or 0
+  end
+
+  -- Adds a small key to the player.
+  -- Raises an error is small keys are not enabled in the current map.
+  function game:add_small_key()
+
+    if not self:are_small_keys_enabled() then
+      error("Small keys are not enabled in the current map")
+    end
+
+    local savegame_variable = self:get_small_keys_savegame_variable()
+    self:set_value(savegame_variable, self:get_num_small_keys() + 1)
+  end
+
+  -- Removes a small key to the player.
+  -- Raises an error is small keys are not enabled in the current map
+  -- or if the player has no small keys.
+  function game:remove_small_key()
+
+    if not self:has_small_key() then
+      error("The player has no small key")
+    end
+
+    local savegame_variable = self:get_small_keys_savegame_variable()
+    self:set_value(savegame_variable, self:get_num_small_keys() - 1)
+  end
+
 end
 
 -- Set up dungeon features on any game that starts.

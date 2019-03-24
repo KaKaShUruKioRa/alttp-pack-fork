@@ -27,8 +27,8 @@ function builder:new(game, config)
       y = height + y
     end
 
-    icon_img:draw(dst_surface, x + 4, y)
-    digits_text:draw(dst_surface, x + 5, y + 10)
+    icon_img:draw(dst_surface, x, y)
+    digits_text:draw(dst_surface, x, y + 10)
   end
 
   -- Checks whether the view displays correct information
