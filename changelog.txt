@@ -1,3 +1,10 @@
+______________________________________
+
+Solarus ALTTP pack 1.6.1 (in progress)
+______________________________________
+
+* Fix very slight error in hammer sprite animation.
+
 _____________________________________
 
 Solarus ALTTP pack 1.6.0 (2018-12-22)
