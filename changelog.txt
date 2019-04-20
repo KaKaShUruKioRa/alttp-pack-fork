@@ -3,6 +3,7 @@ ______________________________________
 Solarus ALTTP pack 1.6.1 (in progress)
 ______________________________________
 
+* Fix amount of arrrows and bombs lost after reloading (#39).
 * Fix very slight error in hammer sprite animation.
 * Make jumpable cliffs low walls.
 
