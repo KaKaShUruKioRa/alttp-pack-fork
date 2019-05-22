@@ -31,6 +31,7 @@ tileset{ id = "dungeon/pink", description = "Pink dungeon" }
 tileset{ id = "dungeon/purple", description = "Purple dungeon" }
 tileset{ id = "dungeon/yellow", description = "Yellow dungeon" }
 tileset{ id = "out/outside", description = "Full Hyrule Outside" }
+tileset{ id = "out/outside_special", description = "Hyrule Outside special tiles" }
 
 sprite{ id = "destructibles/bush_green", description = "Bush (green)" }
 sprite{ id = "destructibles/bush_purple", description = "Bush (purple)" }
