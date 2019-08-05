@@ -8,9 +8,28 @@ local function get_pattern_mapping()
   
   local pattern_to_tileset = {}
   
-  -- TODO
   -- Check that the new tileset files exist, otherwise show an error.
+  local tileset_path = "../data/tilesets/"
+  local tileset_ids = {
+    "out/outside_main",
+    "out/outside_buildings",
+    "out/outside_special",
+  }
+  
   -- Traverse the new tileset files and associate to each pattern the tileset name.
+  for _, tileset_id in ipairs(tileset_ids) do
+    local file = io.open(tileset_path .. tileset_id .. ".dat")
+    if file == nil then
+      error("Cannot open tileset file: " .. file_path)
+    end
+    local content = file:read("*a")
+    for pattern in content:gmatch("  id = \"(%w+)\",") do
+      if pattern_to_tileset[pattern] ~= nil then
+        error("Pattern is duplicated in two tilesets: " .. pattern)
+      end
+      pattern_to_tileset[pattern] = tileset_id
+    end
+  end
 
   return pattern_to_tileset
 end

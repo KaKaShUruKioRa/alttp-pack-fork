@@ -4576,17 +4576,6 @@ tile_pattern{
 }
 
 tile_pattern{
-  id = "12452",
-  ground = "empty",
-  default_layer = -2,
-  x = 32,
-  y = 5096,
-  width = 1024,
-  height = 1024,
-  repeat_mode = "none",
-}
-
-tile_pattern{
   id = "12453",
   ground = "empty",
   default_layer = 2,
@@ -12756,17 +12745,6 @@ tile_pattern{
   y = 8,
   width = 8,
   height = 8,
-}
-
-tile_pattern{
-  id = "14635",
-  ground = "empty",
-  default_layer = 0,
-  x = 400,
-  y = 3496,
-  width = 48,
-  height = 32,
-  repeat_mode = "none",
 }
 
 tile_pattern{

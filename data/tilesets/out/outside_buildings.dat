@@ -16198,17 +16198,6 @@ tile_pattern{
 }
 
 tile_pattern{
-  id = "12452",
-  ground = "empty",
-  default_layer = -2,
-  x = 32,
-  y = 5096,
-  width = 1024,
-  height = 1024,
-  repeat_mode = "none",
-}
-
-tile_pattern{
   id = "12543",
   ground = "wall",
   default_layer = 0,
