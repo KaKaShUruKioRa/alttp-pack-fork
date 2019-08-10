@@ -3,7 +3,7 @@ ______________________________________
 Solarus ALTTP pack 1.6.1 (in progress)
 ______________________________________
 
-* Split the outside tileset in 3 smaller tilesets (31).
+* Split the outside tileset in 3 smaller tilesets (#31).
 * Make jumpable cliffs low walls.
 * Fix the language of texts to English (#32).
 * Fix amount of arrrows and bombs lost after reloading (#39).
