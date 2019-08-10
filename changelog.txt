@@ -3,12 +3,13 @@ ______________________________________
 Solarus ALTTP pack 1.6.1 (in progress)
 ______________________________________
 
+* Split the outside tileset in 3 smaller tilesets (31).
+* Make jumpable cliffs low walls.
 * Fix amount of arrrows and bombs lost after reloading (#39).
 * Fix the speed of hero animations by Alex.
 * Fix tree entrance tiles on wrong layer in outside tileset.
 * Fix displaying issue of the ghostly proprietor NPC sprite.
 * Fix very slight error in hammer sprite animation.
-* Make jumpable cliffs low walls.
 
 _____________________________________
 
