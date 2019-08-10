@@ -7,6 +7,7 @@
 
 local game_manager = {}
 
+require("scripts/multi_events")
 local initial_game = require("scripts/initial_game")
 
 -- Creates a game ready to be played.

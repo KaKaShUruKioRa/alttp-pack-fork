@@ -5,7 +5,7 @@ properties{
   height = 1024,
   min_layer = -2,
   max_layer = 2,
-  tileset = "out/outside",
+  tileset = "out/outside_main",
 }
 
 tile{
@@ -15,6 +15,7 @@ tile{
   width = 1024,
   height = 1024,
   pattern = "205",
+  tileset = "out/outside_special",
 }
 
 tile{
@@ -24,6 +25,7 @@ tile{
   width = 1032,
   height = 1024,
   pattern = "223",
+  tileset = "out/outside_special",
 }
 
 tile{
@@ -17269,6 +17271,7 @@ dynamic_tile{
   x = 0,
   y = 0,
   pattern = "10251",
+  tileset = "out/outside_special",
   width = 1024,
   height = 1024,
 }

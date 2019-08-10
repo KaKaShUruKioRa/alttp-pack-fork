@@ -11,6 +11,7 @@ map{ id = "examples/light_world/sw_entry_to_lost_woods", description = "SW Entry
 map{ id = "first_map", description = "First map" }
 map{ id = "inside_store", description = "Inside Store" }
 map{ id = "outside_store", description = "Outside Store" }
+map{ id = "test_map/dungeon_entrance" }
 map{ id = "test_map/test_map", description = "A test map" }
 
 tileset{ id = "dungeon/blue", description = "Blue dungeon" }
@@ -29,7 +30,9 @@ tileset{ id = "dungeon/light_green", description = "Light green dungeon" }
 tileset{ id = "dungeon/pink", description = "Pink dungeon" }
 tileset{ id = "dungeon/purple", description = "Purple dungeon" }
 tileset{ id = "dungeon/yellow", description = "Yellow dungeon" }
-tileset{ id = "out/outside", description = "Full Hyrule Outside" }
+tileset{ id = "out/outside_buildings", description = "Outside buildings" }
+tileset{ id = "out/outside_main", description = "Outside main" }
+tileset{ id = "out/outside_special", description = "Outside special" }
 
 sprite{ id = "destructibles/bush_green", description = "Bush (green)" }
 sprite{ id = "destructibles/bush_purple", description = "Bush (purple)" }
@@ -193,30 +196,50 @@ sprite{ id = "hero/tunic3", description = "Hero tunic 3" }
 sprite{ id = "hud/gameover_fade", description = "Game-over fade" }
 sprite{ id = "hud/piece_of_heart_icon", description = "Piece of Heart icon" }
 sprite{ id = "menus/hero_head", description = "Menu: hero head" }
-sprite{ id = "menus/inventory/bombos_medallion", description = "Bombos Medallion" }
-sprite{ id = "menus/inventory/bombs", description = "Bombs" }
-sprite{ id = "menus/inventory/boomerang", description = "Boomerang" }
-sprite{ id = "menus/inventory/bottle_1", description = "Bottle 1" }
-sprite{ id = "menus/inventory/bottle_2", description = "Bottle 2" }
-sprite{ id = "menus/inventory/bottle_3", description = "Bottle 3" }
-sprite{ id = "menus/inventory/bottle_4", description = "Bottle 4" }
-sprite{ id = "menus/inventory/bow", description = "Bow" }
-sprite{ id = "menus/inventory/bug_catching_net", description = "Bug Catching Net" }
-sprite{ id = "menus/inventory/cane_of_byrna", description = "Cane Of Byrna" }
-sprite{ id = "menus/inventory/cane_of_somaria", description = "Cane of Somaria" }
-sprite{ id = "menus/inventory/ether_medallion", description = "Ether Medallion" }
-sprite{ id = "menus/inventory/fire_rod", description = "Fire Rod" }
-sprite{ id = "menus/inventory/hammer", description = "Hammer" }
-sprite{ id = "menus/inventory/hookshot", description = "Hookshot" }
-sprite{ id = "menus/inventory/ice_rod", description = "Ice Rod" }
-sprite{ id = "menus/inventory/lantern", description = "Lantern" }
-sprite{ id = "menus/inventory/magic_cape", description = "Magic Cape" }
-sprite{ id = "menus/inventory/magic_mirror", description = "Magic Mirror" }
-sprite{ id = "menus/inventory/magic_powder", description = "Magic Powder" }
-sprite{ id = "menus/inventory/ocarina", description = "Ocarina" }
-sprite{ id = "menus/inventory/quake_medallion", description = "Quake Medallion" }
-sprite{ id = "menus/inventory/shovel", description = "Shovel" }
 sprite{ id = "menus/item_cursor", description = "Item cursor" }
+sprite{ id = "menus/items/equipment/bomb_bag", description = "Bomb Bag" }
+sprite{ id = "menus/items/equipment/book_of_mudora", description = "Book of Mudora" }
+sprite{ id = "menus/items/equipment/bow_quiver", description = "Bow Quiver" }
+sprite{ id = "menus/items/equipment/flippers", description = "Flippers" }
+sprite{ id = "menus/items/equipment/glove", description = "Glove" }
+sprite{ id = "menus/items/equipment/piece_of_heart_counter", description = "Counter Piece of Heart" }
+sprite{ id = "menus/items/equipment/shield", description = "Shield" }
+sprite{ id = "menus/items/equipment/sword", description = "Sword" }
+sprite{ id = "menus/items/equipment/tunic", description = "Tunic" }
+sprite{ id = "menus/items/inventory/bombos_medallion", description = "Bombos Medallion" }
+sprite{ id = "menus/items/inventory/bombs", description = "Bombs" }
+sprite{ id = "menus/items/inventory/boomerang", description = "Boomerang" }
+sprite{ id = "menus/items/inventory/bottle_1", description = "Bottle 1" }
+sprite{ id = "menus/items/inventory/bottle_2", description = "Bottle 2" }
+sprite{ id = "menus/items/inventory/bottle_3", description = "Bottle 3" }
+sprite{ id = "menus/items/inventory/bottle_4", description = "Bottle 4" }
+sprite{ id = "menus/items/inventory/bow", description = "Bow" }
+sprite{ id = "menus/items/inventory/bug_catching_net", description = "Bug Catching Net" }
+sprite{ id = "menus/items/inventory/cane_of_byrna", description = "Cane Of Byrna" }
+sprite{ id = "menus/items/inventory/cane_of_somaria", description = "Cane of Somaria" }
+sprite{ id = "menus/items/inventory/ether_medallion", description = "Ether Medallion" }
+sprite{ id = "menus/items/inventory/fire_rod", description = "Fire Rod" }
+sprite{ id = "menus/items/inventory/hammer", description = "Hammer" }
+sprite{ id = "menus/items/inventory/hookshot", description = "Hookshot" }
+sprite{ id = "menus/items/inventory/ice_rod", description = "Ice Rod" }
+sprite{ id = "menus/items/inventory/lantern", description = "Lantern" }
+sprite{ id = "menus/items/inventory/magic_cape", description = "Magic Cape" }
+sprite{ id = "menus/items/inventory/magic_mirror", description = "Magic Mirror" }
+sprite{ id = "menus/items/inventory/magic_powder", description = "Magic Powder" }
+sprite{ id = "menus/items/inventory/ocarina", description = "Ocarina" }
+sprite{ id = "menus/items/inventory/quake_medallion", description = "Quake Medallion" }
+sprite{ id = "menus/items/inventory/shovel", description = "Shovel" }
+sprite{ id = "menus/items/quest/crystal_1", description = "Crystal 1" }
+sprite{ id = "menus/items/quest/crystal_2", description = "Crystal 2" }
+sprite{ id = "menus/items/quest/crystal_3", description = "Crystal 3" }
+sprite{ id = "menus/items/quest/crystal_4", description = "Crystal 4" }
+sprite{ id = "menus/items/quest/crystal_5", description = "Crystal 5" }
+sprite{ id = "menus/items/quest/crystal_6", description = "Crystal 6" }
+sprite{ id = "menus/items/quest/crystal_7", description = "Crystal 7" }
+sprite{ id = "menus/items/quest/mushroom", description = "Mushroom" }
+sprite{ id = "menus/items/quest/pendant_of_courage", description = "Pendant of Courage" }
+sprite{ id = "menus/items/quest/pendant_of_power", description = "Pendant of Power" }
+sprite{ id = "menus/items/quest/pendant_of_wisdom", description = "Pendant of Wisdom" }
 sprite{ id = "menus/solarus_logo/solarus_logo", description = "Solarus logo" }
 sprite{ id = "menus/title_screen/press_start", description = "Press start" }
 sprite{ id = "menus/title_screen/small_shine", description = "Small shine" }
@@ -436,14 +459,19 @@ item{ id = "consumables/arrow_refill", description = "Arrows Refill (x1 / x5 / x
 item{ id = "consumables/bomb_refill", description = "Bombs Refill (x1 / x3 / x8)" }
 item{ id = "consumables/fairy", description = "Fairy" }
 item{ id = "consumables/heart", description = "Heart (x1)" }
+item{ id = "consumables/heart_container", description = "Heart Container" }
 item{ id = "consumables/magic_jar", description = "Magic Jar (small / big)" }
+item{ id = "consumables/piece_of_heart", description = "Piece of Heart" }
 item{ id = "consumables/rupee", description = "Rupees (x1 / x5 / x20 / x50 / x100 / x300)" }
+item{ id = "dungeons/big_key", description = "Big Key" }
+item{ id = "dungeons/small_key", description = "Small Key" }
 item{ id = "equipment/bomb_bag", description = "Bomb Bag (x10 / x 30 / x50)" }
 item{ id = "equipment/book_of_mudora", description = "Book of Mudora" }
 item{ id = "equipment/bow_quiver", description = "Quiver (x30 / x50 / x70)" }
 item{ id = "equipment/flippers", description = "Flippers" }
 item{ id = "equipment/glove", description = "Glove (level 1 / level 2)" }
 item{ id = "equipment/magic_meter", description = "Magic Meter" }
+item{ id = "equipment/piece_of_heart_counter", description = "Counter Piece of Heart" }
 item{ id = "equipment/shield", description = "Shield" }
 item{ id = "equipment/sword", description = "Sword" }
 item{ id = "equipment/tunic", description = "Tunic" }
@@ -460,7 +488,17 @@ item{ id = "inventory/hookshot", description = "Hookshot" }
 item{ id = "inventory/ice_rod", description = "Ice Rod" }
 item{ id = "inventory/lantern", description = "Lantern" }
 item{ id = "inventory/ocarina", description = "Ocarina" }
+item{ id = "quest/crystal_1", description = "Crystal 1" }
+item{ id = "quest/crystal_2", description = "Crystal 2" }
+item{ id = "quest/crystal_3", description = "Crystal 3" }
+item{ id = "quest/crystal_4", description = "Crystal 4" }
+item{ id = "quest/crystal_5", description = "Crystal 5" }
+item{ id = "quest/crystal_6", description = "Crystal 6" }
+item{ id = "quest/crystal_7", description = "Crystal 7" }
 item{ id = "quest/mushroom", description = "Mushroom" }
+item{ id = "quest/pendant_of_courage", description = "Pendant of Courage" }
+item{ id = "quest/pendant_of_power", description = "Pendant of Power" }
+item{ id = "quest/pendant_of_wisdom", description = "Pendant of Wisdom" }
 
 enemy{ id = "bosses/agahnim", description = "Agahnim" }
 enemy{ id = "bosses/armos_knight", description = "Armos Knight" }
@@ -536,7 +574,7 @@ entity{ id = "hammer_stake", description = "Hammer Stake" }
 entity{ id = "ice_beam", description = "Ice Beam" }
 entity{ id = "torch", description = "Torch" }
 
-language{ id = "fr", description = "Français" }
+language{ id = "en", description = "English" }
 
 font{ id = "alttp", description = "alttp" }
 font{ id = "green_digits", description = "Green digits" }
@@ -636,45 +674,56 @@ file{ path = "fonts/green_digits.png", author = "Nintendo", license = "Proprieta
 file{ path = "fonts/white_digits.png", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "items", license = "GPL v3" }
 file{ path = "items/consumables", author = "Christopho", license = "GPL v3" }
-file{ path = "items/consumables/arrow_refill.lua", author = "Christopho", license = "GPL v3" }
-file{ path = "items/consumables/bomb_refill.lua", author = "Christopho", license = "GPL v3" }
+file{ path = "items/consumables/arrow_refill.lua", author = "Christopho, Mehdi Khelifi", license = "GPL v3" }
+file{ path = "items/consumables/bomb_refill.lua", author = "Christopho, Mehdi Khelifi", license = "GPL v3" }
 file{ path = "items/consumables/fairy.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "items/consumables/heart.lua", author = "Christopho", license = "GPL v3" }
+file{ path = "items/consumables/heart_container.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "items/consumables/magic_jar.lua", author = "Christopho", license = "GPL v3" }
+file{ path = "items/consumables/piece_of_heart.lua", author = "Mehdi Khelifi", license = "GPL v3" }
 file{ path = "items/consumables/rupee.lua", author = "Christopho", license = "GPL v3" }
+file{ path = "items/dungeons/big_key.lua", author = "Christopho", license = "GPL v3" }
+file{ path = "items/dungeons/small_key.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "items/equipment", author = "Christopho", license = "GPL v3" }
-file{ path = "items/equipment/bomb_bag.lua", author = "Christopho", license = "GPL v3" }
+file{ path = "items/equipment/bomb_bag.lua", author = "Christopho, Mehdi Khelifi", license = "GPL v3" }
 file{ path = "items/equipment/book_of_mudora.lua", author = "Christopho", license = "GPL v3" }
-file{ path = "items/equipment/bow_quiver.lua", author = "Christopho", license = "GPL v3" }
+file{ path = "items/equipment/bow_quiver.lua", author = "Christopho, Mehdi Khelifi", license = "GPL v3" }
 file{ path = "items/equipment/flippers.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "items/equipment/glove.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "items/equipment/magic_meter.lua", author = "Christopho", license = "GPL v3" }
+file{ path = "items/equipment/piece_of_heart_counter.lua", author = "Mehdi Khelifi", license = "GPL v3" }
 file{ path = "items/equipment/shield.lua", author = "Mehdi Khelifi", license = "GPL v3" }
 file{ path = "items/equipment/sword.lua", author = "Mehdi Khelifi", license = "GPL v3" }
 file{ path = "items/equipment/tunic.lua", author = "Mehdi Khelifi", license = "GPL v3" }
 file{ path = "items/inventory", author = "Christopho", license = "GPL v3" }
-file{ path = "items/inventory/bombs.lua", author = "Christopho", license = "GPL v3" }
+file{ path = "items/inventory/bombs.lua", author = "Christopho, Mehdi Khelifi", license = "GPL v3" }
 file{ path = "items/inventory/boomerang.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "items/inventory/bottle.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "items/inventory/bottle_1.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "items/inventory/bottle_2.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "items/inventory/bottle_3.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "items/inventory/bottle_4.lua", author = "Christopho", license = "GPL v3" }
-file{ path = "items/inventory/bow.lua", author = "Christopho", license = "GPL v3" }
+file{ path = "items/inventory/bow.lua", author = "Christopho, Mehdi Khelifi", license = "GPL v3" }
 file{ path = "items/inventory/fire_rod.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "items/inventory/hammer.lua", author = "Christopho", license = "GPL v3" }
-file{ path = "items/inventory/hookshot.lua", author = "Christopho", license = "GPL v3" }
-file{ path = "items/inventory/hookshot_config.lua", author = "Christopho", license = "GPL v3" }
+file{ path = "items/inventory/hookshot.lua", author = "Christopho, Mehdi Khelifi", license = "GPL v3" }
+file{ path = "items/inventory/hookshot_config.lua", author = "Christopho, Mehdi Khelifi", license = "GPL v3" }
 file{ path = "items/inventory/ice_rod.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "items/inventory/lantern.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "items/inventory/ocarina.lua", author = "Mehdi Khelifi", license = "GPL v3" }
 file{ path = "items/quest", license = "GPL v3" }
+file{ path = "items/quest/crystal_1.lua", author = "Mehdi Khelifi", license = "GPL v3" }
+file{ path = "items/quest/crystal_2.lua", author = "Mehdi Khelifi", license = "GPL v3" }
+file{ path = "items/quest/crystal_3.lua", author = "Mehdi Khelifi", license = "GPL v3" }
+file{ path = "items/quest/crystal_4.lua", author = "Mehdi Khelifi", license = "GPL v3" }
+file{ path = "items/quest/crystal_5.lua", author = "Mehdi Khelifi", license = "GPL v3" }
+file{ path = "items/quest/crystal_6.lua", author = "Mehdi Khelifi", license = "GPL v3" }
+file{ path = "items/quest/crystal_7.lua", author = "Mehdi Khelifi", license = "GPL v3" }
 file{ path = "items/quest/mushroom.lua", author = "Mehdi Khelifi", license = "GPL v3" }
+file{ path = "items/quest/pendant_of_courage.lua", author = "Mehdi Khelifi", license = "GPL v3" }
+file{ path = "items/quest/pendant_of_power.lua", author = "Mehdi Khelifi", license = "GPL v3" }
+file{ path = "items/quest/pendant_of_wisdom.lua", author = "Mehdi Khelifi", license = "GPL v3" }
 file{ path = "languages", license = "CC BY-SA 4.0" }
-file{ path = "languages/fr", author = "Christopho", license = "CC BY-SA 4.0" }
-file{ path = "languages/fr/text", author = "Christopho", license = "CC BY-SA 4.0" }
-file{ path = "languages/fr/text/dialogs.dat", author = "Christopho", license = "CC BY-SA 4.0" }
-file{ path = "languages/fr/text/strings.dat", author = "Christopho", license = "CC BY-SA 4.0" }
 file{ path = "logos", license = "Proprietary (Fair use)" }
 file{ path = "logos/logo.png", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "logos/logo_2x.png", author = "Nintendo", license = "Proprietary (Fair use)" }
@@ -744,6 +793,7 @@ file{ path = "musics/victory.it", author = "Nintendo", license = "Proprietary (F
 file{ path = "musics/village.it", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "musics/zelda.it", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "scripts", license = "GPL v3" }
+file{ path = "scripts/dungeons.lua", author = "Christopho, Mehdi Khelifi", license = "GPL v3" }
 file{ path = "scripts/features.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "scripts/game_manager.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "scripts/hud", author = "Christopho", license = "GPL v3" }
@@ -766,7 +816,7 @@ file{ path = "scripts/menus/lib/gui_designer.lua", author = "Christopho", licens
 file{ path = "scripts/menus/options.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "scripts/menus/pause.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "scripts/menus/pause_commands.lua", author = "Christopho", license = "GPL v3" }
-file{ path = "scripts/menus/pause_inventory.lua", author = "Christopho", license = "GPL v3" }
+file{ path = "scripts/menus/pause_inventory.lua", author = "Christopho, Mehdi Khelifi", license = "GPL v3" }
 file{ path = "scripts/menus/savegames.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "scripts/menus/solarus_logo.lua", author = "Maxs", license = "GPL v3" }
 file{ path = "scripts/menus/title_screen.lua", author = "Olivier Cléro", license = "GPL v3" }
@@ -1122,7 +1172,7 @@ file{ path = "sprites/entities/hookshot.dat", author = "Christopho", license = "
 file{ path = "sprites/entities/hookshot.png", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "sprites/entities/ice_beam.dat", author = "Christopho", license = "CC BY-SA 4.0" }
 file{ path = "sprites/entities/ice_beam.png", author = "Nintendo", license = "Proprietary (Fair use)" }
-file{ path = "sprites/entities/items.dat", author = "Christopho", license = "CC BY-SA 4.0" }
+file{ path = "sprites/entities/items.dat", author = "Christopho, Mehdi Khelifi", license = "CC BY-SA 4.0" }
 file{ path = "sprites/entities/rupee_icon.dat", author = "Christopho", license = "CC BY-SA 4.0" }
 file{ path = "sprites/entities/rupee_icon.png", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "sprites/entities/shadow.dat", author = "Christopho", license = "CC BY-SA 4.0" }
@@ -1232,8 +1282,7 @@ file{ path = "sprites/hud/magic_meter.png", author = "Nintendo", license = "Prop
 file{ path = "sprites/hud/piece_of_heart_icon.dat", author = "Christopho", license = "CC BY-SA 4.0" }
 file{ path = "sprites/hud/piece_of_heart_icon.png", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "sprites/hud/rupee_icon.png", author = "Nintendo", license = "Proprietary (Fair use)" }
-file{ path = "sprites/hud/small_key_icon.png", author = "Nintendo", license = "Proprietary (Fair use)" }
-file{ path = "sprites/hud/small_keys.png", author = "Nintendo", license = "Proprietary (Fair use)" }
+file{ path = "sprites/hud/small_key.png", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "sprites/items", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "sprites/items/consumables", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "sprites/items/consumables/apple.png", author = "Nintendo", license = "Proprietary (Fair use)" }
@@ -1285,7 +1334,6 @@ file{ path = "sprites/items/inventory/quake_medallion.png", author = "Nintendo",
 file{ path = "sprites/items/inventory/shovel.png", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "sprites/items/quest", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "sprites/items/quest/crystal.png", author = "Nintendo", license = "Proprietary (Fair use)" }
-file{ path = "sprites/items/quest/heart_menu.png", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "sprites/items/quest/mushroom.png", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "sprites/items/quest/pendants.png", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "sprites/menus", license = "Mixed" }
@@ -1293,31 +1341,42 @@ file{ path = "sprites/menus/fairy_cursor.png", author = "Nintendo", license = "P
 file{ path = "sprites/menus/gui.png", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "sprites/menus/hero_head.dat", author = "Christopho", license = "CC BY-SA 4.0" }
 file{ path = "sprites/menus/hero_head.png", author = "Nintendo", license = "Proprietary (Fair use)" }
-file{ path = "sprites/menus/inventory/bombos_medallion.dat", author = "Mehdi Khelifi", license = "CC BY-SA 4.0" }
-file{ path = "sprites/menus/inventory/bombs.dat", author = "Mehdi Khelifi", license = "CC BY-SA 4.0" }
-file{ path = "sprites/menus/inventory/boomerang.dat", author = "Mehdi Khelifi", license = "CC BY-SA 4.0" }
-file{ path = "sprites/menus/inventory/bottle_1.dat", author = "Mehdi Khelifi", license = "CC BY-SA 4.0" }
-file{ path = "sprites/menus/inventory/bottle_2.dat", author = "Mehdi Khelifi", license = "CC BY-SA 4.0" }
-file{ path = "sprites/menus/inventory/bottle_3.dat", author = "Mehdi Khelifi", license = "CC BY-SA 4.0" }
-file{ path = "sprites/menus/inventory/bottle_4.dat", author = "Mehdi Khelifi", license = "CC BY-SA 4.0" }
-file{ path = "sprites/menus/inventory/bow.dat", author = "Mehdi Khelifi", license = "CC BY-SA 4.0" }
-file{ path = "sprites/menus/inventory/bug_catching_net.dat", author = "Mehdi Khelifi", license = "CC BY-SA 4.0" }
-file{ path = "sprites/menus/inventory/cane_of_byrna.dat", author = "Mehdi Khelifi", license = "CC BY-SA 4.0" }
-file{ path = "sprites/menus/inventory/cane_of_somaria.dat", author = "Mehdi Khelifi", license = "CC BY-SA 4.0" }
-file{ path = "sprites/menus/inventory/ether_medallion.dat", author = "Mehdi Khelifi", license = "CC BY-SA 4.0" }
-file{ path = "sprites/menus/inventory/fire_rod.dat", author = "Mehdi Khelifi", license = "CC BY-SA 4.0" }
-file{ path = "sprites/menus/inventory/hammer.dat", author = "Mehdi Khelifi", license = "CC BY-SA 4.0" }
-file{ path = "sprites/menus/inventory/hookshot.dat", author = "Mehdi Khelifi", license = "CC BY-SA 4.0" }
-file{ path = "sprites/menus/inventory/ice_rod.dat", author = "Mehdi Khelifi", license = "CC BY-SA 4.0" }
-file{ path = "sprites/menus/inventory/lantern.dat", author = "Mehdi Khelifi", license = "CC BY-SA 4.0" }
-file{ path = "sprites/menus/inventory/magic_cape.dat", author = "Mehdi Khelifi", license = "CC BY-SA 4.0" }
-file{ path = "sprites/menus/inventory/magic_mirror.dat", author = "Mehdi Khelifi", license = "CC BY-SA 4.0" }
-file{ path = "sprites/menus/inventory/magic_powder.dat", author = "Mehdi Khelifi", license = "CC BY-SA 4.0" }
-file{ path = "sprites/menus/inventory/ocarina.dat", author = "Mehdi Khelifi", license = "CC BY-SA 4.0" }
-file{ path = "sprites/menus/inventory/quake_medallion.dat", author = "Mehdi Khelifi", license = "CC BY-SA 4.0" }
-file{ path = "sprites/menus/inventory/shovel.dat", author = "Mehdi Khelifi", license = "CC BY-SA 4.0" }
 file{ path = "sprites/menus/item_cursor.dat", author = "Christopho", license = "CC BY-SA 4.0" }
 file{ path = "sprites/menus/item_cursor.png", author = "Nintendo", license = "Proprietary (Fair use)" }
+file{ path = "sprites/menus/items/equipment/bomb_bag.dat", author = "Mehdi Khelifi", license = "CC BY-SA 4.0" }
+file{ path = "sprites/menus/items/equipment/book_of_mudora.dat", author = "Mehdi Khelifi", license = "CC BY-SA 4.0" }
+file{ path = "sprites/menus/items/equipment/bow_quiver.dat", author = "Mehdi Khelifi", license = "CC BY-SA 4.0" }
+file{ path = "sprites/menus/items/equipment/flippers.dat", author = "Mehdi Khelifi", license = "CC BY-SA 4.0" }
+file{ path = "sprites/menus/items/equipment/glove.dat", author = "Mehdi Khelifi", license = "CC BY-SA 4.0" }
+file{ path = "sprites/menus/items/equipment/shield.dat", author = "Mehdi Khelifi", license = "CC BY-SA 4.0" }
+file{ path = "sprites/menus/items/equipment/sword.dat", author = "Mehdi Khelifi", license = "CC BY-SA 4.0" }
+file{ path = "sprites/menus/items/equipment/tunic.dat", author = "Mehdi Khelifi", license = "CC BY-SA 4.0" }
+file{ path = "sprites/menus/items/inventory/bombos_medallion.dat", author = "Mehdi Khelifi", license = "CC BY-SA 4.0" }
+file{ path = "sprites/menus/items/inventory/bombs.dat", author = "Mehdi Khelifi", license = "CC BY-SA 4.0" }
+file{ path = "sprites/menus/items/inventory/boomerang.dat", author = "Mehdi Khelifi", license = "CC BY-SA 4.0" }
+file{ path = "sprites/menus/items/inventory/bottle_1.dat", author = "Mehdi Khelifi", license = "CC BY-SA 4.0" }
+file{ path = "sprites/menus/items/inventory/bottle_2.dat", author = "Mehdi Khelifi", license = "CC BY-SA 4.0" }
+file{ path = "sprites/menus/items/inventory/bottle_3.dat", author = "Mehdi Khelifi", license = "CC BY-SA 4.0" }
+file{ path = "sprites/menus/items/inventory/bottle_4.dat", author = "Mehdi Khelifi", license = "CC BY-SA 4.0" }
+file{ path = "sprites/menus/items/inventory/bow.dat", author = "Mehdi Khelifi", license = "CC BY-SA 4.0" }
+file{ path = "sprites/menus/items/inventory/bug_catching_net.dat", author = "Mehdi Khelifi", license = "CC BY-SA 4.0" }
+file{ path = "sprites/menus/items/inventory/cane_of_byrna.dat", author = "Mehdi Khelifi", license = "CC BY-SA 4.0" }
+file{ path = "sprites/menus/items/inventory/cane_of_somaria.dat", author = "Mehdi Khelifi", license = "CC BY-SA 4.0" }
+file{ path = "sprites/menus/items/inventory/ether_medallion.dat", author = "Mehdi Khelifi", license = "CC BY-SA 4.0" }
+file{ path = "sprites/menus/items/inventory/fire_rod.dat", author = "Mehdi Khelifi", license = "CC BY-SA 4.0" }
+file{ path = "sprites/menus/items/inventory/hammer.dat", author = "Mehdi Khelifi", license = "CC BY-SA 4.0" }
+file{ path = "sprites/menus/items/inventory/hookshot.dat", author = "Mehdi Khelifi", license = "CC BY-SA 4.0" }
+file{ path = "sprites/menus/items/inventory/ice_rod.dat", author = "Mehdi Khelifi", license = "CC BY-SA 4.0" }
+file{ path = "sprites/menus/items/inventory/lantern.dat", author = "Mehdi Khelifi", license = "CC BY-SA 4.0" }
+file{ path = "sprites/menus/items/inventory/magic_cape.dat", author = "Mehdi Khelifi", license = "CC BY-SA 4.0" }
+file{ path = "sprites/menus/items/inventory/magic_mirror.dat", author = "Mehdi Khelifi", license = "CC BY-SA 4.0" }
+file{ path = "sprites/menus/items/inventory/magic_powder.dat", author = "Mehdi Khelifi", license = "CC BY-SA 4.0" }
+file{ path = "sprites/menus/items/inventory/ocarina.dat", author = "Mehdi Khelifi", license = "CC BY-SA 4.0" }
+file{ path = "sprites/menus/items/inventory/quake_medallion.dat", author = "Mehdi Khelifi", license = "CC BY-SA 4.0" }
+file{ path = "sprites/menus/items/inventory/shovel.dat", author = "Mehdi Khelifi", license = "CC BY-SA 4.0" }
+file{ path = "sprites/menus/items/quest/pendant_of_courage.dat", author = "Mehdi Khelifi", license = "CC BY-SA 4.0" }
+file{ path = "sprites/menus/items/quest/pendant_of_power.dat", author = "Mehdi Khelifi", license = "CC BY-SA 4.0" }
+file{ path = "sprites/menus/items/quest/pendant_of_wisdom.dat", author = "Mehdi Khelifi", license = "CC BY-SA 4.0" }
 file{ path = "sprites/menus/link_cursor.png", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "sprites/menus/slider.png", author = "Olivier Cléro", license = "CC BY-SA 4.0" }
 file{ path = "sprites/menus/slider_cursor.png", author = "Olivier Cléro", license = "CC BY-SA 4.0" }
@@ -1481,6 +1540,9 @@ file{ path = "tilesets/dungeon/yellow.dat", author = "FFomega", license = "CC BY
 file{ path = "tilesets/dungeon/yellow.entities.png", author = "Nintendo, FFomega", license = "Proprietary (Fair use)" }
 file{ path = "tilesets/dungeon/yellow.tiles.png", author = "Nintendo, FFomega", license = "Proprietary (Fair use)" }
 file{ path = "tilesets/out", author = "Nintendo, FFomega", license = "Mixed" }
-file{ path = "tilesets/out/outside.dat", author = "FFomega", license = "CC BY-SA 4.0" }
-file{ path = "tilesets/out/outside.entities.png", author = "Nintendo, FFomega", license = "Proprietary (Fair use)" }
-file{ path = "tilesets/out/outside.tiles.png", author = "Nintendo, FFomega", license = "Proprietary (Fair use)" }
+file{ path = "tilesets/out/outside_buildings.dat", author = "FFomega", license = "CC BY-SA 4.0" }
+file{ path = "tilesets/out/outside_buildings.tiles.png", author = "Nintendo, FFomega", license = "Proprietary (Fair use)" }
+file{ path = "tilesets/out/outside_main.dat", author = "FFomega", license = "CC BY-SA 4.0" }
+file{ path = "tilesets/out/outside_main.tiles.png", author = "Nintendo, FFomega", license = "Proprietary (Fair use)" }
+file{ path = "tilesets/out/outside_special.dat", author = "FFomega", license = "CC BY-SA 4.0" }
+file{ path = "tilesets/out/outside_special.tiles.png", author = "Nintendo, FFomega", license = "Proprietary (Fair use)" }

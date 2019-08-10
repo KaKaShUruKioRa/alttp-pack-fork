@@ -31,21 +31,28 @@ local hud_config = {
   -- Rupee counter.
   {
     menu_script = "scripts/hud/rupees",
-    x = 60,
+    x = 59,
     y = 10,
   },
 
  -- Bombs counter
   {
     menu_script = "scripts/hud/bombs",
-    x = 90,
+    x = 89,
     y = 10,
   },
 
  -- Arrow counter
   {
     menu_script = "scripts/hud/arrows",
-    x = 120,
+    x = 111,
+    y = 10,
+  },
+
+  -- Small key counter.
+  {
+    menu_script = "scripts/hud/small_keys",
+    x = 133,
     y = 10,
   },
 

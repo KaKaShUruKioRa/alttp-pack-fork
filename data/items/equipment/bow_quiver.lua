@@ -9,7 +9,6 @@ function item:on_created()
   item:set_savegame_variable("possession_quiver")
   item:set_amount_savegame_variable("amount_arrows")
   item:set_assignable(false)
-  item:set_max_amount(0)
 end
 
 function item:on_started()
