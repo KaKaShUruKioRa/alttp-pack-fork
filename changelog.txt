@@ -1,7 +1,7 @@
-______________________________________
+_____________________________________
 
-Solarus ALTTP pack 1.6.1 (in progress)
-______________________________________
+Solarus ALTTP pack 1.6.1 (2019-08-10)
+_____________________________________
 
 * Split the outside tileset in 3 smaller tilesets (#31).
 * Make jumpable cliffs low walls.
