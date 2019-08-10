@@ -574,7 +574,7 @@ entity{ id = "hammer_stake", description = "Hammer Stake" }
 entity{ id = "ice_beam", description = "Ice Beam" }
 entity{ id = "torch", description = "Torch" }
 
-language{ id = "fr", description = "Français" }
+language{ id = "en", description = "English" }
 
 font{ id = "alttp", description = "alttp" }
 font{ id = "green_digits", description = "Green digits" }
@@ -724,10 +724,6 @@ file{ path = "items/quest/pendant_of_courage.lua", author = "Mehdi Khelifi", lic
 file{ path = "items/quest/pendant_of_power.lua", author = "Mehdi Khelifi", license = "GPL v3" }
 file{ path = "items/quest/pendant_of_wisdom.lua", author = "Mehdi Khelifi", license = "GPL v3" }
 file{ path = "languages", license = "CC BY-SA 4.0" }
-file{ path = "languages/fr", author = "Christopho", license = "CC BY-SA 4.0" }
-file{ path = "languages/fr/text", author = "Christopho", license = "CC BY-SA 4.0" }
-file{ path = "languages/fr/text/dialogs.dat", author = "Christopho", license = "CC BY-SA 4.0" }
-file{ path = "languages/fr/text/strings.dat", author = "Christopho", license = "CC BY-SA 4.0" }
 file{ path = "logos", license = "Proprietary (Fair use)" }
 file{ path = "logos/logo.png", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "logos/logo_2x.png", author = "Nintendo", license = "Proprietary (Fair use)" }

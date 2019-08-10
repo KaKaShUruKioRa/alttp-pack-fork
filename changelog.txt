@@ -5,6 +5,7 @@ ______________________________________
 
 * Split the outside tileset in 3 smaller tilesets (31).
 * Make jumpable cliffs low walls.
+* Fix the language of texts to English (#32).
 * Fix amount of arrrows and bombs lost after reloading (#39).
 * Fix the speed of hero animations by Alex.
 * Fix tree entrance tiles on wrong layer in outside tileset.

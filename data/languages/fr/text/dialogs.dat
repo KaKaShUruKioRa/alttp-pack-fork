@@ -1,8 +1,0 @@
-dialog{
-  id = "save_quit",
-  text = [[
-                 $? Continuer
-           $? Sauvegarder et quitter
-          $? Quitter sans sauvegarder
-]]
-}
