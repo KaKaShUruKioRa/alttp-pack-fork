@@ -58,11 +58,6 @@ function title_screen:on_started()
   self.white_flash_img = sol.surface.create(self.surface_w, self.surface_h)
   self.white_flash_img:fill_color({255, 255, 255})
 
-  -- Start timer.
-  self.anim_length = 600
-  self.anim_delta = 25
-  self.elapsed_time = 0
-
   -- Start animation.
   self:step_1()
 end
@@ -152,7 +147,6 @@ end
 
 -- Resets the timer.
 function title_screen:reset_timer()
-  self.elapsed_time = 0
   if self.timer ~= nil then
     self.timer:stop()
     self.timer = nil
