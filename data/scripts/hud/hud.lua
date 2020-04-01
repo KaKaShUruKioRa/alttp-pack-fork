@@ -10,9 +10,8 @@ local hud_config = require("scripts/hud/hud_config")
 local function initialize_hud_features(game)
 
   if game.set_hud_enabled ~= nil then
-    -- Already done.
-    game:set_hud_enabled(true)
-    return
+    -- Close the previous HUD after game-over.
+    game:set_hud_enabled(false)
   end
 
   -- Set up the HUD.
