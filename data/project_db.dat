@@ -152,6 +152,7 @@ sprite{ id = "enemies/traps/trap_auto", description = "Trap" }
 sprite{ id = "enemies/traps/trap_detect", description = "Trap" }
 sprite{ id = "enemies/traps/trap_fixed", description = "Fixed trap" }
 sprite{ id = "entities/arrow", description = "Arrow" }
+sprite{ id = "entities/big_chest", description = "Big chest" }
 sprite{ id = "entities/block", description = "Block" }
 sprite{ id = "entities/bomb", description = "Bomb" }
 sprite{ id = "entities/boomerang1", description = "Boomerang 1" }
@@ -1143,6 +1144,7 @@ file{ path = "sprites/enemies/traps/trap_fixed.dat", author = "Christopho", lice
 file{ path = "sprites/entities", license = "Mixed" }
 file{ path = "sprites/entities/arrow.dat", author = "Christopho", license = "CC BY-SA 4.0" }
 file{ path = "sprites/entities/arrow.png", author = "Nintendo", license = "Proprietary (Fair use)" }
+file{ path = "sprites/entities/big_chest.dat", author = "Christopho", license = "CC BY-SA 4.0" }
 file{ path = "sprites/entities/block.dat", author = "Christopho", license = "CC BY-SA 4.0" }
 file{ path = "sprites/entities/bomb.dat", author = "Christopho", license = "CC BY-SA 4.0" }
 file{ path = "sprites/entities/bomb.png", author = "Nintendo", license = "Proprietary (Fair use)" }
