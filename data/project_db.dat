@@ -94,8 +94,10 @@ sprite{ id = "enemies/dungeons/hardhat_beetle_red", description = "Red Hardhat B
 sprite{ id = "enemies/dungeons/helmasaur_red", description = "Red Helmasaur" }
 sprite{ id = "enemies/dungeons/keese", description = "Keese" }
 sprite{ id = "enemies/dungeons/pengator", description = "Pengator" }
+sprite{ id = "enemies/dungeons/pike_auto", description = "Pike (always moving)" }
 sprite{ id = "enemies/dungeons/popo", description = "Popo" }
 sprite{ id = "enemies/dungeons/rat", description = "Rat" }
+sprite{ id = "enemies/dungeons/rolling_spike_trap", description = "Rolling Spike Trap" }
 sprite{ id = "enemies/dungeons/rope", description = "Rope" }
 sprite{ id = "enemies/dungeons/stalfos_blue", description = "Blue Stalfos" }
 sprite{ id = "enemies/dungeons/stalfos_grey", description = "Grey Stalfos" }
@@ -531,8 +533,10 @@ enemy{ id = "dungeons/hardhat_beetle_red", description = "Hardhat Beetle Red" }
 enemy{ id = "dungeons/helmasaur_red", description = "Helmasaur Red" }
 enemy{ id = "dungeons/keese", description = "Keese" }
 enemy{ id = "dungeons/pengator", description = "Pengator" }
+enemy{ id = "dungeons/pike_auto", description = "Pike (always moving)" }
 enemy{ id = "dungeons/popo", description = "Popo" }
 enemy{ id = "dungeons/rat", description = "Rat" }
+enemy{ id = "dungeons/rolling_spike_trap", description = "Rolling Spike Trap" }
 enemy{ id = "dungeons/rope", description = "Rope" }
 enemy{ id = "dungeons/stalfos_blue", description = "Stalfos Blue" }
 enemy{ id = "dungeons/stalfos_red", description = "Stalfos Red" }
@@ -618,8 +622,10 @@ file{ path = "enemies/dungeons/hardhat_beetle_red.lua", author = "Christopho", l
 file{ path = "enemies/dungeons/helmasaur_red.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "enemies/dungeons/keese.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "enemies/dungeons/pengator.lua", author = "Christopho", license = "GPL v3" }
+file{ path = "enemies/dungeons/pike_auto.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "enemies/dungeons/popo.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "enemies/dungeons/rat.lua", author = "Christopho", license = "GPL v3" }
+file{ path = "enemies/dungeons/rolling_spike_trap.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "enemies/dungeons/rope.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "enemies/dungeons/stalfos_blue.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "enemies/dungeons/stalfos_red.lua", author = "Christopho", license = "GPL v3" }
@@ -1028,10 +1034,14 @@ file{ path = "sprites/enemies/dungeons/keese.dat", author = "Christopho", licens
 file{ path = "sprites/enemies/dungeons/keese.png", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "sprites/enemies/dungeons/pengator.dat", author = "Christopho", license = "CC BY-SA 4.0" }
 file{ path = "sprites/enemies/dungeons/pengator.png", author = "Nintendo", license = "Proprietary (Fair use)" }
+file{ path = "sprites/enemies/dungeons/pike.png", author = "Nintendo", license = "Proprietary (Fair use)" }
+file{ path = "sprites/enemies/dungeons/pike_auto.dat", author = "Christopho", license = "CC BY-SA 4.0" }
 file{ path = "sprites/enemies/dungeons/popo.dat", author = "Christopho", license = "CC BY-SA 4.0" }
 file{ path = "sprites/enemies/dungeons/popo.png", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "sprites/enemies/dungeons/rat.dat", author = "Christopho", license = "CC BY-SA 4.0" }
 file{ path = "sprites/enemies/dungeons/rat.png", author = "Nintendo", license = "Proprietary (Fair use)" }
+file{ path = "sprites/enemies/dungeons/rolling_spike_trap.dat", author = "Christopho", license = "CC BY-SA 4.0" }
+file{ path = "sprites/enemies/dungeons/rolling_spike_trap.png", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "sprites/enemies/dungeons/rope.dat", author = "Christopho", license = "CC BY-SA 4.0" }
 file{ path = "sprites/enemies/dungeons/rope.png", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "sprites/enemies/dungeons/stalfos_blue.dat", author = "Christopho", license = "CC BY-SA 4.0" }
