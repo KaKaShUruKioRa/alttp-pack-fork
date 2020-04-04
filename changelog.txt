@@ -3,7 +3,11 @@ _____________________________________
 Solarus ALTTP pack 1.6.2 (in progress)
 _____________________________________
 
-* Fix HUD disappearing after game-over.
+* Add pike enemies.
+* Add big chest sprite.
+* Fix HUD disappearing after game-over (#38).
+* Fix bari, eyegore and lynel enemies.
+
 _____________________________________
 
 Solarus ALTTP pack 1.6.1 (2019-08-10)
