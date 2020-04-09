@@ -5,5 +5,5 @@ function item:on_created()
   self:set_savegame_variable("possession_bottle_1")
 end
 
-local bottle_script = require("items/inventory/bottle.lua")
+local bottle_script = require("items/inventory/library/bottle.lua")
 bottle_script(item)
