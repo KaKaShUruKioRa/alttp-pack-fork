@@ -490,6 +490,7 @@ item{ id = "inventory/hammer", description = "Hammer" }
 item{ id = "inventory/hookshot", description = "Hookshot" }
 item{ id = "inventory/ice_rod", description = "Ice Rod" }
 item{ id = "inventory/lantern", description = "Lantern" }
+item{ id = "inventory/magic_mirror", description = "Magic Mirror" }
 item{ id = "inventory/ocarina", description = "Ocarina" }
 item{ id = "quest/crystal_1", description = "Crystal 1" }
 item{ id = "quest/crystal_2", description = "Crystal 2" }
@@ -705,18 +706,20 @@ file{ path = "items/equipment/tunic.lua", author = "Mehdi Khelifi", license = "G
 file{ path = "items/inventory", author = "Christopho", license = "GPL v3" }
 file{ path = "items/inventory/bombs.lua", author = "Christopho, Mehdi Khelifi", license = "GPL v3" }
 file{ path = "items/inventory/boomerang.lua", author = "Christopho", license = "GPL v3" }
-file{ path = "items/inventory/bottle.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "items/inventory/bottle_1.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "items/inventory/bottle_2.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "items/inventory/bottle_3.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "items/inventory/bottle_4.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "items/inventory/bow.lua", author = "Christopho, Mehdi Khelifi", license = "GPL v3" }
-file{ path = "items/inventory/fire_rod.lua", author = "Christopho", license = "GPL v3" }
+file{ path = "items/inventory/fire_rod.lua", author = "Christopho, Zakarisz", license = "GPL v3" }
 file{ path = "items/inventory/hammer.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "items/inventory/hookshot.lua", author = "Christopho, Mehdi Khelifi", license = "GPL v3" }
-file{ path = "items/inventory/hookshot_config.lua", author = "Christopho, Mehdi Khelifi", license = "GPL v3" }
-file{ path = "items/inventory/ice_rod.lua", author = "Christopho", license = "GPL v3" }
+file{ path = "items/inventory/ice_rod.lua", author = "Christopho, Zakarisz", license = "GPL v3" }
 file{ path = "items/inventory/lantern.lua", author = "Christopho", license = "GPL v3" }
+file{ path = "items/inventory/library/bottle.lua", author = "Christopho", license = "GPL v3" }
+file{ path = "items/inventory/library/hookshot_config.lua", author = "Christopho, , Mehdi Khelifi", license = "GPL v3" }
+file{ path = "items/inventory/library/magic_item.lua", author = "Zakarisz", license = "GPL v3" }
+file{ path = "items/inventory/magic_mirror.lua", author = "Zakarisz", license = "GPL v3" }
 file{ path = "items/inventory/ocarina.lua", author = "Mehdi Khelifi", license = "GPL v3" }
 file{ path = "items/quest", license = "GPL v3" }
 file{ path = "items/quest/crystal_1.lua", author = "Mehdi Khelifi", license = "GPL v3" }

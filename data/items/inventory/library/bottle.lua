@@ -34,7 +34,7 @@ return function(item)
 
     -- Fairy
     -- TODO : Associate the right sprite to variant 2
-    -- TODO : In Zelda 3, are the fairies really releases or  directly consumes?
+    -- TODO : In Zelda 3, are the fairies really releases or directly consumes?
     elseif variant == 5 then
       -- Release the fairy
       local x, y, layer = map:get_entity("hero"):get_position()
