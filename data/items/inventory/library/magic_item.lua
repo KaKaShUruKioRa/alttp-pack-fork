@@ -61,7 +61,7 @@ function behavior:create(item, properties)
     -- Give the hero the animation of using the item
     local custom_entity = nil
     if properties.hero_animation then
-      hero:set_animation("rod")
+      hero:set_animation(properties.hero_animation)
     end
     if properties.animation_sprite then
       local x, y, layer = hero:get_position()
@@ -95,10 +95,14 @@ function behavior:create(item, properties)
         custom_entity:set_position(hero:get_position())
         return true
       end)
+    end
 
-      -- Remove the magic item and restore control after a delay.
+    -- Remove the magic item and restore control after a delay.
+    if properties.hero_animation or custom_entity then
       sol.timer.start(hero, properties.animation_delay, function()
-        custom_entity:remove()
+        if custom_entity then
+          custom_entity:remove()
+        end
         item:set_finished()
       end)
     else

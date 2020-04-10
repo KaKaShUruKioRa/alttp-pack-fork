@@ -9,7 +9,7 @@ local inventory_items_names = {
   "hookshot",
   "bombs",
   -- TODO "mushroom", -- Will be replaced by the magic powder if player has it.
-  -- TODO "magic powder",
+  "magic_powder",
   "fire_rod",
   "ice_rod",
   -- TODO "bombos_medallion",

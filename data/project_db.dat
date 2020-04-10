@@ -183,6 +183,7 @@ sprite{ id = "hero/fire_rod", description = "Fire rod" }
 sprite{ id = "hero/ground1", description = "Grass under hero" }
 sprite{ id = "hero/ground2", description = "Shallow water under hero" }
 sprite{ id = "hero/ice_rod", description = "Ice Rod" }
+sprite{ id = "hero/magic_powder_effect", description = "Magic powder effect" }
 sprite{ id = "hero/shield1", description = "Hero shield 1" }
 sprite{ id = "hero/shield2", description = "Hero shield 2" }
 sprite{ id = "hero/shield3", description = "Hero shield 3" }
@@ -407,6 +408,7 @@ sound{ id = "lantern", description = "lantern" }
 sound{ id = "lift", description = "lift" }
 sound{ id = "lightning", description = "lightning" }
 sound{ id = "magic_meter", description = "magic_meter" }
+sound{ id = "magic_powder", description = "magic_powder" }
 sound{ id = "message_end", description = "message_end" }
 sound{ id = "message_letter", description = "message_letter" }
 sound{ id = "monkey", description = "monkey" }
@@ -491,6 +493,7 @@ item{ id = "inventory/hookshot", description = "Hookshot" }
 item{ id = "inventory/ice_rod", description = "Ice Rod" }
 item{ id = "inventory/lantern", description = "Lantern" }
 item{ id = "inventory/magic_mirror", description = "Magic Mirror" }
+item{ id = "inventory/magic_powder", description = "Magic Powder" }
 item{ id = "inventory/ocarina", description = "Ocarina" }
 item{ id = "quest/crystal_1", description = "Crystal 1" }
 item{ id = "quest/crystal_2", description = "Crystal 2" }
@@ -578,6 +581,7 @@ enemy{ id = "traps/trap_fixed", description = "Fixed trap" }
 entity{ id = "fire", description = "Fire" }
 entity{ id = "hammer_stake", description = "Hammer Stake" }
 entity{ id = "ice_beam", description = "Ice Beam" }
+entity{ id = "powder", description = "Powder" }
 entity{ id = "torch", description = "Torch" }
 
 language{ id = "en", description = "English" }
@@ -675,6 +679,7 @@ file{ path = "entities", license = "GPL v3" }
 file{ path = "entities/fire.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "entities/hammer_stake.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "entities/ice_beam.lua", author = "Christopho", license = "GPL v3" }
+file{ path = "entities/powder.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "entities/torch.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "fonts", license = "Proprietary (Fair use)" }
 file{ path = "fonts/alttp.png", author = "Nintendo", license = "Proprietary (Fair use)" }
@@ -720,6 +725,7 @@ file{ path = "items/inventory/library/bottle.lua", author = "Christopho", licens
 file{ path = "items/inventory/library/hookshot_config.lua", author = "Christopho, , Mehdi Khelifi", license = "GPL v3" }
 file{ path = "items/inventory/library/magic_item.lua", author = "Zakarisz", license = "GPL v3" }
 file{ path = "items/inventory/magic_mirror.lua", author = "Zakarisz", license = "GPL v3" }
+file{ path = "items/inventory/magic_powder.lua", author = "Christopho, Zakarisz", license = "GPL v3" }
 file{ path = "items/inventory/ocarina.lua", author = "Mehdi Khelifi", license = "GPL v3" }
 file{ path = "items/quest", license = "GPL v3" }
 file{ path = "items/quest/crystal_1.lua", author = "Mehdi Khelifi", license = "GPL v3" }
@@ -882,6 +888,7 @@ file{ path = "sounds/lantern.ogg", author = "Nintendo", license = "Proprietary (
 file{ path = "sounds/lift.ogg", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "sounds/lightning.ogg", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "sounds/magic_meter.ogg", author = "Nintendo", license = "Proprietary (Fair use)" }
+file{ path = "sounds/magic_powder.ogg", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "sounds/message_end.ogg", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "sounds/message_letter.ogg", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "sounds/monkey.ogg", author = "Nintendo", license = "Proprietary (Fair use)" }
@@ -1239,6 +1246,9 @@ file{ path = "sprites/hero/loading.sword_stars2.png", author = "Nintendo", licen
 file{ path = "sprites/hero/loading.tunic1.png", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "sprites/hero/loading.tunic2.png", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "sprites/hero/loading.tunic3.png", author = "Nintendo", license = "Proprietary (Fair use)" }
+file{ path = "sprites/hero/magic_powder.png", author = "Nintendo", license = "Proprietary (Fair use)" }
+file{ path = "sprites/hero/magic_powder_effect.dat", author = "Christopho", license = "CC BY-SA 4.0" }
+file{ path = "sprites/hero/magic_powder_effect.png", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "sprites/hero/plunging.png", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "sprites/hero/pulling.png", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "sprites/hero/pushing.png", author = "Nintendo", license = "Proprietary (Fair use)" }
