@@ -376,6 +376,7 @@ sound{ id = "bush", description = "bush" }
 sound{ id = "cane", description = "cane" }
 sound{ id = "chest_appears", description = "chest_appears" }
 sound{ id = "chest_open", description = "chest_open" }
+sound{ id = "chicken", description = "chicken" }
 sound{ id = "cursor", description = "cursor" }
 sound{ id = "danger", description = "danger" }
 sound{ id = "door_closed", description = "door_closed" }
@@ -856,6 +857,7 @@ file{ path = "sounds/bush.ogg", author = "Nintendo", license = "Proprietary (Fai
 file{ path = "sounds/cane.ogg", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "sounds/chest_appears.ogg", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "sounds/chest_open.ogg", author = "Nintendo", license = "Proprietary (Fair use)" }
+file{ path = "sounds/chicken.ogg", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "sounds/cursor.ogg", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "sounds/danger.ogg", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "sounds/door_closed.ogg", author = "Nintendo", license = "Proprietary (Fair use)" }
