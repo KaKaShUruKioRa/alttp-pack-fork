@@ -3,14 +3,15 @@ local item = ...
 
 local behavior = require("items/inventory/library/magic_item")
 
-local properties = {
-  magic_needed = 2,
-  sound_on_success = "lantern",
+local properties = {magic_needed = 4,
+  sound_on_success = "magic_powder",
+  savegame_variable = "possession_magic_powder_rod",
+  hero_animation = "magic_powder",
   sound_on_fail = "wrong",
-  savegame_variable = "possession_lantern",
+  animation_delay = 300,
   do_magic = function()
 
-    -- Creates some fire on the map.
+    -- Spreads some powder on the map.
     local map = item:get_map()
     local hero = map:get_hero()
     local direction = hero:get_direction()
@@ -28,7 +29,7 @@ local properties = {
 
     local x, y, layer = hero:get_position()
     map:create_custom_entity{
-      model = "fire",
+      model = "powder",
       x = x + dx,
       y = y + dy,
       layer = layer,
@@ -40,4 +41,3 @@ local properties = {
 }
 
 behavior:create(item, properties)
-

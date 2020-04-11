@@ -1,6 +1,6 @@
 local enemy = ...
 
-local behavior = require("enemies/lib/towards_hero")
+local behavior = require("enemies/library/towards_hero")
 
 local properties = {
   sprite = "enemies/" .. enemy:get_breed(),

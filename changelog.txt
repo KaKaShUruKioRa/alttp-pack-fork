@@ -1,5 +1,15 @@
 _____________________________________
 
+Solarus ALTTP pack 1.6.2 (2020-04-11)
+_____________________________________
+
+* Add pike enemies.
+* Add big chest sprite.
+* Fix HUD disappearing after game-over (#38).
+* Fix bari, eyegore and lynel enemies.
+
+_____________________________________
+
 Solarus ALTTP pack 1.6.1 (2019-08-10)
 _____________________________________
 

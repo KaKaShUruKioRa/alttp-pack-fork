@@ -94,8 +94,10 @@ sprite{ id = "enemies/dungeons/hardhat_beetle_red", description = "Red Hardhat B
 sprite{ id = "enemies/dungeons/helmasaur_red", description = "Red Helmasaur" }
 sprite{ id = "enemies/dungeons/keese", description = "Keese" }
 sprite{ id = "enemies/dungeons/pengator", description = "Pengator" }
+sprite{ id = "enemies/dungeons/pike_auto", description = "Pike (always moving)" }
 sprite{ id = "enemies/dungeons/popo", description = "Popo" }
 sprite{ id = "enemies/dungeons/rat", description = "Rat" }
+sprite{ id = "enemies/dungeons/rolling_spike_trap", description = "Rolling Spike Trap" }
 sprite{ id = "enemies/dungeons/rope", description = "Rope" }
 sprite{ id = "enemies/dungeons/stalfos_blue", description = "Blue Stalfos" }
 sprite{ id = "enemies/dungeons/stalfos_grey", description = "Grey Stalfos" }
@@ -152,6 +154,7 @@ sprite{ id = "enemies/traps/trap_auto", description = "Trap" }
 sprite{ id = "enemies/traps/trap_detect", description = "Trap" }
 sprite{ id = "enemies/traps/trap_fixed", description = "Fixed trap" }
 sprite{ id = "entities/arrow", description = "Arrow" }
+sprite{ id = "entities/big_chest", description = "Big chest" }
 sprite{ id = "entities/block", description = "Block" }
 sprite{ id = "entities/bomb", description = "Bomb" }
 sprite{ id = "entities/boomerang1", description = "Boomerang 1" }
@@ -180,6 +183,7 @@ sprite{ id = "hero/fire_rod", description = "Fire rod" }
 sprite{ id = "hero/ground1", description = "Grass under hero" }
 sprite{ id = "hero/ground2", description = "Shallow water under hero" }
 sprite{ id = "hero/ice_rod", description = "Ice Rod" }
+sprite{ id = "hero/magic_powder_effect", description = "Magic powder effect" }
 sprite{ id = "hero/shield1", description = "Hero shield 1" }
 sprite{ id = "hero/shield2", description = "Hero shield 2" }
 sprite{ id = "hero/shield3", description = "Hero shield 3" }
@@ -372,6 +376,7 @@ sound{ id = "bush", description = "bush" }
 sound{ id = "cane", description = "cane" }
 sound{ id = "chest_appears", description = "chest_appears" }
 sound{ id = "chest_open", description = "chest_open" }
+sound{ id = "chicken", description = "chicken" }
 sound{ id = "cursor", description = "cursor" }
 sound{ id = "danger", description = "danger" }
 sound{ id = "door_closed", description = "door_closed" }
@@ -404,6 +409,7 @@ sound{ id = "lantern", description = "lantern" }
 sound{ id = "lift", description = "lift" }
 sound{ id = "lightning", description = "lightning" }
 sound{ id = "magic_meter", description = "magic_meter" }
+sound{ id = "magic_powder", description = "magic_powder" }
 sound{ id = "message_end", description = "message_end" }
 sound{ id = "message_letter", description = "message_letter" }
 sound{ id = "monkey", description = "monkey" }
@@ -487,6 +493,8 @@ item{ id = "inventory/hammer", description = "Hammer" }
 item{ id = "inventory/hookshot", description = "Hookshot" }
 item{ id = "inventory/ice_rod", description = "Ice Rod" }
 item{ id = "inventory/lantern", description = "Lantern" }
+item{ id = "inventory/magic_mirror", description = "Magic Mirror" }
+item{ id = "inventory/magic_powder", description = "Magic Powder" }
 item{ id = "inventory/ocarina", description = "Ocarina" }
 item{ id = "quest/crystal_1", description = "Crystal 1" }
 item{ id = "quest/crystal_2", description = "Crystal 2" }
@@ -530,8 +538,10 @@ enemy{ id = "dungeons/hardhat_beetle_red", description = "Hardhat Beetle Red" }
 enemy{ id = "dungeons/helmasaur_red", description = "Helmasaur Red" }
 enemy{ id = "dungeons/keese", description = "Keese" }
 enemy{ id = "dungeons/pengator", description = "Pengator" }
+enemy{ id = "dungeons/pike_auto", description = "Pike (always moving)" }
 enemy{ id = "dungeons/popo", description = "Popo" }
 enemy{ id = "dungeons/rat", description = "Rat" }
+enemy{ id = "dungeons/rolling_spike_trap", description = "Rolling Spike Trap" }
 enemy{ id = "dungeons/rope", description = "Rope" }
 enemy{ id = "dungeons/stalfos_blue", description = "Stalfos Blue" }
 enemy{ id = "dungeons/stalfos_red", description = "Stalfos Red" }
@@ -572,6 +582,7 @@ enemy{ id = "traps/trap_fixed", description = "Fixed trap" }
 entity{ id = "fire", description = "Fire" }
 entity{ id = "hammer_stake", description = "Hammer Stake" }
 entity{ id = "ice_beam", description = "Ice Beam" }
+entity{ id = "powder", description = "Powder" }
 entity{ id = "torch", description = "Torch" }
 
 language{ id = "en", description = "English" }
@@ -617,8 +628,10 @@ file{ path = "enemies/dungeons/hardhat_beetle_red.lua", author = "Christopho", l
 file{ path = "enemies/dungeons/helmasaur_red.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "enemies/dungeons/keese.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "enemies/dungeons/pengator.lua", author = "Christopho", license = "GPL v3" }
+file{ path = "enemies/dungeons/pike_auto.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "enemies/dungeons/popo.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "enemies/dungeons/rat.lua", author = "Christopho", license = "GPL v3" }
+file{ path = "enemies/dungeons/rolling_spike_trap.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "enemies/dungeons/rope.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "enemies/dungeons/stalfos_blue.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "enemies/dungeons/stalfos_red.lua", author = "Christopho", license = "GPL v3" }
@@ -667,6 +680,7 @@ file{ path = "entities", license = "GPL v3" }
 file{ path = "entities/fire.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "entities/hammer_stake.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "entities/ice_beam.lua", author = "Christopho", license = "GPL v3" }
+file{ path = "entities/powder.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "entities/torch.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "fonts", license = "Proprietary (Fair use)" }
 file{ path = "fonts/alttp.png", author = "Nintendo", license = "Proprietary (Fair use)" }
@@ -698,18 +712,21 @@ file{ path = "items/equipment/tunic.lua", author = "Mehdi Khelifi", license = "G
 file{ path = "items/inventory", author = "Christopho", license = "GPL v3" }
 file{ path = "items/inventory/bombs.lua", author = "Christopho, Mehdi Khelifi", license = "GPL v3" }
 file{ path = "items/inventory/boomerang.lua", author = "Christopho", license = "GPL v3" }
-file{ path = "items/inventory/bottle.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "items/inventory/bottle_1.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "items/inventory/bottle_2.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "items/inventory/bottle_3.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "items/inventory/bottle_4.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "items/inventory/bow.lua", author = "Christopho, Mehdi Khelifi", license = "GPL v3" }
-file{ path = "items/inventory/fire_rod.lua", author = "Christopho", license = "GPL v3" }
+file{ path = "items/inventory/fire_rod.lua", author = "Christopho, Zakarisz", license = "GPL v3" }
 file{ path = "items/inventory/hammer.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "items/inventory/hookshot.lua", author = "Christopho, Mehdi Khelifi", license = "GPL v3" }
-file{ path = "items/inventory/hookshot_config.lua", author = "Christopho, Mehdi Khelifi", license = "GPL v3" }
-file{ path = "items/inventory/ice_rod.lua", author = "Christopho", license = "GPL v3" }
+file{ path = "items/inventory/ice_rod.lua", author = "Christopho, Zakarisz", license = "GPL v3" }
 file{ path = "items/inventory/lantern.lua", author = "Christopho", license = "GPL v3" }
+file{ path = "items/inventory/library/bottle.lua", author = "Christopho", license = "GPL v3" }
+file{ path = "items/inventory/library/hookshot_config.lua", author = "Christopho, , Mehdi Khelifi", license = "GPL v3" }
+file{ path = "items/inventory/library/magic_item.lua", author = "Zakarisz", license = "GPL v3" }
+file{ path = "items/inventory/magic_mirror.lua", author = "Zakarisz", license = "GPL v3" }
+file{ path = "items/inventory/magic_powder.lua", author = "Christopho, Zakarisz", license = "GPL v3" }
 file{ path = "items/inventory/ocarina.lua", author = "Mehdi Khelifi", license = "GPL v3" }
 file{ path = "items/quest", license = "GPL v3" }
 file{ path = "items/quest/crystal_1.lua", author = "Mehdi Khelifi", license = "GPL v3" }
@@ -840,6 +857,7 @@ file{ path = "sounds/bush.ogg", author = "Nintendo", license = "Proprietary (Fai
 file{ path = "sounds/cane.ogg", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "sounds/chest_appears.ogg", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "sounds/chest_open.ogg", author = "Nintendo", license = "Proprietary (Fair use)" }
+file{ path = "sounds/chicken.ogg", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "sounds/cursor.ogg", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "sounds/danger.ogg", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "sounds/door_closed.ogg", author = "Nintendo", license = "Proprietary (Fair use)" }
@@ -872,6 +890,7 @@ file{ path = "sounds/lantern.ogg", author = "Nintendo", license = "Proprietary (
 file{ path = "sounds/lift.ogg", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "sounds/lightning.ogg", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "sounds/magic_meter.ogg", author = "Nintendo", license = "Proprietary (Fair use)" }
+file{ path = "sounds/magic_powder.ogg", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "sounds/message_end.ogg", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "sounds/message_letter.ogg", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "sounds/monkey.ogg", author = "Nintendo", license = "Proprietary (Fair use)" }
@@ -1027,10 +1046,14 @@ file{ path = "sprites/enemies/dungeons/keese.dat", author = "Christopho", licens
 file{ path = "sprites/enemies/dungeons/keese.png", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "sprites/enemies/dungeons/pengator.dat", author = "Christopho", license = "CC BY-SA 4.0" }
 file{ path = "sprites/enemies/dungeons/pengator.png", author = "Nintendo", license = "Proprietary (Fair use)" }
+file{ path = "sprites/enemies/dungeons/pike.png", author = "Nintendo", license = "Proprietary (Fair use)" }
+file{ path = "sprites/enemies/dungeons/pike_auto.dat", author = "Christopho", license = "CC BY-SA 4.0" }
 file{ path = "sprites/enemies/dungeons/popo.dat", author = "Christopho", license = "CC BY-SA 4.0" }
 file{ path = "sprites/enemies/dungeons/popo.png", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "sprites/enemies/dungeons/rat.dat", author = "Christopho", license = "CC BY-SA 4.0" }
 file{ path = "sprites/enemies/dungeons/rat.png", author = "Nintendo", license = "Proprietary (Fair use)" }
+file{ path = "sprites/enemies/dungeons/rolling_spike_trap.dat", author = "Christopho", license = "CC BY-SA 4.0" }
+file{ path = "sprites/enemies/dungeons/rolling_spike_trap.png", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "sprites/enemies/dungeons/rope.dat", author = "Christopho", license = "CC BY-SA 4.0" }
 file{ path = "sprites/enemies/dungeons/rope.png", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "sprites/enemies/dungeons/stalfos_blue.dat", author = "Christopho", license = "CC BY-SA 4.0" }
@@ -1143,6 +1166,7 @@ file{ path = "sprites/enemies/traps/trap_fixed.dat", author = "Christopho", lice
 file{ path = "sprites/entities", license = "Mixed" }
 file{ path = "sprites/entities/arrow.dat", author = "Christopho", license = "CC BY-SA 4.0" }
 file{ path = "sprites/entities/arrow.png", author = "Nintendo", license = "Proprietary (Fair use)" }
+file{ path = "sprites/entities/big_chest.dat", author = "Christopho", license = "CC BY-SA 4.0" }
 file{ path = "sprites/entities/block.dat", author = "Christopho", license = "CC BY-SA 4.0" }
 file{ path = "sprites/entities/bomb.dat", author = "Christopho", license = "CC BY-SA 4.0" }
 file{ path = "sprites/entities/bomb.png", author = "Nintendo", license = "Proprietary (Fair use)" }
@@ -1224,6 +1248,9 @@ file{ path = "sprites/hero/loading.sword_stars2.png", author = "Nintendo", licen
 file{ path = "sprites/hero/loading.tunic1.png", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "sprites/hero/loading.tunic2.png", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "sprites/hero/loading.tunic3.png", author = "Nintendo", license = "Proprietary (Fair use)" }
+file{ path = "sprites/hero/magic_powder.png", author = "Nintendo", license = "Proprietary (Fair use)" }
+file{ path = "sprites/hero/magic_powder_effect.dat", author = "Christopho", license = "CC BY-SA 4.0" }
+file{ path = "sprites/hero/magic_powder_effect.png", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "sprites/hero/plunging.png", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "sprites/hero/pulling.png", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "sprites/hero/pushing.png", author = "Nintendo", license = "Proprietary (Fair use)" }

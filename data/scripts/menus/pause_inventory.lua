@@ -9,7 +9,7 @@ local inventory_items_names = {
   "hookshot",
   "bombs",
   -- TODO "mushroom", -- Will be replaced by the magic powder if player has it.
-  -- TODO "magic powder",
+  "magic_powder",
   "fire_rod",
   "ice_rod",
   -- TODO "bombos_medallion",
@@ -27,11 +27,11 @@ local inventory_items_names = {
   -- TODO "cane_of_somaria",
   -- TODO "cane_of_byrna",
   -- TODO "magic_cape",
-  -- TODO "magic_mirror",
+  "magic_mirror",
 }
 
 local main_equipment_names = {
-    "sword", "shield", "tunic", "piece_of_heart_counter"
+  "sword", "shield", "tunic", "piece_of_heart_counter"
 }
 
 local secondary_equipment_names = {
