@@ -1,6 +1,6 @@
 _____________________________________
 
-Solarus ALTTP pack 1.6.2 (in progress)
+Solarus ALTTP pack 1.6.2 (2020-04-11)
 _____________________________________
 
 * Add pike enemies.
