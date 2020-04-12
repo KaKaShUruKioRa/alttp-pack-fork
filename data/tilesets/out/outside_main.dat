@@ -39270,7 +39270,7 @@ tile_pattern{
 tile_pattern{
   id = "3",
   ground = "empty",
-  default_layer = 0,
+  default_layer = -1,
   x = { 1176, 1176, 1176 },
   y = { 744, 752, 760 },
   width = 16,
