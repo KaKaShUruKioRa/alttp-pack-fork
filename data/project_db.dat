@@ -165,9 +165,9 @@ sprite{ id = "entities/crystal_block", description = "Crystal block" }
 sprite{ id = "entities/destination", description = "Destination" }
 sprite{ id = "entities/explosion", description = "Explosion" }
 sprite{ id = "entities/fire", description = "Fire" }
-sprite{ id = "entities/hammer_stake_brown", description = "Hammer Stake Brown" }
-sprite{ id = "entities/hammer_stake_green", description = "Hammer Stake Green" }
-sprite{ id = "entities/hammer_stake_yellow", description = "Hammer Stake Yellow" }
+sprite{ id = "entities/hammer_stake", description = "Hammer Stake (Light World)" }
+sprite{ id = "entities/hammer_stake_dw", description = "Hammer Stake (Dark World)" }
+sprite{ id = "entities/hammer_stake_head", description = "Hammer Stake (head)" }
 sprite{ id = "entities/hookshot", description = "Hookshot" }
 sprite{ id = "entities/ice_beam", description = "Ice Beam" }
 sprite{ id = "entities/items", description = "Items" }
@@ -470,6 +470,8 @@ item{ id = "consumables/magic_jar", description = "Magic Jar (small / big)" }
 item{ id = "consumables/piece_of_heart", description = "Piece of Heart" }
 item{ id = "consumables/rupee", description = "Rupees (x1 / x5 / x20 / x50 / x100 / x300)" }
 item{ id = "dungeons/big_key", description = "Big Key" }
+item{ id = "dungeons/compass", description = "Compass" }
+item{ id = "dungeons/map", description = "Map" }
 item{ id = "dungeons/small_key", description = "Small Key" }
 item{ id = "equipment/bomb_bag", description = "Bomb Bag (x10 / x 30 / x50)" }
 item{ id = "equipment/book_of_mudora", description = "Book of Mudora" }
@@ -697,6 +699,8 @@ file{ path = "items/consumables/magic_jar.lua", author = "Christopho", license =
 file{ path = "items/consumables/piece_of_heart.lua", author = "Mehdi Khelifi", license = "GPL v3" }
 file{ path = "items/consumables/rupee.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "items/dungeons/big_key.lua", author = "Christopho", license = "GPL v3" }
+file{ path = "items/dungeons/compass.lua", author = "Christopho", license = "GPL v3" }
+file{ path = "items/dungeons/map.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "items/dungeons/small_key.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "items/equipment", author = "Christopho", license = "GPL v3" }
 file{ path = "items/equipment/bomb_bag.lua", author = "Christopho, Mehdi Khelifi", license = "GPL v3" }
@@ -1188,9 +1192,12 @@ file{ path = "sprites/entities/explosion.dat", author = "Christopho", license = 
 file{ path = "sprites/entities/explosion.png", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "sprites/entities/fire.dat", author = "Christopho", license = "CC BY-SA 4.0" }
 file{ path = "sprites/entities/fire.png", author = "Nintendo", license = "Proprietary (Fair use)" }
+file{ path = "sprites/entities/hammer_stake.dat", author = "Christopho", license = "CC BY-SA 4.0" }
 file{ path = "sprites/entities/hammer_stake.png", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "sprites/entities/hammer_stake_brown.dat", author = "Christopho", license = "CC BY-SA 4.0" }
+file{ path = "sprites/entities/hammer_stake_dw.dat", author = "Christopho", license = "CC BY-SA 4.0" }
 file{ path = "sprites/entities/hammer_stake_green.dat", author = "Christopho", license = "CC BY-SA 4.0" }
+file{ path = "sprites/entities/hammer_stake_head.dat", author = "Christopho", license = "CC BY-SA 4.0" }
 file{ path = "sprites/entities/hammer_stake_yellow.dat", author = "Christopho", license = "CC BY-SA 4.0" }
 file{ path = "sprites/entities/hookshot.dat", author = "Christopho", license = "CC BY-SA 4.0" }
 file{ path = "sprites/entities/hookshot.png", author = "Nintendo", license = "Proprietary (Fair use)" }
