@@ -1,5 +1,14 @@
 # Changelog
 
+## Solarus ALTTP pack 1.6.3 (in progress)
+
+* Fix wrong concave corner pattern of caves in inside tilesets (#29).
+* Fix border color of yellow trees in outside tileset (#30).
+* Fix missing animation for clouds parallax pattern in outside tileset (#36).
+* Add more hammer stake sprite variants.
+* Make hammer stake sprite shadow semi-transparent (#26).
+* Add map and compass items (#28).
+
 ## Solarus ALTTP pack 1.6.2 (2020-04-11)
 
 * Add pike enemies.
