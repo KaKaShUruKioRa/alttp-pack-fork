@@ -82,6 +82,7 @@ sprite{ id = "enemies/dark_world/taros_blue_weapon", description = "Blue Tarosu'
 sprite{ id = "enemies/dark_world/taros_red", description = "Red Tarosu" }
 sprite{ id = "enemies/dark_world/taros_red_weapon", description = "Red Tarosu's weapon" }
 sprite{ id = "enemies/dungeons/bari_blue", description = "Blue Bari" }
+sprite{ id = "enemies/dungeons/bazu", description = "Bazu" }
 sprite{ id = "enemies/dungeons/chasupa", description = "Chasupa" }
 sprite{ id = "enemies/dungeons/eyegore_green", description = "Green Eyegore" }
 sprite{ id = "enemies/dungeons/eyegore_red", description = "Red Eyegore" }
@@ -528,6 +529,7 @@ enemy{ id = "dark_world/stal", description = "Stal" }
 enemy{ id = "dark_world/taros_blue", description = "Taros Blue" }
 enemy{ id = "dark_world/taros_red", description = "Taros Red" }
 enemy{ id = "dungeons/bari_blue", description = "Bari Blue" }
+enemy{ id = "dungeons/bazu", description = "Bazu" }
 enemy{ id = "dungeons/chasupa", description = "Chasupa" }
 enemy{ id = "dungeons/eyegore_green", description = "Eyegore Green" }
 enemy{ id = "dungeons/eyegore_red", description = "Eyegore Red" }
@@ -618,6 +620,7 @@ file{ path = "enemies/dark_world/taros_blue.lua", author = "Christopho", license
 file{ path = "enemies/dark_world/taros_red.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "enemies/dungeons", author = "Christopho", license = "GPL v3" }
 file{ path = "enemies/dungeons/bari_blue.lua", author = "Christopho", license = "GPL v3" }
+file{ path = "enemies/dungeons/bazu.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "enemies/dungeons/chasupa.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "enemies/dungeons/eyegore_green.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "enemies/dungeons/eyegore_red.lua", author = "Christopho", license = "GPL v3" }
@@ -1026,6 +1029,8 @@ file{ path = "sprites/enemies/dark_world/taros_red_weapon.dat", author = "Christ
 file{ path = "sprites/enemies/dungeons", license = "Mixed" }
 file{ path = "sprites/enemies/dungeons/bari_blue.dat", author = "Christopho", license = "CC BY-SA 4.0" }
 file{ path = "sprites/enemies/dungeons/bari_blue.png", author = "Nintendo", license = "Proprietary (Fair use)" }
+file{ path = "sprites/enemies/dungeons/bazu.dat", author = "Christopho", license = "CC BY-SA 4.0" }
+file{ path = "sprites/enemies/dungeons/bazu.png", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "sprites/enemies/dungeons/chasupa.dat", author = "Christopho", license = "CC BY-SA 4.0" }
 file{ path = "sprites/enemies/dungeons/chasupa.png", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "sprites/enemies/dungeons/eyegore_green.dat", author = "Christopho", license = "CC BY-SA 4.0" }
