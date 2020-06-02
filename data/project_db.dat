@@ -66,6 +66,11 @@ sprite{ id = "enemies/bosses/blind_the_thief", description = "Blind the Thief" }
 sprite{ id = "enemies/bosses/ganon", description = "Ganon" }
 sprite{ id = "enemies/bosses/helmasaur_king", description = "Helmasaur King" }
 sprite{ id = "enemies/bosses/kholdstare", description = "Kholdstare" }
+sprite{ id = "enemies/bosses/moldorm", description = "Moldorm" }
+sprite{ id = "enemies/bosses/moldorm/body_1", description = "Body 1" }
+sprite{ id = "enemies/bosses/moldorm/body_2", description = "Body 2" }
+sprite{ id = "enemies/bosses/moldorm/body_3", description = "Body 3" }
+sprite{ id = "enemies/bosses/moldorm/tail", description = "Tail" }
 sprite{ id = "enemies/bosses/mothula", description = "Mothula" }
 sprite{ id = "enemies/bosses/vitreous", description = "Vitreous" }
 sprite{ id = "enemies/dark_world/hinox", description = "Hinox" }
@@ -517,6 +522,7 @@ enemy{ id = "bosses/blind_the_thief", description = "Blind the Thief" }
 enemy{ id = "bosses/ganon", description = "Ganon" }
 enemy{ id = "bosses/helmasaur_king", description = "Helmasaur King" }
 enemy{ id = "bosses/kholdstare", description = "Kholdstare" }
+enemy{ id = "bosses/moldorm", description = "Moldorm" }
 enemy{ id = "bosses/mothula", description = "Mothula" }
 enemy{ id = "bosses/vitreous", description = "Vitreous" }
 enemy{ id = "dark_world/hinox", description = "Hinox" }
@@ -605,6 +611,7 @@ file{ path = "enemies/bosses/blind_the_thief.lua", author = "Christopho", licens
 file{ path = "enemies/bosses/ganon.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "enemies/bosses/helmasaur_king.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "enemies/bosses/kholdstare.lua", author = "Christopho", license = "GPL v3" }
+file{ path = "enemies/bosses/moldorm.lua", author = "Vlag", license = "GPL v3" }
 file{ path = "enemies/bosses/mothula.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "enemies/bosses/vitreous.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "enemies/dark_world", author = "Christopho", license = "GPL v3" }
