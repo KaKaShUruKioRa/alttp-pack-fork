@@ -119,6 +119,7 @@ sprite{ id = "enemies/light_world/octorok", description = "Octorock" }
 sprite{ id = "enemies/light_world/poe", description = "Poe" }
 sprite{ id = "enemies/light_world/sand_crab", description = "Sans crab" }
 sprite{ id = "enemies/light_world/tektite_blue", description = "Blue Tektite" }
+sprite{ id = "enemies/light_world/tektite_red", description = "enemies/light_world/tektite_red" }
 sprite{ id = "enemies/light_world/vulture", description = "Vulture" }
 sprite{ id = "enemies/light_world/zora", description = "Zora (on feet)" }
 sprite{ id = "enemies/light_world/zora_underwater", description = "Zora (in water)" }
@@ -1103,6 +1104,8 @@ file{ path = "sprites/enemies/light_world/sand_crab.dat", author = "Christopho",
 file{ path = "sprites/enemies/light_world/sand_crab.png", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "sprites/enemies/light_world/tektite_blue.dat", author = "Christopho", license = "CC BY-SA 4.0" }
 file{ path = "sprites/enemies/light_world/tektite_blue.png", author = "Nintendo", license = "Proprietary (Fair use)" }
+file{ path = "sprites/enemies/light_world/tektite_red.dat", author = "Red Tektite", license = "CC BY-SA 4.0" }
+file{ path = "sprites/enemies/light_world/tektite_red.png", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "sprites/enemies/light_world/vulture.dat", author = "Christopho", license = "CC BY-SA 4.0" }
 file{ path = "sprites/enemies/light_world/vulture.png", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "sprites/enemies/light_world/zora.dat", author = "Christopho", license = "CC BY-SA 4.0" }
