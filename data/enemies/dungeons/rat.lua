@@ -9,8 +9,9 @@ local hero = map:get_hero()
 local sprite
 local movement
 
+
 -- Event called when the enemy is initialized.
-function enemy:on_created()
+enemy:register_event("on_created", function(enemy)
 
   -- Initialize the properties of your enemy here,
   -- like the sprite, the life and the damage.
@@ -19,54 +20,36 @@ function enemy:on_created()
   enemy:set_damage(1)
   enemy:set_size(16, 16)
   enemy:set_origin(8, 13)
-end
+end)
 
 -- Event called when the enemy should start or restart its movements.
 -- This is called for example after the enemy is created or after
 -- it was hurt or immobilized.
-function enemy:on_restarted()
-
-  movement = sol.movement.create("straight")
-  movement:set_target(hero)
-  movement:set_speed(88)
-  movement:start(enemy)
-
+enemy:register_event("on_restarted", function(enemy)
   local m = sol.movement.create("straight")
   m:set_speed(0)
-  m:start(self)
+  m:start(enemy)
   local direction4 = math.random(4) - 1
-  self:go(direction4)
-end
+  enemy:go(direction4)
+end)
 
-
-
--- The enemy was stopped for some reason and should restart.
-function enemy:on_restarted()
-
-  local m = sol.movement.create("straight")
-  m:set_speed(0)
-  m:start(self)
-  local direction4 = math.random(4) - 1
-  self:go(direction4)
-end
-
--- An obstacle is reached: stop for a while, looking to a next direction.
-function enemy:on_obstacle_reached(movement)
-  -- stop for a while
+-- Event called when the movement is finished
+enemy:register_event("on_movement_finished", function(enemy, movement)
+  -- stop for a while, looking to a next direction.
   local animation = sprite:get_animation()
   if animation == "walking" then
-    sprite:set_animation("immobilized")
+    sprite:set_animation("stopped")
     sol.timer.start(enemy, 500, function()
       enemy:go(math.random(4)-1)
     end)
   end
-end
+end)
 
--- The movement is finished: stop for a while, looking to a next direction.
-function enemy:on_movement_finished(movement)
-  -- Same thing as when an obstacle is reached.
-  self:on_obstacle_reached(movement)
-end
+-- Event called when an obstacle is reached: turn right
+enemy:register_event("on_obstacle_reached", function(enemy, movement)
+    -- turn right
+    enemy:go((movement:get_direction4() - 1) % 4)
+end)
 
 -- Makes the soldier walk towards a direction.
 function enemy:go(direction4)
@@ -76,7 +59,7 @@ function enemy:go(direction4)
   sprite:set_direction(direction4)
 
   -- Set the movement.
-  local m = self:get_movement()
+  local m = enemy:get_movement()
   local max_distance = 20 + math.random(60)
   m:set_max_distance(max_distance)
   m:set_smooth(true)
