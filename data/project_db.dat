@@ -119,7 +119,7 @@ sprite{ id = "enemies/light_world/octorok", description = "Octorock" }
 sprite{ id = "enemies/light_world/poe", description = "Poe" }
 sprite{ id = "enemies/light_world/sand_crab", description = "Sans crab" }
 sprite{ id = "enemies/light_world/tektite_blue", description = "Blue Tektite" }
-sprite{ id = "enemies/light_world/tektite_red", description = "enemies/light_world/tektite_red" }
+sprite{ id = "enemies/light_world/tektite_red", description = "Red Tektite" }
 sprite{ id = "enemies/light_world/vulture", description = "Vulture" }
 sprite{ id = "enemies/light_world/zora", description = "Zora (on feet)" }
 sprite{ id = "enemies/light_world/zora_underwater", description = "Zora (in water)" }
