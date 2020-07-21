@@ -554,6 +554,7 @@ enemy{ id = "dungeons/wizzrobe_white", description = "Wizzrobe White" }
 enemy{ id = "dungeons/zazak_blue", description = "Zazak Blue" }
 enemy{ id = "light_world/armos", description = "Armos" }
 enemy{ id = "light_world/chicken", description = "Chicken" }
+enemy{ id = "light_world/deadrock", description = "Deadrock" }
 enemy{ id = "light_world/geldman", description = "Geldman" }
 enemy{ id = "light_world/octorok", description = "Octorok" }
 enemy{ id = "light_world/poe", description = "Poe" }
@@ -649,6 +650,7 @@ file{ path = "enemies/library/waiting_for_hero.lua", author = "Christopho", lice
 file{ path = "enemies/light_world", author = "Christopho", license = "GPL v3" }
 file{ path = "enemies/light_world/armos.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "enemies/light_world/chicken.lua", author = "Christopho", license = "GPL v3" }
+file{ path = "enemies/light_world/deadrock.lua", author = "Franck Jousseaume", license = "GPL v3" }
 file{ path = "enemies/light_world/geldman.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "enemies/light_world/octorok.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "enemies/light_world/poe.lua", author = "Christopho", license = "GPL v3" }
