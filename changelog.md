@@ -1,5 +1,9 @@
 # Changelog
 
+## Solarus ALTTP pack 1.6.5 (in progress)
+
+* Fix using custom weapons on enemies (#41).
+
 ## Solarus ALTTP pack 1.6.3 (in progress)
 
 * Fix wrong concave corner pattern of caves in inside tilesets (#29).

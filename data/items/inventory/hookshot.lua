@@ -47,6 +47,7 @@
 
 local item = ...
 
+require("scripts/meta/enemy")  -- enemy:receive_attack_consequence()
 local config = require("items/inventory/library/hookshot_config.lua")
 
 function item:on_created()
