@@ -2402,15 +2402,6 @@ tile{
 
 tile{
   layer = 0,
-  x = 488,
-  y = 120,
-  width = 8,
-  height = 8,
-  pattern = "1045",
-}
-
-tile{
-  layer = 0,
   x = 464,
   y = 104,
   width = 8,
@@ -4720,6 +4711,15 @@ tile{
   width = 8,
   height = 8,
   pattern = "101",
+}
+
+tile{
+  layer = 0,
+  x = 480,
+  y = 120,
+  width = 8,
+  height = 8,
+  pattern = "1045",
 }
 
 teletransporter{
