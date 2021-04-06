@@ -828,6 +828,7 @@ file{ path = "musics/village.it", author = "Nintendo", license = "Proprietary (F
 file{ path = "musics/zelda.it", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "scripts", license = "GPL v3" }
 file{ path = "scripts/dungeons.lua", author = "Christopho, Mehdi Khelifi", license = "GPL v3" }
+file{ path = "scripts/dungeons_info.lua", license = "GPL v3" }
 file{ path = "scripts/features.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "scripts/game_manager.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "scripts/hud", author = "Christopho", license = "GPL v3" }
@@ -854,6 +855,8 @@ file{ path = "scripts/menus/pause_inventory.lua", author = "Christopho, Mehdi Kh
 file{ path = "scripts/menus/savegames.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "scripts/menus/solarus_logo.lua", author = "Maxs", license = "GPL v3" }
 file{ path = "scripts/menus/title_screen.lua", author = "Olivier Cléro", license = "GPL v3" }
+file{ path = "scripts/meta", license = "GPL v3" }
+file{ path = "scripts/meta/enemy.lua", license = "GPL v3" }
 file{ path = "scripts/multi_events.lua", author = "Christopho, std::gregwar", license = "GPL v3" }
 file{ path = "shaders", license = "GPL v3" }
 file{ path = "shaders/fr_to_normal_colors.dat", author = "std::gregwar", license = "GPL v3" }
@@ -1211,11 +1214,8 @@ file{ path = "sprites/entities/fire.dat", author = "Christopho", license = "CC B
 file{ path = "sprites/entities/fire.png", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "sprites/entities/hammer_stake.dat", author = "Christopho", license = "CC BY-SA 4.0" }
 file{ path = "sprites/entities/hammer_stake.png", author = "Nintendo", license = "Proprietary (Fair use)" }
-file{ path = "sprites/entities/hammer_stake_brown.dat", author = "Christopho", license = "CC BY-SA 4.0" }
 file{ path = "sprites/entities/hammer_stake_dw.dat", author = "Christopho", license = "CC BY-SA 4.0" }
-file{ path = "sprites/entities/hammer_stake_green.dat", author = "Christopho", license = "CC BY-SA 4.0" }
 file{ path = "sprites/entities/hammer_stake_head.dat", author = "Christopho", license = "CC BY-SA 4.0" }
-file{ path = "sprites/entities/hammer_stake_yellow.dat", author = "Christopho", license = "CC BY-SA 4.0" }
 file{ path = "sprites/entities/hookshot.dat", author = "Christopho", license = "CC BY-SA 4.0" }
 file{ path = "sprites/entities/hookshot.png", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "sprites/entities/ice_beam.dat", author = "Christopho", license = "CC BY-SA 4.0" }

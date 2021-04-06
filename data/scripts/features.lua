@@ -8,6 +8,7 @@
 require("scripts/menus/alttp_dialog_box")
 require("scripts/menus/pause")
 require("scripts/menus/game_over")
+require("scripts/meta/enemy")
 require("scripts/hud/hud")
 require("scripts/dungeons.lua")
 
