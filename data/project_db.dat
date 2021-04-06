@@ -66,6 +66,11 @@ sprite{ id = "enemies/bosses/blind_the_thief", description = "Blind the Thief" }
 sprite{ id = "enemies/bosses/ganon", description = "Ganon" }
 sprite{ id = "enemies/bosses/helmasaur_king", description = "Helmasaur King" }
 sprite{ id = "enemies/bosses/kholdstare", description = "Kholdstare" }
+sprite{ id = "enemies/bosses/moldorm", description = "Moldorm" }
+sprite{ id = "enemies/bosses/moldorm/body_1", description = "Body 1" }
+sprite{ id = "enemies/bosses/moldorm/body_2", description = "Body 2" }
+sprite{ id = "enemies/bosses/moldorm/body_3", description = "Body 3" }
+sprite{ id = "enemies/bosses/moldorm/tail", description = "Tail" }
 sprite{ id = "enemies/bosses/mothula", description = "Mothula" }
 sprite{ id = "enemies/bosses/vitreous", description = "Vitreous" }
 sprite{ id = "enemies/dark_world/hinox", description = "Hinox" }
@@ -82,6 +87,7 @@ sprite{ id = "enemies/dark_world/taros_blue_weapon", description = "Blue Tarosu'
 sprite{ id = "enemies/dark_world/taros_red", description = "Red Tarosu" }
 sprite{ id = "enemies/dark_world/taros_red_weapon", description = "Red Tarosu's weapon" }
 sprite{ id = "enemies/dungeons/bari_blue", description = "Blue Bari" }
+sprite{ id = "enemies/dungeons/bazu", description = "Bazu" }
 sprite{ id = "enemies/dungeons/chasupa", description = "Chasupa" }
 sprite{ id = "enemies/dungeons/eyegore_green", description = "Green Eyegore" }
 sprite{ id = "enemies/dungeons/eyegore_red", description = "Red Eyegore" }
@@ -119,6 +125,7 @@ sprite{ id = "enemies/light_world/octorok", description = "Octorock" }
 sprite{ id = "enemies/light_world/poe", description = "Poe" }
 sprite{ id = "enemies/light_world/sand_crab", description = "Sans crab" }
 sprite{ id = "enemies/light_world/tektite_blue", description = "Blue Tektite" }
+sprite{ id = "enemies/light_world/tektite_red", description = "Red Tektite" }
 sprite{ id = "enemies/light_world/vulture", description = "Vulture" }
 sprite{ id = "enemies/light_world/zora", description = "Zora (on feet)" }
 sprite{ id = "enemies/light_world/zora_underwater", description = "Zora (in water)" }
@@ -165,9 +172,9 @@ sprite{ id = "entities/crystal_block", description = "Crystal block" }
 sprite{ id = "entities/destination", description = "Destination" }
 sprite{ id = "entities/explosion", description = "Explosion" }
 sprite{ id = "entities/fire", description = "Fire" }
-sprite{ id = "entities/hammer_stake_brown", description = "Hammer Stake Brown" }
-sprite{ id = "entities/hammer_stake_green", description = "Hammer Stake Green" }
-sprite{ id = "entities/hammer_stake_yellow", description = "Hammer Stake Yellow" }
+sprite{ id = "entities/hammer_stake", description = "Hammer Stake (Light World)" }
+sprite{ id = "entities/hammer_stake_dw", description = "Hammer Stake (Dark World)" }
+sprite{ id = "entities/hammer_stake_head", description = "Hammer Stake (head)" }
 sprite{ id = "entities/hookshot", description = "Hookshot" }
 sprite{ id = "entities/ice_beam", description = "Ice Beam" }
 sprite{ id = "entities/items", description = "Items" }
@@ -470,6 +477,8 @@ item{ id = "consumables/magic_jar", description = "Magic Jar (small / big)" }
 item{ id = "consumables/piece_of_heart", description = "Piece of Heart" }
 item{ id = "consumables/rupee", description = "Rupees (x1 / x5 / x20 / x50 / x100 / x300)" }
 item{ id = "dungeons/big_key", description = "Big Key" }
+item{ id = "dungeons/compass", description = "Compass" }
+item{ id = "dungeons/map", description = "Map" }
 item{ id = "dungeons/small_key", description = "Small Key" }
 item{ id = "equipment/bomb_bag", description = "Bomb Bag (x10 / x 30 / x50)" }
 item{ id = "equipment/book_of_mudora", description = "Book of Mudora" }
@@ -515,6 +524,7 @@ enemy{ id = "bosses/blind_the_thief", description = "Blind the Thief" }
 enemy{ id = "bosses/ganon", description = "Ganon" }
 enemy{ id = "bosses/helmasaur_king", description = "Helmasaur King" }
 enemy{ id = "bosses/kholdstare", description = "Kholdstare" }
+enemy{ id = "bosses/moldorm", description = "Moldorm" }
 enemy{ id = "bosses/mothula", description = "Mothula" }
 enemy{ id = "bosses/vitreous", description = "Vitreous" }
 enemy{ id = "dark_world/hinox", description = "Hinox" }
@@ -526,6 +536,7 @@ enemy{ id = "dark_world/stal", description = "Stal" }
 enemy{ id = "dark_world/taros_blue", description = "Taros Blue" }
 enemy{ id = "dark_world/taros_red", description = "Taros Red" }
 enemy{ id = "dungeons/bari_blue", description = "Bari Blue" }
+enemy{ id = "dungeons/bazu", description = "Bazu" }
 enemy{ id = "dungeons/chasupa", description = "Chasupa" }
 enemy{ id = "dungeons/eyegore_green", description = "Eyegore Green" }
 enemy{ id = "dungeons/eyegore_red", description = "Eyegore Red" }
@@ -552,6 +563,7 @@ enemy{ id = "dungeons/wizzrobe_white", description = "Wizzrobe White" }
 enemy{ id = "dungeons/zazak_blue", description = "Zazak Blue" }
 enemy{ id = "light_world/armos", description = "Armos" }
 enemy{ id = "light_world/chicken", description = "Chicken" }
+enemy{ id = "light_world/deadrock", description = "Deadrock" }
 enemy{ id = "light_world/geldman", description = "Geldman" }
 enemy{ id = "light_world/octorok", description = "Octorok" }
 enemy{ id = "light_world/poe", description = "Poe" }
@@ -603,6 +615,7 @@ file{ path = "enemies/bosses/blind_the_thief.lua", author = "Christopho", licens
 file{ path = "enemies/bosses/ganon.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "enemies/bosses/helmasaur_king.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "enemies/bosses/kholdstare.lua", author = "Christopho", license = "GPL v3" }
+file{ path = "enemies/bosses/moldorm.lua", author = "Vlag", license = "GPL v3" }
 file{ path = "enemies/bosses/mothula.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "enemies/bosses/vitreous.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "enemies/dark_world", author = "Christopho", license = "GPL v3" }
@@ -616,6 +629,7 @@ file{ path = "enemies/dark_world/taros_blue.lua", author = "Christopho", license
 file{ path = "enemies/dark_world/taros_red.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "enemies/dungeons", author = "Christopho", license = "GPL v3" }
 file{ path = "enemies/dungeons/bari_blue.lua", author = "Christopho", license = "GPL v3" }
+file{ path = "enemies/dungeons/bazu.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "enemies/dungeons/chasupa.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "enemies/dungeons/eyegore_green.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "enemies/dungeons/eyegore_red.lua", author = "Christopho", license = "GPL v3" }
@@ -647,6 +661,7 @@ file{ path = "enemies/library/waiting_for_hero.lua", author = "Christopho", lice
 file{ path = "enemies/light_world", author = "Christopho", license = "GPL v3" }
 file{ path = "enemies/light_world/armos.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "enemies/light_world/chicken.lua", author = "Christopho", license = "GPL v3" }
+file{ path = "enemies/light_world/deadrock.lua", author = "Franck Jousseaume", license = "GPL v3" }
 file{ path = "enemies/light_world/geldman.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "enemies/light_world/octorok.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "enemies/light_world/poe.lua", author = "Christopho", license = "GPL v3" }
@@ -697,6 +712,8 @@ file{ path = "items/consumables/magic_jar.lua", author = "Christopho", license =
 file{ path = "items/consumables/piece_of_heart.lua", author = "Mehdi Khelifi", license = "GPL v3" }
 file{ path = "items/consumables/rupee.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "items/dungeons/big_key.lua", author = "Christopho", license = "GPL v3" }
+file{ path = "items/dungeons/compass.lua", author = "Christopho", license = "GPL v3" }
+file{ path = "items/dungeons/map.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "items/dungeons/small_key.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "items/equipment", author = "Christopho", license = "GPL v3" }
 file{ path = "items/equipment/bomb_bag.lua", author = "Christopho, Mehdi Khelifi", license = "GPL v3" }
@@ -811,6 +828,7 @@ file{ path = "musics/village.it", author = "Nintendo", license = "Proprietary (F
 file{ path = "musics/zelda.it", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "scripts", license = "GPL v3" }
 file{ path = "scripts/dungeons.lua", author = "Christopho, Mehdi Khelifi", license = "GPL v3" }
+file{ path = "scripts/dungeons_info.lua", license = "GPL v3" }
 file{ path = "scripts/features.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "scripts/game_manager.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "scripts/hud", author = "Christopho", license = "GPL v3" }
@@ -837,6 +855,8 @@ file{ path = "scripts/menus/pause_inventory.lua", author = "Christopho, Mehdi Kh
 file{ path = "scripts/menus/savegames.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "scripts/menus/solarus_logo.lua", author = "Maxs", license = "GPL v3" }
 file{ path = "scripts/menus/title_screen.lua", author = "Olivier Cléro", license = "GPL v3" }
+file{ path = "scripts/meta", license = "GPL v3" }
+file{ path = "scripts/meta/enemy.lua", license = "GPL v3" }
 file{ path = "scripts/multi_events.lua", author = "Christopho, std::gregwar", license = "GPL v3" }
 file{ path = "shaders", license = "GPL v3" }
 file{ path = "shaders/fr_to_normal_colors.dat", author = "std::gregwar", license = "GPL v3" }
@@ -1022,6 +1042,8 @@ file{ path = "sprites/enemies/dark_world/taros_red_weapon.dat", author = "Christ
 file{ path = "sprites/enemies/dungeons", license = "Mixed" }
 file{ path = "sprites/enemies/dungeons/bari_blue.dat", author = "Christopho", license = "CC BY-SA 4.0" }
 file{ path = "sprites/enemies/dungeons/bari_blue.png", author = "Nintendo", license = "Proprietary (Fair use)" }
+file{ path = "sprites/enemies/dungeons/bazu.dat", author = "Christopho", license = "CC BY-SA 4.0" }
+file{ path = "sprites/enemies/dungeons/bazu.png", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "sprites/enemies/dungeons/chasupa.dat", author = "Christopho", license = "CC BY-SA 4.0" }
 file{ path = "sprites/enemies/dungeons/chasupa.png", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "sprites/enemies/dungeons/eyegore_green.dat", author = "Christopho", license = "CC BY-SA 4.0" }
@@ -1097,6 +1119,8 @@ file{ path = "sprites/enemies/light_world/sand_crab.dat", author = "Christopho",
 file{ path = "sprites/enemies/light_world/sand_crab.png", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "sprites/enemies/light_world/tektite_blue.dat", author = "Christopho", license = "CC BY-SA 4.0" }
 file{ path = "sprites/enemies/light_world/tektite_blue.png", author = "Nintendo", license = "Proprietary (Fair use)" }
+file{ path = "sprites/enemies/light_world/tektite_red.dat", author = "Red Tektite", license = "CC BY-SA 4.0" }
+file{ path = "sprites/enemies/light_world/tektite_red.png", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "sprites/enemies/light_world/vulture.dat", author = "Christopho", license = "CC BY-SA 4.0" }
 file{ path = "sprites/enemies/light_world/vulture.png", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "sprites/enemies/light_world/zora.dat", author = "Christopho", license = "CC BY-SA 4.0" }
@@ -1188,10 +1212,10 @@ file{ path = "sprites/entities/explosion.dat", author = "Christopho", license = 
 file{ path = "sprites/entities/explosion.png", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "sprites/entities/fire.dat", author = "Christopho", license = "CC BY-SA 4.0" }
 file{ path = "sprites/entities/fire.png", author = "Nintendo", license = "Proprietary (Fair use)" }
+file{ path = "sprites/entities/hammer_stake.dat", author = "Christopho", license = "CC BY-SA 4.0" }
 file{ path = "sprites/entities/hammer_stake.png", author = "Nintendo", license = "Proprietary (Fair use)" }
-file{ path = "sprites/entities/hammer_stake_brown.dat", author = "Christopho", license = "CC BY-SA 4.0" }
-file{ path = "sprites/entities/hammer_stake_green.dat", author = "Christopho", license = "CC BY-SA 4.0" }
-file{ path = "sprites/entities/hammer_stake_yellow.dat", author = "Christopho", license = "CC BY-SA 4.0" }
+file{ path = "sprites/entities/hammer_stake_dw.dat", author = "Christopho", license = "CC BY-SA 4.0" }
+file{ path = "sprites/entities/hammer_stake_head.dat", author = "Christopho", license = "CC BY-SA 4.0" }
 file{ path = "sprites/entities/hookshot.dat", author = "Christopho", license = "CC BY-SA 4.0" }
 file{ path = "sprites/entities/hookshot.png", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "sprites/entities/ice_beam.dat", author = "Christopho", license = "CC BY-SA 4.0" }

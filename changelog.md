@@ -1,17 +1,23 @@
-_____________________________________
+# Changelog
 
-Solarus ALTTP pack 1.6.2 (2020-04-11)
-_____________________________________
+## Solarus ALTTP pack 1.6.3 (2020-04-06)
+
+* Fix using custom weapons on enemies (#41).
+* Fix wrong concave corner pattern of caves in inside tilesets (#29).
+* Fix border color of yellow trees in outside tileset (#30).
+* Fix missing animation for clouds parallax pattern in outside tileset (#36).
+* Add more hammer stake sprite variants.
+* Make hammer stake sprite shadow semi-transparent (#26).
+* Add map and compass items (#28).
+
+## Solarus ALTTP pack 1.6.2 (2020-04-11)
 
 * Add pike enemies.
 * Add big chest sprite.
 * Fix HUD disappearing after game-over (#38).
 * Fix bari, eyegore and lynel enemies.
 
-_____________________________________
-
-Solarus ALTTP pack 1.6.1 (2019-08-10)
-_____________________________________
+## Solarus ALTTP pack 1.6.1 (2019-08-10)
 
 * Split the outside tileset in 3 smaller tilesets (#31).
 * Make jumpable cliffs low walls.
@@ -23,10 +29,7 @@ _____________________________________
 * Fix displaying issue of the ghostly proprietor NPC sprite.
 * Fix very slight error in hammer sprite animation.
 
-_____________________________________
-
-Solarus ALTTP pack 1.6.0 (2018-12-22)
-_____________________________________
+## Solarus ALTTP pack 1.6.0 (2018-12-22)
 
 * Add huge outside and dungeon tilesets by ffomega (#7).
 * Add enemies from other projects by mattias-p, Franck, Mehdi (#8).
@@ -45,48 +48,31 @@ _____________________________________
 * Fix color in preparing boomerang animation of tunic sprites.
 * Fix slight errors in shield sprites.
 
-_____________________________________
-
-Solarus ALTTP pack 1.5.6 (2016-11-26)
-_____________________________________
+## Solarus ALTTP pack 1.5.6 (2016-11-26)
 
 * Add a rupees counter and an item box to the HUD.
 * Add icons to be used for the HUD.
 * Add PNG fonts with digits.
 * Make the HUD compatible with old HUD element scripts.
 
-_____________________________________
-
-Solarus ALTTP pack 1.5.5 (2016-11-19)
-_____________________________________
+## Solarus ALTTP pack 1.5.5 (2016-11-19)
 
 * Add a hearts displayer.
 
-
-Solarus ALTTP pack 1.5.4 (2016-11-12)
-_____________________________________
+## Solarus ALTTP pack 1.5.4 (2016-11-12)
 
 * Add a door sprite in the light world tileset.
 
-_____________________________________
-
-Solarus ALTTP pack 1.5.3 (2016-09-29)
-_____________________________________
+## Solarus ALTTP pack 1.5.3 (2016-09-29)
 
 * Remove unexistent sprite declaration added by mistake.
 * Remove a non-Zelda NPC sprite.
 
-_____________________________________
-
-Solarus ALTTP pack 1.5.2 (2016-09-29)
-_____________________________________
+## Solarus ALTTP pack 1.5.2 (2016-09-29)
 
 * Add lots of NPC sprites and reorganize existing ones.
 
-_____________________________________
-
-Solarus ALTTP pack 1.5.1 (2016-08-28)
-_____________________________________
+## Solarus ALTTP pack 1.5.1 (2016-08-28)
 
 * Add a changelog.
 * Add scripts to start the game.
@@ -94,14 +80,10 @@ _____________________________________
 * Fix green bush sprite.
 * Improve tilesets.
 
-_____________________________________
-
-Solarus ALTTP pack 1.5.0 (2016-07-27)
-_____________________________________
+## Solarus ALTTP pack 1.5.0 (2016-07-27)
 
 * Upgrade the resource pack to Solarus 1.5.
 * Add a quest.dat file to make this a valid quest.
 * Remove empty English dialogs and string files.
 * Fix character misalignment in font file.
 * Add the % symbol in the ALTTP font.
-

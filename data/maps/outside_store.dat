@@ -10,6 +10,33 @@ properties{
 
 tile{
   layer = 0,
+  x = 280,
+  y = 0,
+  width = 512,
+  height = 80,
+  pattern = "12412",
+}
+
+tile{
+  layer = 0,
+  x = 320,
+  y = 16,
+  width = 8,
+  height = 8,
+  pattern = "4341",
+}
+
+tile{
+  layer = 0,
+  x = 320,
+  y = 16,
+  width = 8,
+  height = 8,
+  pattern = "4329",
+}
+
+tile{
+  layer = 0,
   x = 0,
   y = 224,
   width = 400,
@@ -1699,6 +1726,285 @@ tile{
   width = 16,
   height = 16,
   pattern = "928",
+}
+
+tile{
+  layer = 0,
+  x = 368,
+  y = 40,
+  width = 48,
+  height = 8,
+  pattern = "4338",
+}
+
+tile{
+  layer = 0,
+  x = 416,
+  y = 40,
+  width = 8,
+  height = 8,
+  pattern = "4340",
+}
+
+tile{
+  layer = 0,
+  x = 416,
+  y = 32,
+  width = 8,
+  height = 8,
+  pattern = "4344",
+}
+
+tile{
+  layer = 0,
+  x = 360,
+  y = 48,
+  width = 8,
+  height = 8,
+  pattern = "4340",
+}
+
+tile{
+  layer = 0,
+  x = 352,
+  y = 56,
+  width = 8,
+  height = 8,
+  pattern = "4340",
+}
+
+tile{
+  layer = 0,
+  x = 344,
+  y = 56,
+  width = 8,
+  height = 8,
+  pattern = "4339",
+}
+
+tile{
+  layer = 0,
+  x = 336,
+  y = 48,
+  width = 8,
+  height = 8,
+  pattern = "4339",
+}
+
+tile{
+  layer = 0,
+  x = 328,
+  y = 40,
+  width = 8,
+  height = 8,
+  pattern = "4339",
+}
+
+tile{
+  layer = 0,
+  x = 344,
+  y = 48,
+  width = 16,
+  height = 8,
+  pattern = "4329",
+}
+
+tile{
+  layer = 0,
+  x = 336,
+  y = 40,
+  width = 32,
+  height = 8,
+  pattern = "4329",
+}
+
+tile{
+  layer = 0,
+  x = 328,
+  y = 32,
+  width = 88,
+  height = 8,
+  pattern = "4329",
+}
+
+tile{
+  layer = 0,
+  x = 328,
+  y = 24,
+  width = 88,
+  height = 8,
+  pattern = "4329",
+}
+
+tile{
+  layer = 0,
+  x = 328,
+  y = 24,
+  width = 8,
+  height = 8,
+  pattern = "4334",
+}
+
+tile{
+  layer = 0,
+  x = 336,
+  y = 32,
+  width = 8,
+  height = 8,
+  pattern = "4334",
+}
+
+tile{
+  layer = 0,
+  x = 344,
+  y = 40,
+  width = 8,
+  height = 8,
+  pattern = "4334",
+}
+
+tile{
+  layer = 0,
+  x = 352,
+  y = 40,
+  width = 8,
+  height = 8,
+  pattern = "4335",
+}
+
+tile{
+  layer = 0,
+  x = 360,
+  y = 32,
+  width = 8,
+  height = 8,
+  pattern = "4335",
+}
+
+tile{
+  layer = 0,
+  x = 368,
+  y = 32,
+  width = 48,
+  height = 8,
+  pattern = "4331",
+}
+
+tile{
+  layer = 0,
+  x = 416,
+  y = 16,
+  width = 8,
+  height = 8,
+  pattern = "4333",
+}
+
+tile{
+  layer = 0,
+  x = 400,
+  y = 16,
+  width = 16,
+  height = 8,
+  pattern = "4330",
+}
+
+tile{
+  layer = 0,
+  x = 392,
+  y = 8,
+  width = 8,
+  height = 8,
+  pattern = "4333",
+}
+
+tile{
+  layer = 0,
+  x = 328,
+  y = 8,
+  width = 64,
+  height = 8,
+  pattern = "4330",
+}
+
+tile{
+  layer = 0,
+  x = 328,
+  y = 16,
+  width = 72,
+  height = 8,
+  pattern = "4328",
+}
+
+tile{
+  layer = 0,
+  x = 336,
+  y = 24,
+  width = 80,
+  height = 8,
+  pattern = "4328",
+}
+
+tile{
+  layer = 0,
+  x = 344,
+  y = 32,
+  width = 16,
+  height = 8,
+  pattern = "4328",
+}
+
+tile{
+  layer = 0,
+  x = 320,
+  y = 8,
+  width = 8,
+  height = 8,
+  pattern = "4332",
+}
+
+tile{
+  layer = 0,
+  x = 320,
+  y = 16,
+  width = 8,
+  height = 8,
+  pattern = "4334",
+}
+
+tile{
+  layer = 0,
+  x = 320,
+  y = 32,
+  width = 8,
+  height = 8,
+  pattern = "4339",
+}
+
+tile{
+  layer = 0,
+  x = 320,
+  y = 24,
+  width = 8,
+  height = 8,
+  pattern = "4343",
+}
+
+tile{
+  layer = 0,
+  x = 416,
+  y = 24,
+  width = 8,
+  height = 8,
+  pattern = "4342",
+}
+
+tile{
+  layer = 0,
+  x = 416,
+  y = 24,
+  width = 8,
+  height = 8,
+  pattern = "4335",
 }
 
 destructible{

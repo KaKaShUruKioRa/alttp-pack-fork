@@ -39268,6 +39268,18 @@ tile_pattern{
 }
 
 tile_pattern{
+  id = "3",
+  ground = "empty",
+  default_layer = -1,
+  x = { 1176, 1176, 1176 },
+  y = { 744, 752, 760 },
+  width = 16,
+  height = 8,
+  frame_delay = 250,
+  scrolling = "parallax",
+}
+
+tile_pattern{
   id = "3000",
   ground = "wall",
   default_layer = 0,
@@ -57633,16 +57645,6 @@ tile_pattern{
   height = 8,
   frame_delay = 250,
   scrolling = "parallax",
-}
-
-tile_pattern{
-  id = "4745",
-  ground = "empty",
-  default_layer = -1,
-  x = 1176,
-  y = 744,
-  width = 16,
-  height = 24,
 }
 
 tile_pattern{

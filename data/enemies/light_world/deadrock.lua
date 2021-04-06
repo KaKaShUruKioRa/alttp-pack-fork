@@ -1,6 +1,7 @@
--- Lua script of enemy rat.
+-- Lua script of enemy deadrock.
 
--- A rat who walk randomly in the room
+-- A deadrock who walk randomly.
+-- Transform into stone for few seconds when hitted
 
 local enemy = ...
 local game = enemy:get_game()
@@ -9,7 +10,6 @@ local hero = map:get_hero()
 local sprite
 local movement
 
-
 -- Event called when the enemy is initialized.
 enemy:register_event("on_created", function(enemy)
 
@@ -17,7 +17,7 @@ enemy:register_event("on_created", function(enemy)
   -- like the sprite, the life and the damage.
   sprite = enemy:create_sprite("enemies/" .. enemy:get_breed())
   enemy:set_life(1)
-  enemy:set_damage(1)
+  enemy:set_damage(2)
   enemy:set_size(16, 16)
   enemy:set_origin(8, 13)
 end)
@@ -26,6 +26,16 @@ end)
 -- This is called for example after the enemy is created or after
 -- it was hurt or immobilized.
 enemy:register_event("on_restarted", function(enemy)
+
+  enemy:set_traversable(true)
+  enemy:set_attack_consequence("sword", "immobilized")
+  enemy:set_attack_consequence("thrown_item", "immobilized")
+  enemy:set_attack_consequence("explosion", "immobilized")
+  enemy:set_attack_consequence("arrow", "immobilized")
+  enemy:set_attack_consequence("hookshot", "immobilized")
+  enemy:set_attack_consequence("boomerang", "immobilized")
+  enemy:set_attack_consequence("fire", "immobilized")
+
   local m = sol.movement.create("straight")
   m:set_speed(0)
   m:start(enemy)
@@ -33,9 +43,26 @@ enemy:register_event("on_restarted", function(enemy)
   enemy:go(direction4)
 end)
 
--- Event called when the movement is finished
+-- Event called when the enemy is immobilized
+enemy:register_event("on_immobilized", function(enemy)
+  enemy:set_traversable(false)
+  enemy:set_attack_consequence("sword", "protected")
+  enemy:set_attack_consequence("thrown_item", "protected")
+  enemy:set_attack_consequence("explosion", "protected")
+  enemy:set_attack_consequence("arrow", "protected")
+  enemy:set_attack_consequence("hookshot", "protected")
+  enemy:set_attack_consequence("boomerang", "protected")
+  enemy:set_attack_consequence("fire", "protected")
+end)
+
+-- An obstacle is reached: go to the opposite direction.
+enemy:register_event("on_obstacle_reached", function(enemy, movement)
+  enemy:go((movement:get_direction4() + 2) % 4)
+end)
+
+-- The movement is finished: stop for a while, looking to a next direction.
 enemy:register_event("on_movement_finished", function(enemy, movement)
-  -- stop for a while, looking to a next direction.
+  -- stop for a while
   local animation = sprite:get_animation()
   if animation == "walking" then
     sprite:set_animation("stopped")
@@ -43,12 +70,6 @@ enemy:register_event("on_movement_finished", function(enemy, movement)
       enemy:go(math.random(4)-1)
     end)
   end
-end)
-
--- Event called when an obstacle is reached: turn right
-enemy:register_event("on_obstacle_reached", function(enemy, movement)
-    -- turn right
-    enemy:go((movement:get_direction4() - 1) % 4)
 end)
 
 -- Makes the soldier walk towards a direction.
@@ -60,10 +81,10 @@ function enemy:go(direction4)
 
   -- Set the movement.
   local m = enemy:get_movement()
-  local max_distance = 20 + math.random(60)
+  local max_distance = 30 + math.random(60)
   m:set_max_distance(max_distance)
   m:set_smooth(true)
-  m:set_speed(88)
+  m:set_speed(110)
   m:set_angle(direction4 * math.pi / 2)
 end
 

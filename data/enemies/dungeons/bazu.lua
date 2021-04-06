@@ -1,4 +1,4 @@
--- Lua script of enemy rat.
+-- Lua script of enemy bazu.
 
 -- A rat who walk randomly in the room
 
@@ -16,8 +16,8 @@ enemy:register_event("on_created", function(enemy)
   -- Initialize the properties of your enemy here,
   -- like the sprite, the life and the damage.
   sprite = enemy:create_sprite("enemies/" .. enemy:get_breed())
-  enemy:set_life(1)
-  enemy:set_damage(1)
+  enemy:set_life(4)
+  enemy:set_damage(4)
   enemy:set_size(16, 16)
   enemy:set_origin(8, 13)
 end)
@@ -38,7 +38,7 @@ enemy:register_event("on_movement_finished", function(enemy, movement)
   -- stop for a while, looking to a next direction.
   local animation = sprite:get_animation()
   if animation == "walking" then
-    sprite:set_animation("stopped")
+    sprite:set_animation("immobilized")
     sol.timer.start(enemy, 500, function()
       enemy:go(math.random(4)-1)
     end)
@@ -60,10 +60,10 @@ function enemy:go(direction4)
 
   -- Set the movement.
   local m = enemy:get_movement()
-  local max_distance = 20 + math.random(60)
+  local max_distance = 40 + math.random(60)
   m:set_max_distance(max_distance)
   m:set_smooth(true)
-  m:set_speed(88)
+  m:set_speed(110)
   m:set_angle(direction4 * math.pi / 2)
 end
 
