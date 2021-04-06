@@ -46,7 +46,7 @@ rather than creating it from the quest editor:
 - Copy the `data` folder of the ALTTP resource pack and all its content
   into your quest's folder.
 - You can now open your new quest with
-  [Solarus Quest Editor](http://www.solarus-games.org/development/quest-editor]).
+  [Solarus Quest Editor](https://www.solarus-games.org/development/quest-editor]).
 - Edit the quest properties (Ctrl+P) to set a title, a write directory
   and other information of your game.
 
@@ -67,7 +67,7 @@ Here is how to proceed:
   If you don't want the whole pack but only a few sprites, tilesets or sounds,
   you can also only pick the resources you need.
 - Open your quest with
-  [Solarus Quest Editor](http://www.solarus-games.org/development/quest-editor]).
+  [Solarus Quest Editor](https://www.solarus-games.org/development/quest-editor]).
 - In the quest tree, all resources you just copied now appear with an
   interrogation mark icon.
   You can right-click them to add them to the quest.
