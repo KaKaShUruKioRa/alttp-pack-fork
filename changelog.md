@@ -1,11 +1,8 @@
 # Changelog
 
-## Solarus ALTTP pack 1.6.5 (in progress)
+## Solarus ALTTP pack 1.6.3 (2020-04-06)
 
 * Fix using custom weapons on enemies (#41).
-
-## Solarus ALTTP pack 1.6.3 (in progress)
-
 * Fix wrong concave corner pattern of caves in inside tilesets (#29).
 * Fix border color of yellow trees in outside tileset (#30).
 * Fix missing animation for clouds parallax pattern in outside tileset (#36).
