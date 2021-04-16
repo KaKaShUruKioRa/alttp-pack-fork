@@ -1,5 +1,9 @@
 # Changelog
 
+## Solarus ALTTP pack 1.7.0 (in progress)
+
+* Fix missing statue pattern in outside tileset.
+
 ## Solarus ALTTP pack 1.6.3 (2020-04-06)
 
 * Fix using custom weapons on enemies (#41).

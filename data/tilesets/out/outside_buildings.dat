@@ -1,5 +1,16 @@
 background_color{ 222, 148, 222 }
 tile_pattern{
+  id = "1",
+  ground = "wall",
+  default_layer = 0,
+  x = 128,
+  y = 1456,
+  width = 32,
+  height = 32,
+  repeat_mode = "none",
+}
+
+tile_pattern{
   id = "10449",
   ground = "wall",
   default_layer = 0,
