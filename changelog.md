@@ -2,7 +2,7 @@
 
 ## Solarus ALTTP pack 1.7.0 (in progress)
 
-* Fix missing statue pattern in outside tileset.
+* Fix dungeon entrance patterns.
 
 ## Solarus ALTTP pack 1.6.3 (2020-04-06)
 

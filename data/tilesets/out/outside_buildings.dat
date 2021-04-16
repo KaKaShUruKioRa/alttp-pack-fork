@@ -4266,7 +4266,7 @@ tile_pattern{
   y = 1096,
   width = 16,
   height = 8,
-  repeat_mode = "none",
+  repeat_mode = "vertical",
 }
 
 tile_pattern{
@@ -10510,7 +10510,7 @@ tile_pattern{
   y = 1440,
   width = 16,
   height = 8,
-  repeat_mode = "none",
+  repeat_mode = "vertical",
 }
 
 tile_pattern{
@@ -23549,7 +23549,7 @@ tile_pattern{
   y = 1496,
   width = 16,
   height = 8,
-  repeat_mode = "none",
+  repeat_mode = "vertical",
 }
 
 tile_pattern{
@@ -23768,7 +23768,7 @@ tile_pattern{
   y = 1840,
   width = 16,
   height = 8,
-  repeat_mode = "none",
+  repeat_mode = "vertical",
 }
 
 tile_pattern{
@@ -23955,7 +23955,7 @@ tile_pattern{
   y = 1152,
   width = 16,
   height = 8,
-  repeat_mode = "none",
+  repeat_mode = "vertical",
 }
 
 tile_pattern{
@@ -24264,6 +24264,17 @@ tile_pattern{
   width = 8,
   height = 8,
   repeat_mode = "none",
+}
+
+tile_pattern{
+  id = "2",
+  ground = "ladder",
+  default_layer = 0,
+  x = 672,
+  y = 1488,
+  width = 16,
+  height = 8,
+  repeat_mode = "vertical",
 }
 
 tile_pattern{
@@ -24615,6 +24626,17 @@ tile_pattern{
   width = 8,
   height = 24,
   repeat_mode = "none",
+}
+
+tile_pattern{
+  id = "3",
+  ground = "ladder",
+  default_layer = 0,
+  x = 672,
+  y = 1496,
+  width = 16,
+  height = 8,
+  repeat_mode = "vertical",
 }
 
 tile_pattern{
@@ -50180,7 +50202,7 @@ tile_pattern{
   y = 1096,
   width = 16,
   height = 8,
-  repeat_mode = "none",
+  repeat_mode = "vertical",
 }
 
 tile_pattern{
@@ -57873,12 +57895,12 @@ tile_pattern{
   y = 1440,
   width = 16,
   height = 8,
-  repeat_mode = "none",
+  repeat_mode = "vertical",
 }
 
 tile_pattern{
   id = "8919",
-  ground = "wall",
+  ground = "ladder",
   default_layer = 0,
   x = 136,
   y = 1448,
@@ -63949,7 +63971,7 @@ tile_pattern{
   y = 1152,
   width = 16,
   height = 8,
-  repeat_mode = "none",
+  repeat_mode = "vertical",
 }
 
 tile_pattern{
@@ -64182,13 +64204,13 @@ tile_pattern{
 
 tile_pattern{
   id = "9499",
-  ground = "wall",
+  ground = "ladder",
   default_layer = 0,
   x = 136,
   y = 1784,
   width = 16,
   height = 8,
-  repeat_mode = "none",
+  repeat_mode = "vertical",
 }
 
 tile_pattern{
