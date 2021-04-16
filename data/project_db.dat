@@ -604,6 +604,7 @@ font{ id = "green_digits", description = "Green digits" }
 font{ id = "white_digits", description = "White digits" }
 
 shader{ id = "fr_to_normal_colors", description = "French to normal colors" }
+shader{ id = "fr_white_filter", description = "French palette white issue detection" }
 shader{ id = "normal_to_fr_colors", description = "Normal to French colors" }
 
 file{ path = "enemies", license = "GPL v3" }
@@ -859,9 +860,10 @@ file{ path = "scripts/meta", license = "GPL v3" }
 file{ path = "scripts/meta/enemy.lua", license = "GPL v3" }
 file{ path = "scripts/multi_events.lua", author = "Christopho, std::gregwar", license = "GPL v3" }
 file{ path = "shaders", license = "GPL v3" }
-file{ path = "shaders/fr_to_normal_colors.dat", author = "std::gregwar", license = "GPL v3" }
+file{ path = "shaders/fr_to_normal_colors.dat", author = "std::gregwar", license = "CC BY-SA 4.0" }
 file{ path = "shaders/fr_to_normal_colors.frag.glsl", author = "std::gregwar", license = "GPL v3" }
-file{ path = "shaders/normal_to_fr_colors.dat", author = "std::gregwar", license = "GPL v3" }
+file{ path = "shaders/fr_white_filter.dat", author = "Christopho", license = "CC BY-SA 4.0" }
+file{ path = "shaders/normal_to_fr_colors.dat", author = "std::gregwar", license = "CC BY-SA 4.0" }
 file{ path = "shaders/normal_to_fr_colors.frag.glsl", author = "std::gregwar", license = "GPL v3" }
 file{ path = "sounds", license = "Mixed" }
 file{ path = "sounds/arrow_hit.ogg", author = "Nintendo", license = "Proprietary (Fair use)" }
