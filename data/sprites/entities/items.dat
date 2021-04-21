@@ -492,20 +492,20 @@ animation{
   name = "shops/potion_blue",
   src_image = "items/inventory/bottle.png",
   directions = {
-    { x = 32, y = 64, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
+    { x = 32, y = 48, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
   },
 }
 animation{
   name = "shops/potion_green",
   src_image = "items/inventory/bottle.png",
   directions = {
-    { x = 32, y = 48, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
+    { x = 32, y = 32, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
   },
 }
 animation{
   name = "shops/potion_red",
   src_image = "items/inventory/bottle.png",
   directions = {
-    { x = 32, y = 32, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
+    { x = 32, y = 16, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
   },
 }
