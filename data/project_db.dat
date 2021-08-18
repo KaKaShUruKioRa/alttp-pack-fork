@@ -191,6 +191,10 @@ sprite{ id = "hero/ground1", description = "Grass under hero" }
 sprite{ id = "hero/ground2", description = "Shallow water under hero" }
 sprite{ id = "hero/ice_rod", description = "Ice Rod" }
 sprite{ id = "hero/magic_powder_effect", description = "Magic powder effect" }
+sprite{ id = "hero/rabbit_transformation", description = "Rabbit transformation" }
+sprite{ id = "hero/rabbit_tunic1", description = "Rabbit tunic 1" }
+sprite{ id = "hero/rabbit_tunic2", description = "Rabbit tunic 2" }
+sprite{ id = "hero/rabbit_tunic3", description = "Rabbit tunic 3" }
 sprite{ id = "hero/shield1", description = "Hero shield 1" }
 sprite{ id = "hero/shield2", description = "Hero shield 2" }
 sprite{ id = "hero/shield3", description = "Hero shield 3" }
@@ -830,6 +834,7 @@ file{ path = "musics/zelda.it", author = "Nintendo", license = "Proprietary (Fai
 file{ path = "scripts", license = "GPL v3" }
 file{ path = "scripts/dungeons.lua", author = "Christopho, Mehdi Khelifi", license = "GPL v3" }
 file{ path = "scripts/dungeons_info.lua", license = "GPL v3" }
+file{ path = "scripts/equipment.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "scripts/features.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "scripts/game_manager.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "scripts/hud", author = "Christopho", license = "GPL v3" }
@@ -859,6 +864,7 @@ file{ path = "scripts/menus/title_screen.lua", author = "Olivier Cléro", licens
 file{ path = "scripts/meta", license = "GPL v3" }
 file{ path = "scripts/meta/enemy.lua", license = "GPL v3" }
 file{ path = "scripts/multi_events.lua", author = "Christopho, std::gregwar", license = "GPL v3" }
+file{ path = "scripts/rabbit.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "shaders", license = "GPL v3" }
 file{ path = "shaders/fr_to_normal_colors.dat", author = "std::gregwar", license = "CC BY-SA 4.0" }
 file{ path = "shaders/fr_to_normal_colors.frag.glsl", author = "std::gregwar", license = "GPL v3" }
@@ -1280,6 +1286,12 @@ file{ path = "sprites/hero/magic_powder_effect.png", author = "Nintendo", licens
 file{ path = "sprites/hero/plunging.png", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "sprites/hero/pulling.png", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "sprites/hero/pushing.png", author = "Nintendo", license = "Proprietary (Fair use)" }
+file{ path = "sprites/hero/rabbit.png", author = "Nintendo", license = "Proprietary (Fair use)" }
+file{ path = "sprites/hero/rabbit_transformation.dat", author = "Christopho", license = "CC BY-SA 4.0" }
+file{ path = "sprites/hero/rabbit_transformation.png", author = "Nintendo", license = "Proprietary (Fair use)" }
+file{ path = "sprites/hero/rabbit_tunic1.dat", author = "Christopho", license = "CC BY-SA 4.0" }
+file{ path = "sprites/hero/rabbit_tunic2.dat", author = "Christopho", license = "CC BY-SA 4.0" }
+file{ path = "sprites/hero/rabbit_tunic3.dat", author = "Christopho", license = "CC BY-SA 4.0" }
 file{ path = "sprites/hero/rod.tunic.png", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "sprites/hero/running.png", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "sprites/hero/shield1.dat", author = "Christopho", license = "CC BY-SA 4.0" }

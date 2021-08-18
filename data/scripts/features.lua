@@ -11,5 +11,7 @@ require("scripts/menus/game_over")
 require("scripts/meta/enemy")
 require("scripts/hud/hud")
 require("scripts/dungeons.lua")
+require("scripts/equipment.lua")
+require("scripts/rabbit.lua")
 
 return true
