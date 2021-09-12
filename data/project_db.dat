@@ -58,6 +58,10 @@ sprite{ id = "doors/door_d2_very_weak_wall", description = "Cave door (very weak
 sprite{ id = "doors/door_d2_weak_wall", description = "Cave door (weak wall)" }
 sprite{ id = "doors/door_d4_very_weak_wall", description = "House door (very weak wall)" }
 sprite{ id = "doors/door_d4_weak_wall", description = "House door (weak wall)" }
+sprite{ id = "doors/door_house_dark" }
+sprite{ id = "doors/door_house_grey" }
+sprite{ id = "doors/door_house_light" }
+sprite{ id = "doors/door_house_normal" }
 sprite{ id = "doors/prison_door", description = "Prison locked door" }
 sprite{ id = "enemies/bosses/agahnim", description = "Agahnim" }
 sprite{ id = "enemies/bosses/armos_knight", description = "Armos Knight" }
@@ -863,6 +867,7 @@ file{ path = "scripts/menus/solarus_logo.lua", author = "Maxs", license = "GPL v
 file{ path = "scripts/menus/title_screen.lua", author = "Olivier Cléro", license = "GPL v3" }
 file{ path = "scripts/meta", license = "GPL v3" }
 file{ path = "scripts/meta/enemy.lua", license = "GPL v3" }
+file{ path = "scripts/meta/sensor.lua", author = "Christopho, Franck Jousseaume", license = "GPL v3" }
 file{ path = "scripts/multi_events.lua", author = "Christopho, std::gregwar", license = "GPL v3" }
 file{ path = "scripts/rabbit.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "shaders", license = "GPL v3" }
