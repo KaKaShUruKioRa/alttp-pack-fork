@@ -14,7 +14,8 @@ local function start_game_over(game)
   local death_count = game:get_value("death_count") or 0
   game.lit_torches_by_map = nil  -- See entities/torch.lua
   game:set_value("death_count", death_count + 1)
-  hero:get_sprite():set_animation("dying")
+  hero:set_animation("dying")
+  
   hero:get_sprite():set_ignore_suspend(true)
   local timer = sol.timer.start(game, 3000, function()
     -- Restart the game.
