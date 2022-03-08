@@ -2,8 +2,10 @@
 
 ## Solarus ALTTP pack 1.7.0 (in progress)
 
+* Upgrade the resource pack to Solarus 1.7.
 * Fix dungeon entrance patterns.
 * Fix shield displayed during the dying animation if the hero was stopped.
+* Fix diagonal water cliff tiles (#42).
 * Improve mountain background parallax patterns.
 
 ## Solarus ALTTP pack 1.6.3 (2020-04-06)
@@ -37,6 +39,7 @@
 
 ## Solarus ALTTP pack 1.6.0 (2018-12-22)
 
+* Upgrade the resource pack to Solarus 1.6.
 * Add huge outside and dungeon tilesets by ffomega (#7).
 * Add enemies from other projects by mattias-p, Franck, Mehdi (#8).
 * Add equipment items from other projects by Medhi.
