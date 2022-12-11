@@ -1,3 +1,10 @@
 *~
+# OS files.
+*~
 *.swp
+.DS_Store
+desktop.ini
+~`~*
+
+# Solarus files.
 /error.txt
