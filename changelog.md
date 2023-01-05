@@ -8,7 +8,7 @@
 * Fix diagonal water cliff tiles (#42).
 * Improve mountain background parallax patterns.
 
-## Solarus ALTTP pack 1.6.3 (2020-04-06)
+## Solarus ALTTP pack 1.6.3 (2021-04-06)
 
 * Fix using custom weapons on enemies (#41).
 * Fix wrong concave corner pattern of caves in inside tilesets (#29).
