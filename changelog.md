@@ -6,6 +6,7 @@
 * Fix dungeon entrance patterns.
 * Fix shield displayed during the dying animation if the hero was stopped.
 * Fix diagonal water cliff tiles (#42).
+* Fix black color too dark in outside tilesets.
 * Improve mountain background parallax patterns.
 
 ## Solarus ALTTP pack 1.6.3 (2021-04-06)
