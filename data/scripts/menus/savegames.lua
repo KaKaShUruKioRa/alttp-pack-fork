@@ -166,7 +166,7 @@ function savegames_menu:on_key_pressed(key)
         -- Create a new savegame.
         local game = game_manager:create(get_savegame_file_name(cursor_position))
         set_last_savegame_slot(cursor_position)
-        sol.main:start_savegame(game)
+        game:start()
       else
         -- Show actions for an existing savegame.
         show_savegame_action_box(cursor_position)
@@ -221,7 +221,7 @@ function show_savegame_action_box(savegame_index)
         -- Load.
         sol.audio.play_sound("pause_closed")
         set_last_savegame_slot(cursor_position)
-        sol.main:start_savegame(games[cursor_position])
+        games[cursor_position]:start()
 
       elseif fairy_cursor_position == 2 then
         -- Delete.
