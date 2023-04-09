@@ -1,132 +1,13 @@
 local commands_manager = {}
 
 local gui_designer = require("scripts/menus/lib/gui_designer")
+local commands_items = require("scripts/commands_config.lua")
 
 function commands_manager:new(game)
 
   local commands_menu = {}
 
   local layout
-
-  -- Like game:get_command_keyboard_binding(),
-  -- but handles additional commands from the quest.
-  -- Returns an empty string if the command has no keyboard key.
-  local function get_command_keyboard_binding(item)
-
-    if item.command ~= nil then
-      -- Customizable command from the engine.
-      return game:get_command_keyboard_binding(item.command) or ""
-    end
-
-    -- Customizable command from the quest.
-    return game:get_value("keyboard_" .. item.name) or ""
-  end
-
-  -- Like game:set_command_keyboard_binding(),
-  -- but handles additional commands from the quest.
-  local function set_command_keyboard_binding(item, key)
-
-    local command = item.command
-    if command == nil then
-      -- Command from the quest.
-      game:set_value("keyboard_" .. item.name, key)
-    else
-      -- Built-in command from the engine.
-      game:set_command_keyboard_binding(command, key)
-    end
-
-    -- TODO swap commands if already used
-  end
-
-  -- Like game:get_command_joypad_binding(),
-  -- but handles additional commands from the quest.
-  -- Returns an empty string if the command has no joypad action.
-  local function get_command_joypad_binding(item)
-
-    if item.command ~= nil then
-      -- Customizable command from the engine.
-      return game:get_command_joypad_binding(item.command) or ""
-    end
-
-    -- Customizable command from the quest.
-    return game:get_value("joypad_" .. item.name) or ""
-  end
-
-  -- Like game:set_command_joypad_binding(),
-  -- but handles additional commands from the quest.
-  local function set_command_joypad_binding(item, key)
-
-    local command = item.command
-    if command == nil then
-      -- Command from the quest.
-      game:set_value("joypad_" .. item.name, key)
-    else
-      -- Built-in command from the engine.
-      game:set_command_joypad_binding(command, key)
-    end
-  end
-
-  local commands_items = {
-    {
-      name = "action",
-      unlocked = true,
-      customizable = true,
-      command = "action"
-    },
-    {
-      name = "sword",
-      unlocked = game:has_ability("sword"),
-      customizable = true,
-      command = "attack",
-    },
-    {
-      name = "item",
-      unlocked = true,
-      customizable = true,
-      command = "item_1",
-    },
-    {
-      name = "pause",
-      unlocked = true,
-      customizable = true,
-      command = "pause",
-    },
-    {
-      name = "up",
-      unlocked = true,
-      customizable = true,
-      command = "up",
-    },
-    {
-      name = "down",
-      unlocked = true,
-      customizable = true,
-      command = "down",
-    },
-    {
-      name = "left",
-      unlocked = true,
-      customizable = true,
-      command = "left",
-    },
-    {
-      name = "right",
-      unlocked = true,
-      customizable = true,
-      command = "right",
-    },
-    {
-      name = "fullscreen",
-      unlocked = true,
-      customizable = false,
-      key = "F11",
-    },
-    {
-      name = "save",
-      unlocked = true,
-      customizable = true,
-    },
-  }
 
   local cursor_index = 1
   local first_shown = 1
@@ -199,11 +80,11 @@ function commands_manager:new(game)
       local keyboard_text
       local joypad_text
       if item.customizable then
-        keyboard_text = get_command_keyboard_binding(item):gsub("^%l", string.upper)
-        joypad_text = get_command_joypad_binding(item):gsub("^%l", string.upper)
+        keyboard_text = game:get_custom_command_keyboard_binding(item):gsub("^%l", string.upper)
+        joypad_text = game:get_custom_command_joypad_binding(item):gsub("^%l", string.upper)
       else
         -- Non-customizable command from the quest.
-        keyboard_text = item.key
+        keyboard_text = item.default_key
       end
 
       layout:make_text(keyboard_text, 136, y)
@@ -282,7 +163,7 @@ function commands_manager:new(game)
     end
 
     local item = commands_items[cursor_index]
-    set_command_keyboard_binding(item, key)
+    game:set_custom_command_keyboard_binding(item, key)
     stop_customizing()
     return true
   end
@@ -296,7 +177,7 @@ function commands_manager:new(game)
     local item = commands_items[cursor_index]
     local command = item.command
     local joypad_action = "button " .. button
-    set_command_joypad_binding(item, joypad_action)
+    game:set_custom_command_joypad_binding(item, joypad_action)
     stop_customizing()
     return true
   end
@@ -319,7 +200,7 @@ function commands_manager:new(game)
     end
 
     local joypad_action = "axis " .. axis .. " " .. (state > 0 and "+" or "-")
-    set_command_joypad_binding(item, joypad_action)
+    game:set_custom_command_joypad_binding(item, joypad_action)
     stop_customizing()
     return true
   end
@@ -342,7 +223,7 @@ function commands_manager:new(game)
     end
 
     local joypad_action = "hat " .. hat .. " " .. direction8
-    set_command_joypad_binding(item, joypad_action)
+    game:set_custom_command_joypad_binding(item, joypad_action)
     stop_customizing()
     return true
   end
