@@ -61,7 +61,6 @@ local function create_dialog_box(game)
     line_index = nil,            -- Line currently being shown.
     char_index = nil,            -- Next character to show in the current line.
     char_delay = nil,            -- Delay between two characters in milliseconds.
-    full = false,                -- Whether the visible lines have shown all their content.
     need_letter_sound = false,   -- Whether a sound should be played with the next character.
     gradual = true,              -- Whether text is displayed gradually.
 
@@ -184,13 +183,11 @@ local function create_dialog_box(game)
 
   local function repeat_show_character()
 
-    dialog_box:check_full()
     while not dialog_box:is_full()
         and dialog_box.char_index > #dialog_box.lines[dialog_box.line_index] do
       -- The current line is finished.
       dialog_box.char_index = 1
       dialog_box.line_index = dialog_box.line_index + 1
-      dialog_box:check_full()
     end
 
     if not dialog_box:is_full() then
@@ -254,7 +251,6 @@ local function create_dialog_box(game)
     self.line_index = 1
     self.char_index = 1
     self.skipped = false
-    self.full = false
     self.need_letter_sound = true
     self.selected_choice = nil
 
@@ -273,20 +269,11 @@ local function create_dialog_box(game)
     return self.next_line ~= nil
   end
 
-  -- Updates the result of is_full().
-  function dialog_box:check_full()
-    if self.line_index >= nb_visible_lines
-        and self.char_index > #self.lines[nb_visible_lines] then
-      self.full = true
-    else
-      self.full = false
-    end
-  end
-
   -- Returns whether all current lines of the dialog box are entirely
   -- displayed.
   function dialog_box:is_full()
-    return self.full
+    return self.line_index >= nb_visible_lines
+        and self.char_index > #self.lines[nb_visible_lines]
   end
 
   -- Shows the next dialog of the sequence.
@@ -460,20 +447,17 @@ local function create_dialog_box(game)
     else
       self.gradual = false
       -- Check the end of the current line.
-      self:check_full()
       while not self:is_full() do
 
         while not self:is_full()
             and self.char_index > #self.lines[self.line_index] do
           self.char_index = 1
           self.line_index = self.line_index + 1
-          self:check_full()
         end
 
         if not self:is_full() then
           self:add_character()
         end
-        self:check_full()
       end
     end
   end
