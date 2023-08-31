@@ -8,6 +8,6 @@ function item:on_obtaining(variant, savegame_variable)
   if dungeon == nil then
     error("This map is not in a dungeon")
   end
-  game:set_value("dungeon_" .. dungeon .. "_compass", true)
+  game:set_value(dungeon .. "_compass", true)
 end
 
