@@ -1,8 +1,8 @@
 # Changelog
 
-## Solarus ALTTP pack 1.7.0 (in progress)
+## Solarus ALTTP pack 2.0.0 (in progress)
 
-* Upgrade the resource pack to Solarus 1.7.
+* Upgrade the resource pack to Solarus 2.0.
 * Fix skipping dialogs by pressing two inputs at the same time.
 * Fix dungeon entrance patterns.
 * Fix shield displayed during the dying animation if the hero was stopped.
